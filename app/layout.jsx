@@ -2,7 +2,6 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import localFont from 'next/font/local'
-import { Content, Nunito } from "@next/font/google";
 import Table from "./components/Table";
 import ContentPrice from "./components/Content";
 import Grid from "./components/Grid";
@@ -12,10 +11,6 @@ import About from "./components/About";
 import Phone from "./components/Phone";
 
 
-const nunto = Nunito({
-  subsets: ["cyrillic"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 
 
@@ -30,7 +25,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={nunto.className}>
+      <body>
         <Header />
         <Table />
         <About />
