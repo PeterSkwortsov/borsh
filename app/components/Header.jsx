@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import fon from "../../public/10.jpeg";
 
+
 const Header = () => {
   return (
     <header>

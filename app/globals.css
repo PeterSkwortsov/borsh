@@ -3,7 +3,6 @@
     themes: light --default
 }
 
-
 .background-image {
     background-image: url(../public/10.jpeg);
         background-size: cover;

@@ -6,14 +6,14 @@ const Grid = () => {
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mt-20">
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/4.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">
@@ -32,14 +32,14 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/3.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">
@@ -55,14 +55,14 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/2.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">
@@ -78,14 +78,14 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/1.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">
@@ -106,14 +106,14 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/5.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">
@@ -132,14 +132,14 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
               src="/6.jpeg"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "200%" }}
             />
           </figure>
           <div className="card-body">

@@ -1,7 +1,8 @@
+
 import "./globals.css";
+import {Nunito} from 'next/font/google'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import localFont from 'next/font/local'
 import Table from "./components/Table";
 import ContentPrice from "./components/Content";
 import Grid from "./components/Grid";
@@ -11,8 +12,10 @@ import About from "./components/About";
 import Phone from "./components/Phone";
 
 
-
-
+const nunito = Nunito({
+  subsets: ['cyrillic'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -25,7 +28,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body>
+      <body className={nunito.className}>
         <Header />
         <Table />
         <About />
@@ -33,7 +36,7 @@ export default function RootLayout({ children }) {
         <Utp />
         <Grid />
         <Quetions />
-        {/* <Phone />  */}
+        <Phone />
         {/* <main className="container mx-auto min-h-screen">{children}
           
         </main> */}
