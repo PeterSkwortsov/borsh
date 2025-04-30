@@ -11,6 +11,8 @@ import Utp from './components/Utp';
 import About from "./components/About";
 import Phone from "./components/Phone";
 import Step from "./components/Step";
+import Map from "./components/Map";
+
 
 const nunito = Nunito({
   subsets: ['cyrillic'],
@@ -36,8 +38,9 @@ export default function RootLayout({ children }) {
         <Grid />
         <Quetions />
         <Phone />
-   
+
         <Step />
+        <Map />
         <Footer />
       </body>
     </html>

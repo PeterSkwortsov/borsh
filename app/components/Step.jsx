@@ -3,7 +3,7 @@ import React from 'react'
 const Step = () => {
   return (
     <>
-      <h6 className="text-2xl font-bold flex text-center justify-center mb-4">
+      <h6 className="text-2xl font-bold flex text-center justify-center mb-0">
         Как прийти в мастерскую?
       </h6>
       <ul className="steps steps-horizontal  max-sm:steps-vertical max-md:steps-vertical text-sm p-2 mb-10">
