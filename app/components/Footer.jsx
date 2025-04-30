@@ -12,7 +12,7 @@ const Footer = () => {
           обязательна ссылка на этот сайт. <br></br>
           <span>
             Сайт разработан{" "}
-            <a href="https://vk.com/skwortsow.petia">СКВОРЦОМ</a>
+            <a href="https://vk.com/skwortsow.petia" className='font-bold'>СКВОРЦОМ</a>
           </span>
         </p>
       </div>

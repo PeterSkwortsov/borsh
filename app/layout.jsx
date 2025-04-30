@@ -31,17 +31,9 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={nunito.className}>
-        <Header />
-        <Table />
-        <About />
-        <ContentPrice />
-        <Grid />
-        <Quetions />
-        <Phone />
-
-        <Step />
-        <Map />
-        <Footer />
+        
+        {children}
+  
       </body>
     </html>
   );

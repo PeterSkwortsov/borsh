@@ -51,8 +51,8 @@ const Header = () => {
                 >
                   <div tabIndex={0} className="card-body bg-black">
                     <p className="font-bold">
-                      Максимальное кол-во человек - 20.<br></br>
-                      Для детей страше 5 лет!
+                      Максимальное кол-во человек в группе - 15.<br></br>
+                      Для детей страше 4 лет!
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Header = () => {
             <h5 className="font-bold">ул. Ломоносова 9, 4 этаж, офис 408</h5>
             <a
               href="tel:+79049017926"
-              className="p-3 mt-5 font-extrabold text-blue-300"
+              className="p-3 mt-5 font-extrabold text-blue-400"
             >
               +7-904-901-79-26
             </a>
