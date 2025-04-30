@@ -1,14 +1,16 @@
 import React from 'react'
 import Image from 'next/image';
-
+import Utp from './Utp';
 const ContentPrice = () => {
   return (
     <>
       <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16">
-        Занятия проходят в просторной светлой студии
+        Занятия проходят в просторной светлой мастерской
       </h5>
 
-      <div className="carousel carousel-center rounded-box">
+<Utp />
+
+      <div className="carousel carousel-center rounded-box mt-10">
         <div className="carousel-item">
           <Image
             src="/11.jpeg"

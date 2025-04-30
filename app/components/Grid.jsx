@@ -5,7 +5,7 @@ import Image from "next/image";
 const Grid = () => {
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20">
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image

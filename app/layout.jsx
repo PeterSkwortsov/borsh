@@ -10,7 +10,7 @@ import Quetions from "./components/Quetions";
 import Utp from './components/Utp';
 import About from "./components/About";
 import Phone from "./components/Phone";
-
+import Step from "./components/Step";
 
 const nunito = Nunito({
   subsets: ['cyrillic'],
@@ -33,13 +33,11 @@ export default function RootLayout({ children }) {
         <Table />
         <About />
         <ContentPrice />
-        <Utp />
         <Grid />
         <Quetions />
         <Phone />
-        {/* <main className="container mx-auto min-h-screen">{children}
-          
-        </main> */}
+   
+        <Step />
         <Footer />
       </body>
     </html>

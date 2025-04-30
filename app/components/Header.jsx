@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 import fon from "../../public/10.jpeg";
-
+import Image from 'next/image';
 
 const Header = () => {
   return (
     <header>
-      <div className="hero min-h-screen background-image mask-luminance mask-r-from-white mask-r-from-70% mask-r-to-black">
+      <div className="hero min-h-screen background-image mask-b-from-70% mask-b-to-100%">
         <div className=" text-neutral-content text-center pl-0 pr-0">
           <div className="hero-overlay rounded-4xl w-full p-8">
             <h2 className="mb-5 font-bold mt-3 cursor-default text-3xl max-sm:text-2xl max-md:text-2xl">
@@ -59,43 +59,38 @@ const Header = () => {
               </div>
             </h3>
             <h5 className="font-bold">ул. Ломоносова 9, 4 этаж, офис 408</h5>
-            <a href="tel:+79001111111" className="p-3 mt-5">
-              +7-900-111-11-11
+            <a
+              href="tel:+79049017926"
+              className="p-3 mt-5 font-extrabold text-blue-300"
+            >
+              +7-904-901-79-26
             </a>
-
-            <div className="drawer ">
-              <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-              <div className="drawer-content mt-5">
-                {/* Page content here */}
-                <label
-                  htmlFor="my-drawer"
-                  className="btn btn-primary drawer-button"
-                >
-                  Подробнее
-                </label>
+            <div className="flex gap-2 justify-center mt-2">
+              <div className="avatar">
+                <div className="w-10 rounded-full">
+                  <a href="https://vk.com/vika.borsch">
+                    <Image
+                      src="/vk.svg"
+                      width={200}
+                      height={100}
+                      alt="Picture of the author"
+                      style={{ width: "100%" }}
+                    />
+                  </a>
+                </div>
               </div>
-
-              <div className="drawer-side">
-                <label
-                  htmlFor="my-drawer"
-                  aria-label="close sidebar"
-                  className="drawer-overlay"
-                ></label>
-                <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-                  {/* Sidebar content here */}
-                  <li>
-                    <a>Направления</a>
-                  </li>
-                  <li>
-                    <a>Расписание занятий</a>
-                  </li>
-                  <li>
-                    <a>Ответы на вопросы</a>
-                  </li>
-                  <li>
-                    <a>Как найти мастерскую</a>
-                  </li>
-                </ul>
+              <div className="avatar avatar-online">
+                <div className="w-10 rounded-full">
+                  <a href="https://t.me/vika_borsch99">
+                    <Image
+                      src="/tg.svg"
+                      width={200}
+                      height={100}
+                      alt="Picture of the author"
+                      style={{ width: "100%" }}
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -106,3 +101,24 @@ const Header = () => {
 }
 
 export default Header
+
+//  <div >
+//               <a href="javascript:;">
+//                 <Image
+//                   src="/vk.svg"
+//                   width={200}
+//                   height={100}
+//                   alt="Picture of the author"
+//                   style={{ width: "10%" }}
+//                 />
+//               </a>
+//               <a href="javascript:;">
+//                 <Image
+//                   src="/tg.svg"
+//                   width={200}
+//                   height={100}
+//                   alt="Picture of the author"
+//                   style={{ width: "10%" }}
+//                 />
+//               </a>
+//             </div>

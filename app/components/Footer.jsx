@@ -9,7 +9,11 @@ const Footer = () => {
 "
         >
           &copy; {new Date().getFullYear()} При копировании информации
-          обязательна ссылка на этот сайт
+          обязательна ссылка на этот сайт. <br></br>
+          <span>
+            Сайт разработан{" "}
+            <a href="https://vk.com/skwortsow.petia">СКВОРЦОМ</a>
+          </span>
         </p>
       </div>
     </footer>

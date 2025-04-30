@@ -86,42 +86,25 @@
     align-items: center;
 }
 
-.diff-resizerNew {
-    position: relative;
-    top: calc(1/2 * 100%);
-    z-index: 1;
-    grid-row-start: 1;
-    grid-column-start: 1;
-        height: calc(0.25rem
-                /* 4px */
-                * 2)
-            /* 0.5rem = 8px */
-        ;
-        width: 750px;
-        max-width: calc(100cqi - 1rem
-                /* 16px */
-            );
-        min-width: 1rem
-            /* 16px */
-        ;
-        resize: horizontal;
-        overflow: hidden;
-            transform: scaleY(3) translate(0.35rem
-                    /* 5.6px */
-                    , 0.08rem
-                    /* 1.28px */
-                );
-            transform-origin: 100% 100%;
-            clip-path: inset(calc(100% - 0.75rem
-                        /* 12px */
-                    ) 0 0 calc(100% - 0.75rem
-                        /* 12px */
-                    ));
-            transition: min-width 0.3s ease-out, max-width 0.3s ease-out;
-            /* background-color: #e5484d; */
-           
-}
+
 
 .fb {
     font-size: 1rem;
 }
+
+
+.dNew {
+    width: 100%;
+        display: grid;
+        position: relative;
+        overflow: hidden;
+        container-type: inline-size;
+} 
+
+
+
+
+
+
+
+
