@@ -6,18 +6,17 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header>
-      <div className="hero min-h-screen background-image mask-b-from-70% mask-b-to-100%">
+      <div className="hero min-h-screen background-image mask-b-from-85% mask-b-to-100%">
         <div className=" text-neutral-content text-center pl-0 pr-0">
-          <div className="hero-overlay rounded-4xl w-full p-8">
-            <h2 className="mb-5 font-bold mt-3 cursor-default text-3xl max-sm:text-2xl max-md:text-2xl">
-              Творческая мастерская
-            </h2>
-            <h1
-              className="text-5xl font-extrabold
- cursor-default text-rose-600"
-            >
-              Вики Борщ
-            </h1>
+          <div className="hero-overlay-2 rounded-4xl w-full p-8">
+            <Image
+              src="/logo1.png"
+              width={200}
+              height={200}
+              alt="Picture of the author"
+              style={{ width: "100%" }}
+            />
+
             <h3
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default"
@@ -92,6 +91,19 @@ const Header = () => {
                   </a>
                 </div>
               </div>
+              <div className="avatar">
+                <div className="w-10 rounded-full">
+                  <a href="https://wa.me/+79049017926">
+                    <Image
+                      src="/whatsapp.svg"
+                      width={200}
+                      height={100}
+                      alt="Picture of the author"
+                      style={{ width: "100%" }}
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -101,24 +113,3 @@ const Header = () => {
 }
 
 export default Header
-
-//  <div >
-//               <a href="javascript:;">
-//                 <Image
-//                   src="/vk.svg"
-//                   width={200}
-//                   height={100}
-//                   alt="Picture of the author"
-//                   style={{ width: "10%" }}
-//                 />
-//               </a>
-//               <a href="javascript:;">
-//                 <Image
-//                   src="/tg.svg"
-//                   width={200}
-//                   height={100}
-//                   alt="Picture of the author"
-//                   style={{ width: "10%" }}
-//                 />
-//               </a>
-//             </div>

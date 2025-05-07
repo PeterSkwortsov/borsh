@@ -9,6 +9,7 @@ import About from "./components/About";
 import Phone from "./components/Phone";
 import Step from "./components/Step";
 import Map from "./components/Map";
+import ComeToMe from "./components/ComeToMe";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Table /> 
         <About />
         <ContentPrice />
+        <ComeToMe />
         <Grid />
         <Quetions />
         <Phone />

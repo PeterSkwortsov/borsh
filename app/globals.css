@@ -101,7 +101,16 @@
         container-type: inline-size;
 } 
 
-
+.hero-overlay-2 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        height: 100%;
+        width: 100%;
+        background-color: color-mix(in oklab, var(--color-neutral)
+                /* var(--color-neutral) */
+                70%, transparent);
+                z-index: 10;
+    }
 
 
 
