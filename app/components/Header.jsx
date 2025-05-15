@@ -11,10 +11,10 @@ const Header = () => {
           <div className="hero-overlay-2 rounded-4xl w-full p-8">
             <Image
               src="/logo1.png"
-              width={200}
-              height={200}
+              width={350}
+              height={350}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              
             />
 
             <h3

@@ -6,8 +6,8 @@ const Phone = () => {
     <>
   
 
-      <div className="mt-12 mb-14 flex justify-center alighn-center m-auto max-w-sm p-1.5">
-        <div className="mockup-phone border-orange-300 ">
+      <div className="mt-12 mb-14 flex justify-center alighn-center m-auto max-w-sm">
+        <div className="mockup-phone border-white ">
           <div className="mockup-phone-camera "></div>
           <div className="mockup-phone-display w-full h-full">
             <div className="chat chat-start bg-gray-200">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-
+import Link from "next/link";
 
 const Grid = () => {
   return (
@@ -17,16 +17,22 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Мастер-классы для взрослых</h2>
+            <h2 className="card-title">Мастер-класс по живописи</h2>
             <p>
-              14+ Навыки рисования не нужны. Свободная живопись или с пошаговым
-              объяснением
+              На каждую тему мастер-класса предоставляем разные идеи и
+              референсы, чтобы у участников получились интересные и
+              индивидуальные работы.
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">от 1600 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
-                Подробнее
+              <button>
+                <Link
+                  href={`/painting`}
+                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                >
+                  Подробнее
+                </Link>
               </button>
             </div>
           </div>
@@ -43,13 +49,24 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Занятия с детьми</h2>
-            <p>Для детей от 4 лет. Все материалы включены в стоимость</p>
+            <h2 className="card-title">
+              Мастер-класс по ручной лепке из глины
+            </h2>
+            <p>
+              Лепим изделия из глины, расписываем ангобами или подглазурными
+              красками. Есть возможность расписать глазурями после первого
+              обжига.<br></br> Изделие готово через 4-5 недель.
+            </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2800 ₽</p>
+              <p className="text-base">от 1600 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
-                Подробнее
+              <button>
+                <Link
+                  href={`/clayModeling`}
+                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                >
+                  Подробнее
+                </Link>
               </button>
             </div>
           </div>
@@ -66,13 +83,21 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Подарочный сертификат</h2>
-            <p>Подарите незабываемое удовольствие и пользу родным и друзьям!</p>
+            <h2 className="card-title">
+              Групповые занятия для разных возрастных категорий по различным
+              направлениям
+            </h2>
+            <p> Абонемент на 4 и 8 занятий.</p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">от 1800 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
-                Подробнее
+              <button>
+                <Link
+                  href={`/`}
+                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                >
+                  Подробнее
+                </Link>
               </button>
             </div>
           </div>
@@ -89,18 +114,23 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Арт-вечеринки, Дни рождения для взрослых, корпоративы
-            </h2>
+            <h2 className="card-title">Мастер-класс на гончарном круге</h2>
             <p>
-              Мастер-класс по живописи, вкусный чай и позитивное настроение
-              сделают ваш вечер незабываемым.
+              Почувствуйте себя настоящим мастером гончарного искусства на нашем
+              мастер-классе! Изделия после изготовления расписываем ангобами или
+              подглазурными красками. Есть возможность расписать глазурями после
+              первого обжига.
             </p>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
-                Подробнее
+              <button>
+                <Link
+                  href={`/potterWheel`}
+                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                >
+                  Подробнее
+                </Link>
               </button>
             </div>
           </div>
@@ -117,13 +147,13 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Индивидуальное занятие</h2>
+            <h2 className="card-title">Мастер-класс по выжиганию по дереву.</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              Выжигание - один из древнейших видов творчества! Процесс приносит
+              умиротворение и спокойствие.
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">От 1.000 ₽</p>
 
               <button className="btn btn-neutral bg-white text-black">
                 Подробнее
@@ -143,13 +173,15 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
+            <h2 className="card-title">Мастер-класс по свечеварению</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              За мастер-класс вы получаете две ароматических свечи в гипсовом
+              кашпо/стеклянном стакане/скорлупе кокоса. Работаем на кокосовом и
+              соевом воске.<br></br>
+              Есть варианты декора свечей и гипсовых кашпо.
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">от 1800 ₽</p>
 
               <button className="btn btn-neutral bg-white text-black">
                 Подробнее
