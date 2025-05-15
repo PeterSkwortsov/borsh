@@ -8,74 +8,73 @@ const ContentPrice = () => {
         Занятия проходят в просторной светлой мастерской
       </h5>
 
-<Utp />
+      <Utp />
 
-      <div className="carousel carousel-center rounded-box mt-10">
+      <div className="carousel carousel-center rounded-box mt-10 ">
         <div className="carousel-item">
           <Image
             src="/11.jpeg"
-            width={200}
+            unoptimized
+            width={300}
             height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/12.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/13.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/14.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/15.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/16.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
         <div className="carousel-item">
           <Image
             src="/13.jpeg"
-            width={200}
-            height={80}
+            unoptimized
+            width={300}
+            height={100}
             alt="Picture of the author"
-            style={{ width: "100%", height: "80%" }}
           />
         </div>
       </div>
-
     </>
   );
 };

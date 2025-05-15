@@ -10,6 +10,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/4.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -42,6 +43,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/3.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -76,6 +78,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/2.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -93,7 +96,7 @@ const Grid = () => {
 
               <button>
                 <Link
-                  href={`/`}
+                  href={`/group`}
                   className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 >
                   Подробнее
@@ -107,6 +110,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/1.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -140,6 +144,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/5.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -155,8 +160,13 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">От 1.000 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
-                Подробнее
+              <button>
+                <Link
+                  href={`/wood-burning`}
+                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                >
+                  Подробнее
+                </Link>
               </button>
             </div>
           </div>
@@ -166,6 +176,7 @@ const Grid = () => {
           <figure>
             <Image
               src="/6.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"

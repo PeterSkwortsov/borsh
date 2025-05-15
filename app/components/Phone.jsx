@@ -4,8 +4,6 @@ import Image from 'next/image';
 const Phone = () => {
   return (
     <>
-  
-
       <div className="mt-12 mb-14 flex justify-center alighn-center m-auto max-w-sm">
         <div className="mockup-phone border-white ">
           <div className="mockup-phone-camera "></div>
@@ -16,6 +14,7 @@ const Phone = () => {
                   <Image
                     className="w-full"
                     src="/19.jpeg"
+                    unoptimized
                     width={200}
                     height={200}
                     alt="Picture of the author"
@@ -23,9 +22,7 @@ const Phone = () => {
                   />
                 </div>
               </div>
-              <div className="chat-header text-black mt-10">
-                Дочка
-              </div>
+              <div className="chat-header text-black mt-10">Дочка</div>
               <div className="chat-bubble bg-black text-white text-sm max-sm:text-sm max-md:text-md">
                 Смотри! Я нашла место, где можно найти единомышленников,
                 пообщаться и получить поддержку!
@@ -38,6 +35,7 @@ const Phone = () => {
                   <Image
                     className="w-full"
                     src="/19.jpeg"
+                    unoptimized
                     width={200}
                     height={200}
                     alt="Picture of the author"
@@ -58,6 +56,7 @@ const Phone = () => {
                   <Image
                     className="w-full"
                     src="/19.jpeg"
+                    unoptimized
                     width={200}
                     height={200}
                     alt="Picture of the author"
@@ -89,6 +88,7 @@ const Phone = () => {
             <Image
               className="w-full"
               src="/18.jpeg"
+              unoptimized
               width={200}
               height={200}
               alt="Picture of the author"
@@ -101,6 +101,7 @@ const Phone = () => {
                   <Image
                     className="w-full"
                     src="/20.jpeg"
+                    unoptimized
                     width={200}
                     height={200}
                     alt="Picture of the author"
@@ -108,9 +109,7 @@ const Phone = () => {
                   />
                 </div>
               </div>
-              <div className="chat-header text-black">
-                Папа
-              </div>
+              <div className="chat-header text-black">Папа</div>
               <div className="chat-bubble text-white bg-black text-sm max-sm:text-sm max-md:text-md">
                 Отлично! Рад за тебя!
               </div>

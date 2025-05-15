@@ -10,11 +10,11 @@ const Header = () => {
         <div className=" text-neutral-content text-center pl-0 pr-0">
           <div className="hero-overlay-2 rounded-4xl w-full p-8">
             <Image
+              unoptimized
               src="/logo1.png"
               width={350}
               height={350}
               alt="Picture of the author"
-              
             />
 
             <h3
@@ -69,6 +69,7 @@ const Header = () => {
                 <div className="w-10 rounded-full">
                   <a href="https://vk.com/vika.borsch">
                     <Image
+                      
                       src="/vk.svg"
                       width={200}
                       height={100}
