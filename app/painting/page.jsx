@@ -7,7 +7,7 @@ export default function Painting() {
       <>
         <button className="m-5">
           <Link
-            href={`/`}
+            href={`./#group`}
             className="btn btn-neutral bg-white text-black max-sm:text-sm"
           >
             <Image
@@ -20,7 +20,7 @@ export default function Painting() {
             Назад
           </Link>
         </button>
-        <div className="overflow-x-auto md:max-w-2/3 m-auto">
+        <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5">
           <table className="table table-zebra">
             {/* head */}
             <thead>

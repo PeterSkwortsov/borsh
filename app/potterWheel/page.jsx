@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../components/Footer';
@@ -7,7 +9,7 @@ export default function PotterWheel() {
     <>
       <button className="m-5">
         <Link
-          href={`/`}
+          href={`./#group`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image

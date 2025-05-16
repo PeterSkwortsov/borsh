@@ -21,7 +21,7 @@ const Header = () => {
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default"
             >
-              Индивидуальные и групповые занятия<br></br> живописи для взрослых
+              Индивидуальные и групповые занятия<br></br> для взрослых
               и детей
               <div className="dropdown dropdown-end text-center">
                 <div

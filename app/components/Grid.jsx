@@ -19,7 +19,8 @@ const Grid = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20" 
+      id="group">
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
@@ -42,7 +43,7 @@ const Grid = () => {
               <p className="text-base">от 1600 ₽</p>
               <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="/painting"
+                href="./painting"
               >
                 Подробнее
               </a>
@@ -75,7 +76,7 @@ const Grid = () => {
 
               <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/clayModeling")}
+                onClick={() => router.push("./clayModeling")}
               >
                 Подробнее
               </a>
@@ -135,12 +136,19 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
-              <button
+              {/* <button
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/potterWheel")}
               >
                 Подробнее
-              </button>
+              </button> */}
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href={"./potterWheel"}
+                as="./potterWheel"
+              >
+                клик
+              </Link>
             </div>
           </div>
         </div>
@@ -165,12 +173,12 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">От 1.000 ₽</p>
 
-              <button
+              <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/wood-burning")}
               >
                 Подробнее
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -199,8 +207,12 @@ const Grid = () => {
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href={"/candle-making"}
-              >клик</Link>
+                href="./candle-making"
+                as="./candle-making"
+              >
+                клик
+              </Link>
+
               {/* <button
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/candle-making")}

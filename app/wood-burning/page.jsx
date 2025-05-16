@@ -7,7 +7,7 @@ export default function WoodBurningPage() {
     <>
       <button className="m-5">
         <Link
-          href={`/`}
+          href={`./#group`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image

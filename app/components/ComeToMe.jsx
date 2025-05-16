@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ComeToMe() {
   return (
     <>
-      <div className="hero mb-20 mt-10" id="anchor_two">
+      <div className="hero mb-20 mt-10" id="cometome">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
             src="/easel.jpeg"

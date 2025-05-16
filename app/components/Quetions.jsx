@@ -3,7 +3,7 @@ import React from 'react'
 const Quetions = () => {
   return (
     <>
-      <div className="max-w-3xl mx-auto mt-20 mb-20">
+      <div className="max-w-3xl mx-auto mt-20 mb-20" id="quetion">
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title font-semibold">

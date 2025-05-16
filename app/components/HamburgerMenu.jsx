@@ -3,11 +3,14 @@ import Link from 'next/link';
 const HamburgerMenu = () => {
   return (
     <>
-      <div className="drawer z-100 fixed mt-2 ml-2">
-        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+      <div className="drawer fixed mt-2 ml-2 z-100">
+        <input id="my-drawer" type="checkbox" className="drawer-toggle z-100" />
+        <div className="drawer-content ">
           {/* Page content here */}
-          <label htmlFor="my-drawer" className="btn bg-orange-400 skeleton border-0 rounded-full">
+          <label
+            htmlFor="my-drawer"
+            className="btn bg-yellow-200 skeleton border-0 rounded-full "
+          >
             <svg
               className="size-[1.2em]"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,22 +57,22 @@ const HamburgerMenu = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+          <ul className="menu bg-base-200 text-base-content min-h-full w-60 p-4">
             {/* Sidebar content here */}
             <li>
               <Link href="#anchor_one">Обо мне</Link>
             </li>
             <li>
-              <Link href="#anchor_two">Направления занятий</Link>
+              <Link href="#group">Направления занятий</Link>
             </li>
             <li>
-              <Link href="#">Направления занятий</Link>
+              <Link href="#cometome">Почему меня выбирают</Link>
             </li>
             <li>
-              <Link href="#">Ответы на вопросы</Link>
+              <Link href="#quetion">Ответы на вопросы</Link>
             </li>
             <li>
-              <Link href="#">Как записаться?</Link>
+              <Link href="#stephow">Как записаться?</Link>
             </li>
           </ul>
         </div>
