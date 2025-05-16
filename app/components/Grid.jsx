@@ -1,8 +1,22 @@
-import React from 'react'
+"use client" 
+
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import { useRouter } from "next/navigation";
+
+
+
+
+
+
+
 const Grid = () => {
+
+  const router = useRouter();
+
+
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20">
@@ -26,14 +40,11 @@ const Grid = () => {
             </p>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
-
-              <button>
-                <Link
-                  href={`/painting`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  Подробнее
-                </Link>
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/painting")}
+              >
+                Подробнее
               </button>
             </div>
           </div>
@@ -62,13 +73,11 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
 
-              <button>
-                <Link
-                  href={`/clayModeling`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  Подробнее
-                </Link>
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/clayModeling")}
+              >
+                Подробнее
               </button>
             </div>
           </div>
@@ -94,13 +103,11 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
 
-              <button>
-                <Link
-                  href={`/group`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  Подробнее
-                </Link>
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/group")}
+              >
+                Подробнее
               </button>
             </div>
           </div>
@@ -128,13 +135,11 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
-              <button>
-                <Link
-                  href={`/potterWheel`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  Подробнее
-                </Link>
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/potterWheel")}
+              >
+                Подробнее
               </button>
             </div>
           </div>
@@ -160,13 +165,19 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">От 1.000 ₽</p>
 
-              <button>
+              {/* <button className="btn btn-neutral bg-white text-black max-sm:text-sm">
                 <Link
                   href={`/wood-burning`}
                   className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 >
                   Подробнее
                 </Link>
+              </button> */}
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/wood-burning")}
+              >
+                Подробнее
               </button>
             </div>
           </div>
@@ -194,7 +205,10 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
 
-              <button className="btn btn-neutral bg-white text-black">
+              <button
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                onClick={() => router.push("/candle-making")}
+              >
                 Подробнее
               </button>
             </div>
@@ -203,6 +217,6 @@ const Grid = () => {
       </div>
     </>
   );
-}
+};
 
-export default Grid
+export default Grid;

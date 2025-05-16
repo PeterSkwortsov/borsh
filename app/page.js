@@ -14,7 +14,6 @@ import ComeToMe from "./components/ComeToMe";
 export default function Home() {
     return (
         <>
-
         <Header />
         <Table /> 
         <About />

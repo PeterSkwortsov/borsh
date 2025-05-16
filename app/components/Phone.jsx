@@ -24,8 +24,9 @@ const Phone = () => {
               </div>
               <div className="chat-header text-black mt-10">Дочка</div>
               <div className="chat-bubble bg-black text-white text-sm max-sm:text-sm max-md:text-md">
-                Смотри! Я нашла место, где можно найти единомышленников,
-                пообщаться и получить поддержку!
+                Смотри! Я нашла место, где свободна в выборе творчесва, тут меня направляют и помогают сформировать мои идеи в цельный образ.<br></br>
+                Это мотивирует меня на создание более сложных
+                проектов!
               </div>
             </div>
 
@@ -46,7 +47,7 @@ const Phone = () => {
 
               <div className="chat-bubble m-1 bg-black text-white text-sm max-sm:text-sm max-md:text-md">
                 Я научилась пользоваться красками, разными техниками и
-                материалами. Меня никто не осуждал за ошибки!
+                материалами.<br></br> Меня никто не осуждал за ошибки!
               </div>
             </div>
 

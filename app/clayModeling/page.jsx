@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 export default function ClayModeling() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function ClayModeling() {
         >
           <Image
             src="/arrow1.svg"
+            unoptimized
             width={200}
             height={200}
             alt="Picture of the author"
@@ -42,6 +44,7 @@ export default function ClayModeling() {
                 {" "}
                 <Image
                   src="/4.jpeg"
+                  unoptimized
                   width={140}
                   height={140}
                   alt="Picture of the author"
@@ -60,6 +63,7 @@ export default function ClayModeling() {
                 {" "}
                 <Image
                   src="/4.jpeg"
+                  unoptimized
                   width={140}
                   height={140}
                   alt="Picture of the author"
@@ -81,6 +85,7 @@ export default function ClayModeling() {
                 {" "}
                 <Image
                   src="/4.jpeg"
+                  unoptimized
                   width={140}
                   height={140}
                   alt="Picture of the author"
@@ -95,6 +100,7 @@ export default function ClayModeling() {
             уточняйте у меня*
           </p> */}
       </div>
+      <Footer />
     </>
   );
 }

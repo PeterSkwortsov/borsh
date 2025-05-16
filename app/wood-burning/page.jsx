@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 export default function WoodBurningPage() {
   return (
@@ -58,13 +59,8 @@ export default function WoodBurningPage() {
           </tbody>
         </table>
       </div>
+
+      <Footer />
     </>
   );
 }
-
-
-{/* <tr>
-  <th>1</th>
-  <td>Мастер-класс по выжиганию на заготовке А5</td>
-  <td>1.000р</td>
-</tr> */}

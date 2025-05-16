@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 export default function Painting() {
     return (
@@ -19,7 +20,7 @@ export default function Painting() {
             Назад
           </Link>
         </button>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto md:max-w-2/3 m-auto">
           <table className="table table-zebra">
             {/* head */}
             <thead>
@@ -47,6 +48,7 @@ export default function Painting() {
                   {" "}
                   <Image
                     src="/4.jpeg"
+                    unoptimized
                     width={140}
                     height={140}
                     alt="Picture of the author"
@@ -70,6 +72,7 @@ export default function Painting() {
                   {" "}
                   <Image
                     src="/3.jpeg"
+                    unoptimized
                     width={100}
                     height={100}
                     alt="Picture of the author"
@@ -93,6 +96,7 @@ export default function Painting() {
                   {" "}
                   <Image
                     src="/2.jpeg"
+                    unoptimized
                     width={100}
                     height={100}
                     alt="Picture of the author"
@@ -107,6 +111,8 @@ export default function Painting() {
             уточняйте у меня*
           </p> */}
         </div>
+
+        <Footer />
       </>
     );
 }

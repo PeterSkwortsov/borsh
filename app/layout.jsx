@@ -1,17 +1,7 @@
 
 import "./globals.css";
 import {Nunito} from 'next/font/google'
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Table from "./components/Table";
-import ContentPrice from "./components/Content";
-import Grid from "./components/Grid";
-import Quetions from "./components/Quetions";
-import Utp from './components/Utp';
-import About from "./components/About";
-import Phone from "./components/Phone";
-import Step from "./components/Step";
-import Map from "./components/Map";
+
 
 
 const nunito = Nunito({
@@ -31,9 +21,8 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={nunito.className}>
-        
         {children}
-  
+        
       </body>
     </html>
   );

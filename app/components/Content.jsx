@@ -1,7 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 import Utp from './Utp';
+
+
+
 const ContentPrice = () => {
+
+  
+
+
   return (
     <>
       <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16">
@@ -11,7 +18,7 @@ const ContentPrice = () => {
       <Utp />
 
       <div className="carousel carousel-center rounded-box mt-10 ">
-        <div className="carousel-item">
+        <div className="carousel-item ">
           <Image
             src="/11.jpeg"
             unoptimized
@@ -75,6 +82,8 @@ const ContentPrice = () => {
           />
         </div>
       </div>
+
+     
     </>
   );
 };

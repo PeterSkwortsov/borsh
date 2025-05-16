@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 export default function Group() {
   return (
@@ -46,6 +47,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/4.jpeg"
+                  unoptimized
                   width={140}
                   height={140}
                   alt="Picture of the author"
@@ -63,6 +65,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/3.jpeg"
+                  unoptimized
                   width={100}
                   height={100}
                   alt="Picture of the author"
@@ -79,6 +82,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/3.jpeg"
+                  unoptimized
                   width={100}
                   height={100}
                   alt="Picture of the author"
@@ -116,6 +120,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/4.jpeg"
+                  unoptimized
                   width={140}
                   height={140}
                   alt="Picture of the author"
@@ -133,6 +138,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/3.jpeg"
+                  unoptimized
                   width={100}
                   height={100}
                   alt="Picture of the author"
@@ -149,6 +155,7 @@ export default function Group() {
                 {" "}
                 <Image
                   src="/3.jpeg"
+                  unoptimized
                   width={100}
                   height={100}
                   alt="Picture of the author"
@@ -159,6 +166,8 @@ export default function Group() {
           </tbody>
         </table>
       </div>
+
+      <Footer />
     </>
   );
 }

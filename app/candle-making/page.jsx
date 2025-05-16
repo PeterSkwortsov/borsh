@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Footer from '../components/Footer';
+import Image from "next/image";
+import Link from "next/link";
+import Footer from "../components/Footer";
 
-export default function PotterWheel() {
+export default function CandleMaking() {
   return (
     <>
       <button className="m-5">
@@ -12,6 +12,7 @@ export default function PotterWheel() {
         >
           <Image
             src="/arrow1.svg"
+            unoptimized
             width={200}
             height={200}
             alt="Picture of the author"
@@ -20,25 +21,24 @@ export default function PotterWheel() {
           Назад
         </Link>
       </button>
+
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
         <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Название</th>
-              <th className="fb">Размер изделия</th>
+              <th className="fb">Декор свечей и гипсовых кашпо</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
             </tr>
           </thead>
           <tbody>
             {/* row 1 */}
             <tr>
               <th>1</th>
-              <td>Мастер-класс на гончарном круге</td>
-              <td>Диаметр до 20 см или в высоту 15 см</td>
-              <td>2.000р</td>
+              <td>Свечи в гипсовом кашпо</td>
+              <td>1800 Р</td>
+
               <td>
                 {" "}
                 <Image
@@ -54,9 +54,14 @@ export default function PotterWheel() {
             {/* row 2 */}
             <tr>
               <th>2</th>
-              <td>Мастер-класс на гончарном круге</td>
-              <td>Диаметр до 25 см или в высоту 20 см</td>
-              <td>2.500р</td>
+              <td>Свечи в стеклянном стакане</td>
+              <td>2.000р</td>
+            </tr>
+            {/* row 3 */}
+            <tr>
+              <th>3</th>
+              <td>Свечи в скорлупе кокоса</td>
+              <td>2.200р</td>
               <td>
                 {" "}
                 <Image
@@ -71,14 +76,10 @@ export default function PotterWheel() {
             </tr>
           </tbody>
         </table>
+        <p className="text-md flex text-center justify-center m-5 mt-8">
+          Индивидуальный мастер-класс - 2.700р/человек.
+        </p>
       </div>
-      <p className="text-md flex text-center justify-center m-5 mt-8">
-        Индивидуальное занятие для одного человека - 3.400р<br></br>
-        Для двоих - 2.800р/чел.<br></br>
-        Три и больше - 2.500р/чел.
-        <br></br>
-        Гончарное свидание для двоих - 5.000р.
-      </p>
 
       <Footer />
     </>
