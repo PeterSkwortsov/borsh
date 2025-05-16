@@ -1,4 +1,5 @@
 
+import HamburgerMenu from "./components/HamburgerMenu";
 import "./globals.css";
 import {Nunito} from 'next/font/google'
 
@@ -21,8 +22,10 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={nunito.className}>
-        {children}
         
+        <HamburgerMenu  />
+
+        {children}
       </body>
     </html>
   );

@@ -69,7 +69,6 @@ const Header = () => {
                 <div className="w-10 rounded-full">
                   <a href="https://vk.com/vika.borsch">
                     <Image
-                      
                       src="/vk.svg"
                       width={200}
                       height={100}

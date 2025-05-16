@@ -40,12 +40,12 @@ const Grid = () => {
             </p>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
-              <button
+              <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/painting")}
+                href="/painting"
               >
                 Подробнее
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -73,12 +73,12 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
 
-              <button
+              <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/clayModeling")}
               >
                 Подробнее
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -165,14 +165,6 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">От 1.000 ₽</p>
 
-              {/* <button className="btn btn-neutral bg-white text-black max-sm:text-sm">
-                <Link
-                  href={`/wood-burning`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  Подробнее
-                </Link>
-              </button> */}
               <button
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/wood-burning")}
@@ -205,12 +197,16 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
 
-              <button
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href={"/candle-making"}
+              >клик</Link>
+              {/* <button
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 onClick={() => router.push("/candle-making")}
               >
                 Подробнее
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
