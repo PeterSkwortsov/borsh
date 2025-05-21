@@ -1,21 +1,28 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from './components/Footer';
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+// import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper/modules";
+
+
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 
 export default function Painting() {
 
   
     return (
       <>
-        <button className="m-5">
+        <button className="m-5 shadow-xl">
           <Link
             href={`./#group`}
             className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -30,7 +37,7 @@ export default function Painting() {
             Назад
           </Link>
         </button>
-        <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5">
+        <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 shadow-xl/20">
           <table className="table table-zebra">
             {/* head */}
             <thead>
@@ -62,7 +69,7 @@ export default function Painting() {
                     width={140}
                     height={140}
                     alt="Picture of the author"
-                    style={{ width: "50%" }}
+                    className="w-46 md:w-52 lg:w-62 xl:w-72"
                   />
                 </td>
               </tr>
@@ -86,7 +93,7 @@ export default function Painting() {
                     width={400}
                     height={400}
                     alt="Picture of the author"
-                    style={{ width: "50%" }}
+                    className="w-46 md:w-52 lg:w-62 xl:w-72"
                   />
                 </td>
               </tr>
@@ -102,7 +109,7 @@ export default function Painting() {
                 <td>
                   2.600р<br></br> 3.200р
                 </td>
-                <td data-fancybox data-caption="Single image">
+                <td>
                   {" "}
                   <Image
                     src="/2.jpeg"
@@ -110,9 +117,7 @@ export default function Painting() {
                     width={400}
                     height={400}
                     alt="Picture of the author"
-                    style={{ width: "50%" }}
-                    data-fancybox
-                    data-caption="Single image"
+                    className="w-46 md:w-52 lg:w-62 xl:w-72"
                   />
                 </td>
               </tr>
@@ -124,69 +129,58 @@ export default function Painting() {
           </p> */}
         </div>
 
-      
-          <Swiper
-            effect={"cards"}
-            grabCursor={true}
-            modules={[EffectCards]}
-            className="mySwiper mb-10 mt-10"
-          >
-            <SwiperSlide>
-             
-                <Image
-                  src="/14.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                />
-           
-            </SwiperSlide>
-            <SwiperSlide>
-             
-                <Image
-                  src="/15.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                />
-          
-            </SwiperSlide>
-            <SwiperSlide>
-             
-                <Image
-                  src="/16.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                />
-       
-            </SwiperSlide>
-            <SwiperSlide>
-             
-                <Image
-                  src="/13.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                />
-       
-            </SwiperSlide>
-            <SwiperSlide>
-             
-                <Image
-                  src="/12.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                />
-       
-            </SwiperSlide>
-          </Swiper>
+        {/* <Swiper
+          effect={"cards"}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className="mySwiper mb-10 mt-10 w-56 md:w-72 lg:w-82 xl:w-102 m-auto"
+        >
+          <SwiperSlide>
+            <Image
+              src="/14.jpeg"
+              unoptimized
+              width={400}
+              height={400}
+              alt="Picture of the author"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/15.jpeg"
+              unoptimized
+              width={400}
+              height={400}
+              alt="Picture of the author"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/16.jpeg"
+              unoptimized
+              width={400}
+              height={400}
+              alt="Picture of the author"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/13.jpeg"
+              unoptimized
+              width={400}
+              height={400}
+              alt="Picture of the author"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/12.jpeg"
+              unoptimized
+              width={400}
+              height={400}
+              alt="Picture of the author"
+            />
+          </SwiperSlide>
+        </Swiper> */}
       </>
     );
 }

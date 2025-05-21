@@ -21,7 +21,7 @@ const Header = () => {
 
             <h3
               className="mb-5 pt-3 pb-0 text-lg
- cursor-default"
+ cursor-default  font-bold"
             >
               Рисование и гончарное мастерство<br></br>для взрослых и детей
               <div className="dropdown dropdown-end text-center">
@@ -83,7 +83,7 @@ const Header = () => {
                 <div className="w-10 rounded-full">
                   <a href="https://t.me/vika_borsch99">
                     <Image
-                      src="/tg.svg"
+                      src="/tg2.svg"
                       width={200}
                       height={100}
                       alt="Picture of the author"

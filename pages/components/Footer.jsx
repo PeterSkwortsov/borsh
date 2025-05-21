@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="w-10 rounded-full">
               <a href="https://t.me/vika_borsch99">
                 <Image
-                  src="/tg.svg"
+                  src="/tg2.svg"
                   width={200}
                   height={100}
                   alt="Picture of the author"

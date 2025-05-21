@@ -80,7 +80,7 @@ body {
 .blockquote:after {
     position: absolute;
     content: "”";
-    color: rgb(0, 0, 0);
+    color: #ff990a;
     font-size: 8rem;
     line-height: 0;
     bottom: -33px;
@@ -127,9 +127,6 @@ body {
 }
 
 
-:root {
-    --f-brand-color: #2563eb;
-}
 
 #productCarousel,
 .f-thumbs.is-classic,
@@ -253,10 +250,10 @@ body {
     color: black
 }
 
-.swiper {
+/* .swiper {
     width: 240px;
     height: 320px;
-}
+} */
 
 .swiper-slide {
     display: flex;
@@ -270,7 +267,7 @@ body {
 
 .swiper-slide img {
     display: block;
-    width: 120%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }

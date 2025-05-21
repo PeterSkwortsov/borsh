@@ -18,10 +18,10 @@ const Utp = () => {
             </div>
           </div>
           <div className="chat-bubble max-sm:text-sm">
-            Близко находятся остановки общественного транспорта. <br></br>
-            От трамвайной остановки (ул. Генкиной) - 6 мин. пешком.<br></br>
-            От автобусной остановки (ул. Ашхабадская) - 10 мин. пешком.<br></br>
-            От метро Горьковская - 20 мин. пешком.<br></br>
+            В пешей доступности находятся остановки общественного транспорта. <br></br>
+            От трамвайной остановки (ул. Генкиной) - 6 мин.<br></br>
+            От автобусной остановки (ул. Ашхабадская) - 10 мин.<br></br>
+            От метро Горьковская - 20 мин.<br></br>
           </div>
         </div>
         <div className="chat chat-start">
@@ -58,6 +58,22 @@ const Utp = () => {
           <div className="chat-bubble max-sm:text-sm">
             Большое помещение вместимостью 15 человек, где каждый будет
             чувствовать себя свободно.
+          </div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-image avatar">
+            <div className="w-10 rounded-full center">
+              <Image
+                src="/bake.svg"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+                style={{ width: "80%" }}
+              />
+            </div>
+          </div>
+          <div className="chat-bubble max-sm:text-sm">
+            Своя муфельная печь объемом 60 л. для ваших изделий. 
           </div>
         </div>
       </div>

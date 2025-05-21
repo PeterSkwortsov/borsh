@@ -15,7 +15,9 @@ export default function ComeToMe() {
             className=" rounded-lg shadow-2xl max-w-lg"
           />
           <div>
-            <h6 className="text-2xl font-bold pt-4">Приходите ко мне если:</h6>
+            <h6 className="text-2xl font-bold pt-4 text-orange-400">
+              Приходите ко мне если:
+            </h6>
             <ul className="list-disc pr-1 pl-5">
               <li className="mt-5 pb-2">
                 Хотите узнаете о различных техниках и стилях рисования, о

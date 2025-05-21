@@ -74,6 +74,9 @@ const HamburgerMenu = () => {
             <li>
               <Link href="#stephow">Как записаться?</Link>
             </li>
+            <li>
+              <Link href="certificate">Подарочный сертификат</Link>
+            </li>
           </ul>
         </div>
       </div>

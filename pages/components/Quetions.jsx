@@ -11,11 +11,11 @@ const Quetions = () => {
           </div>
           <div className="collapse-content text-sm">
             Защитный комплект: скатерти, перчатки, фартуки и салфетки;
-            профессиональное сопровождение; подробный инструктаж, создание
-            творческой и дружелюбной атмосферы; материалы для творчества: все
+            Профессиональное сопровождение; Подробный инструктаж. Создание
+            творческой и дружелюбной атмосферы; Все
             необходимые материалы, канцелярия или ингредиенты, которые
-            необходимы для создания творческого шедевра. чае- и кофепитие с
-            вкусняшками
+            необходимы для создания творческого шедевра. Чай и кофе с
+            вкусняшками.
           </div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
@@ -33,7 +33,7 @@ const Quetions = () => {
           <div className="collapse-title font-semibold">
             Нужно ли покупать самому материалы?
           </div>
-          <div className="collapse-content text-sm">Go to to make changes.</div>
+          <div className="collapse-content text-sm">Нет</div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" />
@@ -51,7 +51,7 @@ const Quetions = () => {
           </div>
           <div className="collapse-content text-sm">
             Да, мы работаем с юридическими организациями и оказываем услуги как
-            в ней уютной студии, так и делаем выездные мастер-классы.
+            в нашей уютной студии, так и делаем выездные мастер-классы.
           </div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
@@ -78,7 +78,7 @@ const Quetions = () => {
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title font-semibold">Способы оплаты</div>
-          <div className="collapse-content text-sm">Go to to make changes.</div>
+          <div className="collapse-content text-sm">Наличные, перевод. По запросу предоставляется чек.</div>
         </div>
       </div>
     </>

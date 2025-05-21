@@ -27,7 +27,9 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Мастер-класс по живописи</h2>
+            <h2 className="card-title text-orange-400">
+              Мастер-класс по живописи
+            </h2>
             <p>
               На каждую тему мастер-класса предоставляем разные идеи и
               референсы, чтобы у участников получились интересные и
@@ -57,7 +59,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title text-orange-400">
               Мастер-класс по ручной лепке из глины
             </h2>
             <p>
@@ -68,7 +70,6 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
 
-            
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href="/clayModeling"
@@ -91,7 +92,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title text-orange-400">
               Групповые занятия для разных возрастных категорий по различным
               направлениям
             </h2>
@@ -120,8 +121,10 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Мастер-класс на гончарном круге</h2>
+          <div className="card-body ">
+            <h2 className="card-title text-orange-400">
+              Мастер-класс на гончарном круге
+            </h2>
             <p>
               Почувствуйте себя настоящим мастером гончарного искусства на нашем
               мастер-классе! Изделия после изготовления расписываем ангобами или
@@ -153,7 +156,9 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Мастер-класс по выжиганию по дереву.</h2>
+            <h2 className="card-title text-orange-400">
+              Мастер-класс по выжиганию по дереву.
+            </h2>
             <p>
               Выжигание - один из древнейших видов творчества! Процесс приносит
               умиротворение и спокойствие.
@@ -184,7 +189,9 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Мастер-класс по свечеварению</h2>
+            <h2 className="card-title text-orange-400">
+              Мастер-класс по свечеварению
+            </h2>
             <p>
               За мастер-класс вы получаете две ароматических свечи в гипсовом
               кашпо/стеклянном стакане/скорлупе кокоса. Работаем на кокосовом и

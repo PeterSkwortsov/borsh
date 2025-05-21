@@ -7,8 +7,7 @@ const nextConfig = {
     images: {
         unoptimized: true
     },
-    fancybox: true
-    // init Swiper:
+ 
   
 }
 
