@@ -1,7 +1,9 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 import fon from "../../public/10.jpeg";
-import Image from 'next/image';
+import Image from "next/image";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Header = () => {
   return (
@@ -21,8 +23,7 @@ const Header = () => {
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default"
             >
-              Индивидуальные и групповые занятия<br></br> для взрослых
-              и детей
+              Рисование и гончарное мастерство<br></br>для взрослых и детей
               <div className="dropdown dropdown-end text-center">
                 <div
                   tabIndex={0}
@@ -110,6 +111,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;

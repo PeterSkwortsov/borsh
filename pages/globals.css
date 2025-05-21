@@ -1,0 +1,276 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-weight: 200 1000;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.background-image {
+    background-image: url(../public/10.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.background-image-2 {
+    background-image: url(../public/17.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.blockquote-wrapper {
+    display: flex;
+    /* height: 100vh; */
+    padding: 0 20px;
+}
+
+.blockquote {
+    position: relative;
+    font-weight: 800;
+    color: #000000;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.blockquote h3 {
+    position: relative;
+    color: #000000;
+    line-height: 1;
+    margin: 0;
+}
+
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: rgb(0, 0, 0);
+    font-size: 8rem;
+    line-height: 0;
+    bottom: -33px;
+    right: 30px;
+}
+
+@media all and (min-width: 600px) {
+    .blockquote h3 {
+        font-size: 1.3rem;
+    }
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.fb {
+    font-size: 1rem;
+}
+
+
+.dNew {
+    width: 100%;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    container-type: inline-size;
+}
+
+.hero-overlay-2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 100%;
+    width: 100%;
+    background-color: color-mix(in oklab, var(--color-neutral)
+            /* var(--color-neutral) */
+            70%, transparent);
+    z-index: 10;
+}
+
+
+:root {
+    --f-brand-color: #2563eb;
+}
+
+#productCarousel,
+.f-thumbs.is-classic,
+.fancybox__toolbar,
+.fancybox__nav {
+    --f-button-width: 40px;
+    --f-button-height: 40px;
+    --f-button-border-radius: 4px;
+
+    --f-button-color: #0d0c22;
+    --f-button-hover-color: var(--f-brand-color);
+
+    --f-button-bg: #f1f5f9;
+    --f-button-hover-bg: #e2e8f0;
+    --f-button-active-bg: #e2e8f0;
+
+    --f-button-svg-width: 20px;
+    --f-button-svg-height: 20px;
+    --f-button-svg-stroke-width: 2.25;
+    --f-button-svg-filter: none;
+
+    --f-button-svg-disabled-opacity: 0.2;
+}
+
+.f-carousel__slide {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.f-thumbs.is-classic {
+    --f-thumb-width: 120px;
+    --f-thumb-height: 80px;
+    --f-thumb-gap: 8px;
+
+    --f-thumb-opacity: 1;
+    --f-thumb-selected-opacity: 1;
+
+    --f-thumb-outline: 2px;
+    --f-thumb-outline-color: var(--f-brand-color);
+
+    --f-button-next-pos: 8px;
+    --f-button-prev-pos: 8px;
+}
+
+.f-thumbs.is-classic.is-horizontal {
+    padding: 0 56px;
+}
+
+.f-thumbs.is-classic.is-vertical {
+    padding: 56px 0;
+}
+
+#productCarousel .f-carousel__nav {
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+@media (hover: hover) {
+    #productCarousel:hover .f-carousel__nav {
+        opacity: 1;
+    }
+}
+
+.fancybox__container {
+    --fancybox-bg: #fff;
+    --fancybox-color: #6a6969;
+
+    --f-spinner-color-1: rgba(0, 0, 0, 0.1);
+    --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+}
+
+@media screen and (min-width: 640px) {
+    .fancybox__container {
+        flex-direction: row-reverse;
+    }
+}
+
+.fancybox__thumbs.is-classic.is-horizontal {
+    --f-thumb-width: 75px;
+    --f-thumb-height: 55px;
+    --f-thumb-gap: 8px;
+}
+
+.fancybox__thumbs.is-classic.is-vertical {
+    --f-thumb-width: 100%;
+    --f-thumb-height: 100px;
+
+    width: 182px;
+
+    outline: 1px solid #edeef0;
+}
+
+.fancybox__thumbs.is-classic.is-vertical .f-thumbs__track {
+    padding: 0 16px;
+}
+
+.fancybox__toolbar {
+    padding: 8px;
+}
+
+.fancybox__nav {
+    --f-button-next-pos: 8px;
+    --f-button-prev-pos: 8px;
+}
+
+.fancybox__carousel {
+    min-width: 0;
+    min-height: 0;
+}
+
+.fancybox__slide {
+    padding: 8px;
+}
+
+
+.swiper-button-next:after {
+    color: black
+}
+.swiper-button-prev::after {
+    color: black
+}
+
+.swiper {
+    width: 240px;
+    height: 320px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}

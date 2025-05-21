@@ -1,4 +1,4 @@
-"use client" 
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -6,21 +6,15 @@ import Link from "next/link";
 
 import { useRouter } from "next/navigation";
 
-
-
-
-
-
-
 const Grid = () => {
-
   const router = useRouter();
-
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20" 
-      id="group">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20"
+        id="group"
+      >
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
@@ -74,12 +68,13 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
 
-              <a
+            
+              <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("./clayModeling")}
+                href="/clayModeling"
               >
                 Подробнее
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -104,12 +99,12 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
 
-              <button
+              <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/group")}
+                href="/group"
               >
                 Подробнее
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -136,18 +131,11 @@ const Grid = () => {
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
-              {/* <button
-                className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/potterWheel")}
-              >
-                Подробнее
-              </button> */}
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href={"./potterWheel"}
-                as="./potterWheel"
               >
-                клик
+                Подробнее
               </Link>
             </div>
           </div>
@@ -170,15 +158,16 @@ const Grid = () => {
               Выжигание - один из древнейших видов творчества! Процесс приносит
               умиротворение и спокойствие.
             </p>
-            <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">От 1.000 ₽</p>
 
-              <a
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 1.000 ₽</p>
+
+              <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/wood-burning")}
+                href="/wood-burning"
               >
                 Подробнее
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -207,18 +196,10 @@ const Grid = () => {
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="./candle-making"
-                as="./candle-making"
-              >
-                клик
-              </Link>
-
-              {/* <button
-                className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                onClick={() => router.push("/candle-making")}
+                href="/candle-making"
               >
                 Подробнее
-              </button> */}
+              </Link>
             </div>
           </div>
         </div>

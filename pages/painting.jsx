@@ -1,8 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from '../components/Footer';
+import Footer from './components/Footer';
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+import { EffectCards } from "swiper/modules";
 
 export default function Painting() {
+
+  
     return (
       <>
         <button className="m-5">
@@ -15,7 +25,7 @@ export default function Painting() {
               width={200}
               height={200}
               alt="Picture of the author"
-              style={{ width: "100%" }}
+              style={{ width: "50%" }}
             />
             Назад
           </Link>
@@ -52,7 +62,7 @@ export default function Painting() {
                     width={140}
                     height={140}
                     alt="Picture of the author"
-                    style={{ width: "100%" }}
+                    style={{ width: "50%" }}
                   />
                 </td>
               </tr>
@@ -73,10 +83,10 @@ export default function Painting() {
                   <Image
                     src="/3.jpeg"
                     unoptimized
-                    width={100}
-                    height={100}
+                    width={400}
+                    height={400}
                     alt="Picture of the author"
-                    style={{ width: "100%" }}
+                    style={{ width: "50%" }}
                   />
                 </td>
               </tr>
@@ -92,15 +102,17 @@ export default function Painting() {
                 <td>
                   2.600р<br></br> 3.200р
                 </td>
-                <td>
+                <td data-fancybox data-caption="Single image">
                   {" "}
                   <Image
                     src="/2.jpeg"
                     unoptimized
-                    width={100}
-                    height={100}
+                    width={400}
+                    height={400}
                     alt="Picture of the author"
-                    style={{ width: "100%" }}
+                    style={{ width: "50%" }}
+                    data-fancybox
+                    data-caption="Single image"
                   />
                 </td>
               </tr>
@@ -112,7 +124,69 @@ export default function Painting() {
           </p> */}
         </div>
 
-        <Footer />
+      
+          <Swiper
+            effect={"cards"}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiper mb-10 mt-10"
+          >
+            <SwiperSlide>
+             
+                <Image
+                  src="/14.jpeg"
+                  unoptimized
+                  width={400}
+                  height={400}
+                  alt="Picture of the author"
+                />
+           
+            </SwiperSlide>
+            <SwiperSlide>
+             
+                <Image
+                  src="/15.jpeg"
+                  unoptimized
+                  width={400}
+                  height={400}
+                  alt="Picture of the author"
+                />
+          
+            </SwiperSlide>
+            <SwiperSlide>
+             
+                <Image
+                  src="/16.jpeg"
+                  unoptimized
+                  width={400}
+                  height={400}
+                  alt="Picture of the author"
+                />
+       
+            </SwiperSlide>
+            <SwiperSlide>
+             
+                <Image
+                  src="/13.jpeg"
+                  unoptimized
+                  width={400}
+                  height={400}
+                  alt="Picture of the author"
+                />
+       
+            </SwiperSlide>
+            <SwiperSlide>
+             
+                <Image
+                  src="/12.jpeg"
+                  unoptimized
+                  width={400}
+                  height={400}
+                  alt="Picture of the author"
+                />
+       
+            </SwiperSlide>
+          </Swiper>
       </>
     );
 }

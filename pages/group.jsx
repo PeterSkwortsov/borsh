@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from '../components/Footer';
+import Footer from './components/Footer';
 
 export default function Group() {
   return (
@@ -15,7 +15,7 @@ export default function Group() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "100%" }}
+            style={{ width: "50%" }}
           />
           Назад
         </Link>
@@ -51,7 +51,7 @@ export default function Group() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -69,7 +69,7 @@ export default function Group() {
                   width={100}
                   height={100}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -86,7 +86,7 @@ export default function Group() {
                   width={100}
                   height={100}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -124,7 +124,7 @@ export default function Group() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -142,7 +142,7 @@ export default function Group() {
                   width={100}
                   height={100}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -159,7 +159,7 @@ export default function Group() {
                   width={100}
                   height={100}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -167,7 +167,7 @@ export default function Group() {
         </table>
       </div>
 
-      <Footer />
+    
     </>
   );
 }

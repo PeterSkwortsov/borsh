@@ -10,25 +10,28 @@ import Phone from "./components/Phone";
 import Step from "./components/Step";
 import Map from "./components/Map";
 import ComeToMe from "./components/ComeToMe";
+import HamburgerMenu from "./components/HamburgerMenu";
 
 export default function Home() {
     return (
         <>
-        <Header />
-        <Table /> 
-        <About />
-        <ContentPrice />
-        <ComeToMe />
-        <Grid />
-        <Quetions />
-        <Phone />
-        <Step />
-        <Map />
-        <Footer />
+            <HamburgerMenu />
 
+            <Header />
+            <Table />
+            <About />
+            <ContentPrice />
+            <ComeToMe />
+            <Grid />
+            <Quetions />
+            <Phone />
+            <Step />
+            <Map />
        
-          
+
+
+
         </>
     );
-    
+
 }

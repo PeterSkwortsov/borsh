@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from '../components/Footer';
+import Footer from './components/Footer';
 export default function ClayModeling() {
   return (
     <>
@@ -15,7 +15,7 @@ export default function ClayModeling() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "100%" }}
+            style={{ width: "50%" }}
           />
           Назад
         </Link>
@@ -48,7 +48,7 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -67,7 +67,7 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -89,7 +89,7 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "100%" }}
+                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -100,7 +100,7 @@ export default function ClayModeling() {
             уточняйте у меня*
           </p> */}
       </div>
-      <Footer />
+      
     </>
   );
 }

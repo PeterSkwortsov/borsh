@@ -1,9 +1,9 @@
-import React from 'react'
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 const HamburgerMenu = () => {
   return (
     <>
-      <div className="drawer fixed mt-2 ml-2 z-100">
+      <div className="drawer fixed mt-2 ml-2 z-100 top-0 left-0">
         <input id="my-drawer" type="checkbox" className="drawer-toggle z-100" />
         <div className="drawer-content ">
           {/* Page content here */}
@@ -79,6 +79,6 @@ const HamburgerMenu = () => {
       </div>
     </>
   );
-}
+};
 
-export default HamburgerMenu
+export default HamburgerMenu;

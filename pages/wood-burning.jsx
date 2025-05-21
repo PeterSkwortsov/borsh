@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from '../components/Footer';
+import Footer from './components/Footer';
 
 export default function WoodBurningPage() {
   return (
@@ -15,12 +15,12 @@ export default function WoodBurningPage() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "100%" }}
+            style={{ width: "50%" }}
           />
           Назад
         </Link>
       </button>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto">
+      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-10">
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -60,7 +60,7 @@ export default function WoodBurningPage() {
         </table>
       </div>
 
-      <Footer />
+   
     </>
   );
 }
