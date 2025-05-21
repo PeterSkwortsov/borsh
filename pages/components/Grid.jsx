@@ -27,7 +27,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по живописи
             </h2>
             <p>
@@ -59,7 +59,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по ручной лепке из глины
             </h2>
             <p>
@@ -92,7 +92,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold">
               Групповые занятия для разных возрастных категорий по различным
               направлениям
             </h2>
@@ -122,7 +122,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс на гончарном круге
             </h2>
             <p>
@@ -156,7 +156,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по выжиганию по дереву.
             </h2>
             <p>
@@ -189,7 +189,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-400">
+            <h2 className="card-title text-orange-200 font-extrabold font-extrabold">
               Мастер-класс по свечеварению
             </h2>
             <p>
