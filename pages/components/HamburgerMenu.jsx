@@ -9,7 +9,7 @@ const HamburgerMenu = () => {
           {/* Page content here */}
           <label
             htmlFor="my-drawer"
-            className="btn bg-yellow-200 skeleton border-0 rounded-full "
+            className="btn bg-yellow-300 skeleton border-0 rounded-full "
           >
             <svg
               className="size-[1.2em]"
@@ -74,7 +74,7 @@ const HamburgerMenu = () => {
             <li>
               <Link href="#stephow">Как записаться?</Link>
             </li>
-            <li>
+            <li className="font-bold">
               <Link href="certificate">Подарочный сертификат</Link>
             </li>
           </ul>

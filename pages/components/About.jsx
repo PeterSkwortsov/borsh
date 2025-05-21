@@ -6,12 +6,13 @@ import Link from 'next/link';
 export const About = () => {
   return (
     <>
-      <section className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16">
+      <section className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mask-b-from-85% mask-b-to-100%">
         <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 md:grid-cols-2">
             <div className="px-4">
-              <h3 className="font-bold text-black cursor-default sm:text-4xl md:text-2xl lg:text-1lg xl:text-1xl  lg:text-2lg">
-                Здравствуйте!<br></br> Меня зовут Виктория
+              <h3 className="text-black text-2xl font-bold">
+                Здравствуйте!<br></br> Меня зовут{" "}
+                <span className="text-orange-600">Виктория</span>
               </h3>
               <p className="max-w-sm mt-3 text-md leading-relaxed text-black md:mt-8">
                 Родилась в небольшом поселке Ломовка. С детства увлекалась

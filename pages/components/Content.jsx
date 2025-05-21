@@ -16,64 +16,77 @@ const ContentPrice = () => {
 
   return (
     <>
-      <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16 text-orange-400">
-        Занятия проходят в просторной светлой мастерской
+      <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16">
+        Занятия проходят в светлой мастерской
       </h5>
 
       <Utp />
 
-      <Swiper
-        effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper mt-15 mb-10 w-56 md:w-72 lg:w-82 xl:w-102 m-auto"
-      >
-        <SwiperSlide>
+      <div className="carousel carousel-center rounded-box mt-10 mb-10">
+        <div className="carousel-item ">
           <Image
-            src="/14.jpeg"
+            src="/11.jpeg"
             unoptimized
-            width={400}
-            height={400}
+            width={200}
+            height={100}
             alt="Picture of the author"
           />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/15.jpeg"
-            unoptimized
-            width={400}
-            height={400}
-            alt="Picture of the author"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/16.jpeg"
-            unoptimized
-            width={400}
-            height={400}
-            alt="Picture of the author"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/13.jpeg"
-            unoptimized
-            width={400}
-            height={400}
-            alt="Picture of the author"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
+        </div>
+        <div className="carousel-item">
           <Image
             src="/12.jpeg"
             unoptimized
-            width={400}
-            height={400}
+            width={200}
+            height={100}
             alt="Picture of the author"
           />
-        </SwiperSlide>
-      </Swiper>
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/13.jpeg"
+            unoptimized
+            width={200}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/14.jpeg"
+            unoptimized
+            width={200}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/15.jpeg"
+            unoptimized
+            width={200}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/16.jpeg"
+            unoptimized
+            width={200}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/13.jpeg"
+            unoptimized
+            width={200}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+      </div>
     </>
   );
 };

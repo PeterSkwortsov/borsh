@@ -6,7 +6,7 @@ const Table = () => {
   return (
     <>
       <div className="blockquote-wrapper bg-beige mt-3">
-        <div className="blockquote max-sm:text-lg">
+        <div className="blockquote max-sm:text-lg ">
           <h3>
             Если сомневаетесь в своих художественных силах, боитесь начать
             творить или не знаете, что нарисовать - мои занятия помогут вам.<br></br>

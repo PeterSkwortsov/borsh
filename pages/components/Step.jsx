@@ -4,7 +4,7 @@ const Step = () => {
   return (
     <>
       <h6
-        className="text-2xl font-bold flex text-center justify-center mb-0 text-orange-400"
+        className="text-2xl font-bold flex text-center justify-center mb-0"
         id="stephow"
       >
         Как прийти в мастерскую?

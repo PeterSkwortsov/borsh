@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-4">
       <div className="container mx-auto">
-        <p className="text-center text-xs">
+        <p className="text-center text-xs p-1">
           Информация на данном сайте не является публичной офертой.<br></br>
           На сайте используется cookies. Продолжая им пользоваться вы
           соглашаетесь на обработку персональных данных в соответствии с

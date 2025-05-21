@@ -21,7 +21,7 @@ export default function Home() {
             <Table />
             <About />
             <ContentPrice />
-            <ComeToMe />
+            {/* <ComeToMe /> */}
             <Grid />
             <Quetions />
             <Phone />
