@@ -17,6 +17,7 @@ const Header = () => {
               width={350}
               height={350}
               alt="Picture of the author"
+              priority={true}
             />
 
             <h3
@@ -58,9 +59,7 @@ const Header = () => {
                 </div>
               </div>
             </h3>
-            <h5 className="font-bold ">
-              ул. Ломоносова 9, 4 этаж, офис 408
-            </h5>
+            <h5 className="font-bold ">ул. Ломоносова 9, 4 этаж, офис 408</h5>
             <a
               href="tel:+79049017926"
               className="p-3 mt-5 font-extrabold text-white-400  hover:text-blue-400"
