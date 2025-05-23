@@ -4,11 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import useWindowSize from "./useWindowSize";
 export default function CandleMaking() {
-
-  const { width } = useWindowSize();
-
-
-
   return (
     <>
       <button className="m-5">

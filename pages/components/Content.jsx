@@ -22,7 +22,7 @@ const ContentPrice = () => {
 
       <Utp />
 
-         {/* <div className="carousel carousel-center rounded-box mt-10 ">
+         <div className="carousel carousel-center rounded-box mt-10 ">
         <div className="carousel-item ">
           <Image
             src="/11.jpeg"
@@ -86,7 +86,7 @@ const ContentPrice = () => {
             alt="Picture of the author"
           />
         </div>
-      </div> */}
+      </div>
     </>
   );
 };

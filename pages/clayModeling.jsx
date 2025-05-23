@@ -1,12 +1,8 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 import useWindowSize from "./useWindowSize";
 
 export default function ClayModeling() {
-
-  const { width } = useWindowSize();
-
-
   return (
     <>
       <button className="m-1 fixed z-100">

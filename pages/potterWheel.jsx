@@ -1,13 +1,9 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import useWindowSize from './useWindowSize';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function PotterWheel() {
-
-  const { width } = useWindowSize();
-
   return (
     <>
       <button className="m-1 fixed z-100">
