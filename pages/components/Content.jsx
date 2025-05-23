@@ -22,53 +22,53 @@ const ContentPrice = () => {
 
       <Utp />
 
-         <div className="carousel carousel-center rounded-box mt-10 ">
-        <div className="carousel-item ">
+      <div className="carousel carousel-center mt-10 mb-10 w-fit">
+        <div className="carousel-item h-full ">
           <Image
-            src="/11.jpeg"
+            src="/30.jpg"
             unoptimized
             width={300}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-max">
           <Image
-            src="/12.jpeg"
+            src="/35.jpg"
             unoptimized
             width={300}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-full">
           <Image
-            src="/13.jpeg"
+            src="/36.jpg"
             unoptimized
             width={300}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-full">
           <Image
-            src="/14.jpeg"
+            src="/33.jpg"
             unoptimized
             width={300}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-full">
           <Image
-            src="/15.jpeg"
+            src="/34.jpg"
             unoptimized
             width={300}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-full">
           <Image
             src="/16.jpeg"
             unoptimized
@@ -77,7 +77,7 @@ const ContentPrice = () => {
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item h-full">
           <Image
             src="/13.jpeg"
             unoptimized

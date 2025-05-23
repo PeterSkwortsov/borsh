@@ -69,12 +69,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <ul className='mt-2'>
-          <li className="text-center text-xs mb-1">
+        <ul className='mt-4'>
+          <li className="text-center text-md ">
             <Link href="certificate">Подарочный сертификат</Link>
           </li>
-          <li className="text-center  text-xs">
-            <Link href="oven">Услуги муфельной печи</Link>
+          <li className="text-center  text-md">
+            <Link href="oven">Аренда муфельной печи</Link>
           </li>
         </ul>
       </div>

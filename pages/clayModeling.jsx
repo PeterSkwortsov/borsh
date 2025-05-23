@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import useWindowSize from "./useWindowSize";
 
 export default function ClayModeling() {
   return (
@@ -21,20 +20,7 @@ export default function ClayModeling() {
           Назад
         </Link>
       </button>
-      <div className="text-center">
-        {width > 472 ? (
-          <></>
-        ) : (
-          <Image
-            src="/tap.png"
-            unoptimized
-            width={40}
-            height={40}
-            alt="Vitaly Gorbachev"
-            className="m-auto mt-7"
-          />
-        )}
-      </div>
+      
       <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5">
         <table className="table table-zebra">
           {/* head */}

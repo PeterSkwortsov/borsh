@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "./components/Footer";
 
 export default function Painting() {
   return (
@@ -107,10 +106,6 @@ export default function Painting() {
             </tr>
           </tbody>
         </table>
-        {/* <p className="text-xs font-bold flex text-center justify-center m-5 mt-8">
-            Расписание примерное и может измениться! Актуальную информацию
-            уточняйте у меня*
-          </p> */}
       </div>
 
       <div className="py-4 bg-white">
@@ -134,12 +129,57 @@ export default function Painting() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
+                    <ul className="list-disc">
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Выбор темы и красок.
+                        </span>{" "}
+                        Сначала мы с тобой решаем, какими красками будем
+                        рисовать и какой сюжет выберем.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Размер холста.
+                        </span>{" "}
+                        Я предлагаю тебе несколько вариантов размера холста, от
+                        этого зависит цена мастер-класса.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Подготовка материалов.
+                        </span>{" "}
+                        Я показываю палитру, выдавливаю краски, наливаю воду или
+                        разбавитель, готовлю кисточки и тряпку для кистей.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Композиция.
+                        </span>{" "}
+                        Ты берёшь краску, разводишь её и намечаешь композицию.
+                        Сложные предметы разбиваешь на простые формы и
+                        компонуешь их на холсте.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Закрашивание холста.
+                        </span>{" "}
+                        Ты раскрываешь холст и закрашиваешь белые места грунта.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Работа над деталями.
+                        </span>{" "}
+                        Ты работаешь от общего к частному, создаёшь плановость и
+                        оттенки. Я подсказываю по ходу работы.
+                      </li>
+                      <li>
+                        <span className="text-orange-600 font-bold">
+                          Финальная проработка.
+                        </span>{" "}
+                        В конце я поправляю работу и прорабатываю детали, но не
+                        всегда — всё зависит от ситуации.
+                      </li>
+                    </ul>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
@@ -156,10 +196,11 @@ export default function Painting() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                      Выбрать практичную одежду. Она должна быть свободной и не
+                      сковывать движений. Не стоит брать слишком дорогие вещи,
+                      которые могут испачкаться. Надеть закрытую обувь. Это
+                      поможет защитить ноги от случайных брызг. Избегать одежды
+                      с длинными рукавами, которые могут мешать.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -177,10 +218,8 @@ export default function Painting() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                      Если все участники мастер-класса собрались, то, как
+                      говорится, семеро одного не ждут. :)
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -198,31 +237,10 @@ export default function Painting() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как я могу доверить вам своего ребенка на мастер-классе?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                      Важно заранее предупредить о невозможности присутствовать
+                      на запланированном мастер-классе, чем раньше, тем лучше.
+                      Минимально за день. Так как на кадого участника закупаются
+                      материалы и инструменты.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -232,6 +250,8 @@ export default function Painting() {
           </div>
         </div>
       </div>
+
+   
     </>
   );
 }

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import useWindowSize from "./useWindowSize";
 export default function CandleMaking() {
   return (
     <>
@@ -22,20 +21,7 @@ export default function CandleMaking() {
           Назад
         </Link>
       </button>
-      <div className="text-center">
-        {width > 513 ? (
-          <></>
-        ) : (
-          <Image
-            src="/tap.png"
-            unoptimized
-            width={40}
-            height={40}
-            className="m-auto mt-5"
-            alt="Vitaly Gorbachev"
-          />
-        )}
-      </div>
+     
 
       <div className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10">
         <table className="table table-zebra">

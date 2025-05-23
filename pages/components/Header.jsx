@@ -18,6 +18,7 @@ const Header = () => {
               height={350}
               alt="Picture of the author"
               priority={true}
+             
             />
 
             <h3
