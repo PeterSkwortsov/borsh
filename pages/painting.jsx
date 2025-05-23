@@ -7,7 +7,7 @@ export default function Painting() {
       <button className="m-1 fixed z-100">
         <Link
           href={`./#1`}
-          className="btn btn-neutral bg-white text-black max-sm:text-sm"
+          className="btn btn-neutral bg-white text-black max-sm:text-md"
         >
           <Image
             src="/arrow1.svg"
@@ -42,7 +42,7 @@ export default function Painting() {
               </td>
               <td>20*20 см</td>
               <td>
-                1.600р<br></br> 2.000р
+                1.600₽<br></br> 2.000₽
               </td>
               <td>
                 {" "}
@@ -66,7 +66,7 @@ export default function Painting() {
               </td>
               <td>30*40 см</td>
               <td>
-                2.200р<br></br>2.600р
+                2.200₽<br></br>2.600₽
               </td>
               <td>
                 {" "}
@@ -90,7 +90,7 @@ export default function Painting() {
               </td>
               <td>50*70 см</td>
               <td>
-                2.600р<br></br> 3.200р
+                2.600₽<br></br> 3.200₽
               </td>
               <td>
                 {" "}
@@ -119,9 +119,9 @@ export default function Painting() {
           <div className="mt-20">
             <ul className="">
               <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
+                <div className="flex flex-row items-start mb-5 bg-gray-100">
+                  <div className=" p-5 px-10 w-full flex items-center">
+                    <h4 className="text-md leading-6 font-medium text-gray-900 bg-gray-100">
                       Как проходит мастер-класс по живописи?
                     </h4>
                   </div>
@@ -195,7 +195,7 @@ export default function Painting() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Выбрать практичную одежду. Она должна быть свободной и не
                       сковывать движений. Не стоит брать слишком дорогие вещи,
                       которые могут испачкаться. Надеть закрытую обувь. Это
@@ -217,7 +217,7 @@ export default function Painting() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Если все участники мастер-класса собрались, то, как
                       говорится, семеро одного не ждут. :)
                     </p>
@@ -236,7 +236,7 @@ export default function Painting() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Важно заранее предупредить о невозможности присутствовать
                       на запланированном мастер-классе, чем раньше, тем лучше.
                       Минимально за день. Так как на кадого участника закупаются
@@ -250,8 +250,6 @@ export default function Painting() {
           </div>
         </div>
       </div>
-
-   
     </>
   );
 }

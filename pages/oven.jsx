@@ -24,7 +24,7 @@ const oven = () => {
         <h2 className="mb-5 text-3xl font-extrabold leading-tight text-gray-900">
           Услуги муфельной печи
         </h2>
-        <p className="mb-2 text-gray-600 mt-5 mb-5 text-md">
+        <p className=" text-gray-600 mt-5 mb-5 text-md">
           Муфельная печь Pro Mufel с программируемым терморегулятором 60 л, 1250
           °С
         </p>
@@ -44,11 +44,12 @@ const oven = () => {
                     ------------
                   </p>
                   <Image
-                    src="/oven.png"
+                    src="/oven3.jpg"
                     width={100}
                     height={200}
                     alt="Picture of the author"
                     style={{ width: "100%" }}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -66,9 +67,9 @@ const oven = () => {
                     ------------
                   </p>
                   <ul className="my-2 ml-3 text-md text-gray-800">
-                    <li>- низкотемпературный обжиг на 1050С - 1500 руб</li>
+                    <li>- низкотемпературный обжиг на 1050С - 1500 ₽</li>
                     <li>
-                      - низкотемпературный глазурный обжиг на 1050С -1500 руб
+                      - низкотемпературный глазурный обжиг на 1050С -1500 ₽
                     </li>
                     <li>- высокотемпературный обжиг на 1250С -2000 ₽</li>
                   </ul>
@@ -99,9 +100,9 @@ const oven = () => {
                   </p>
 
                   <ul className="my-2 ml-3 text-md text-gray-800">
-                    <li>- низкотемпературный обжиг на 1050С - 500 руб</li>
+                    <li>- низкотемпературный обжиг на 1050С - 500 ₽</li>
                     <li>
-                      - низкотемпературный глазурный обжиг на 1050С -600 руб
+                      - низкотемпературный глазурный обжиг на 1050С -600 ₽
                     </li>
                   </ul>
                 </div>
@@ -120,9 +121,9 @@ const oven = () => {
                     ------------
                   </p>
                   <ul className="my-2 ml-3 text-md text-gray-800">
-                    <li>- низкотемпературный обжиг на 1050С - 150 руб</li>
+                    <li>- низкотемпературный обжиг на 1050С - 150 ₽</li>
                     <li>
-                      - низкотемпературный глазурный обжиг на 1050С -200 руб
+                      - низкотемпературный глазурный обжиг на 1050С -200 ₽
                     </li>
                   </ul>
                 </div>
@@ -132,10 +133,10 @@ const oven = () => {
               <div className="relative h-full ml-0 md:mr-10">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                  <span className="text-lg font-bold">
-                    Ответственность за правильное нанесение глазури и
-                    использование качественных материалов на вас! Донышки
-                    изделий должны быть без глазури и глазурь не должна стекать!
+                  <span className="text-md">
+                    Выcoкотeмпepатуpный обжиг(1200 C)<br></br> 
+                    Вcя печь - 2800р.<br></br>Пoлка выcoтa 10
+                    см - 1200р<br></br> Одно изделия до 10*10 см-150р.{" "}
                   </span>
                 </div>
               </div>

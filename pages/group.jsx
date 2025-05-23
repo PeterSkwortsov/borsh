@@ -7,7 +7,7 @@ export default function Group() {
       <button className="m-5">
         <Link
           href={`./#3`}
-          className="btn btn-neutral bg-white text-black max-sm:text-sm"
+          className="btn btn-neutral bg-white text-black max-sm:text-md"
         >
           <Image
             src="/arrow1.svg"
@@ -180,24 +180,21 @@ export default function Group() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как проходит мастер-класс по живописи?
+                      В какие дни и в какое время проводятся занятия?
                     </h4>
                   </div>
                 </div>
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                    <p className="text-gray-700 text-md">
+                      Актуальную информацию всегда уточнйте по указанным контактам на сайте
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              <li className="text-left mb-10">
+              {/* <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
@@ -208,7 +205,7 @@ export default function Group() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
@@ -229,7 +226,7 @@ export default function Group() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
@@ -250,7 +247,7 @@ export default function Group() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
@@ -271,7 +268,7 @@ export default function Group() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
+                    <p className="text-gray-700 text-md">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
@@ -280,7 +277,7 @@ export default function Group() {
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

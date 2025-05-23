@@ -24,7 +24,7 @@ const certificate = () => {
         <h2 className="mb-5 text-3xl font-extrabold leading-tight text-gray-900">
           Номинал сертификатов
         </h2>
-        <p className="mb-2 text-gray-600 mt-5 mb-5">
+        <p className=" text-gray-600 mt-5 mb-5">
           Данные сертификаты позволяет участвовать в любом мастер-классе студии.
           Используется только по предварительной записи. Действует 12 месяцев с
           момента приобретения, не подлежит обмену и возврату.
@@ -40,8 +40,8 @@ const certificate = () => {
                       1000 ₽
                     </h3>
                   </div>
-                  <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">
-                    ------------
+                  <p className="mt-1 mb-2 text-xs font-medium">
+                    Может быть оформлен в бумажном или электронном виде
                   </p>
                   <button className="">
                     <Link
@@ -70,8 +70,8 @@ const certificate = () => {
                       2000 ₽
                     </h3>
                   </div>
-                  <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">
-                    ------------
+                  <p className="mt-1 mb-2 text-xs font-medium">
+                    Может быть оформлен в бумажном или электронном виде
                   </p>
                   <button className="">
                     <Link
@@ -102,8 +102,8 @@ const certificate = () => {
                       3000 ₽
                     </h3>
                   </div>
-                  <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">
-                    ------------
+                  <p className="mt-1 mb-2 text-xs font-medium">
+                    Может быть оформлен в бумажном или электронном виде
                   </p>
                   <button className="">
                     <Link
@@ -132,8 +132,8 @@ const certificate = () => {
                       4000 ₽
                     </h3>
                   </div>
-                  <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">
-                    ------------
+                  <p className="mt-1 mb-2 text-xs font-medium">
+                    Может быть оформлен в бумажном или электронном виде
                   </p>
                   <button className="">
                     <Link
@@ -162,8 +162,8 @@ const certificate = () => {
                       5000 ₽
                     </h3>
                   </div>
-                  <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">
-                    ------------
+                  <p className="mt-1 mb-2 text-xs font-medium">
+                    Может быть оформлен в бумажном или электронном виде
                   </p>
                   <button className="">
                     <Link

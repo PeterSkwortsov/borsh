@@ -8,7 +8,7 @@ export default function CandleMaking() {
       <button className="m-5">
         <Link
           href={`./#6`}
-          className="btn btn-neutral bg-white text-black max-sm:text-sm"
+          className="btn btn-neutral bg-white text-black max-sm:text-md"
         >
           <Image
             src="/arrow1.svg"
@@ -21,7 +21,6 @@ export default function CandleMaking() {
           Назад
         </Link>
       </button>
-     
 
       <div className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10">
         <table className="table table-zebra">
@@ -39,7 +38,7 @@ export default function CandleMaking() {
             <tr>
               <th>1</th>
               <td>Свечи в гипсовом кашпо</td>
-              <td>1800 Р</td>
+              <td>1.800р</td>
 
               <td>
                 {" "}
@@ -95,107 +94,47 @@ export default function CandleMaking() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как проходит мастер-класс по живописи?
+                      Как мы будем их создавать?
                     </h4>
                   </div>
                 </div>
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
+                      <ul className="text-gray-700 text-md">
+                        <li  className="p-1 list-disc">
+                          Берем одну часть гипса и одну часть воды, хорошенько
+                          перемешиваем, чтобы получилось однородно.
+                        </li>
+                        <li className="p-1 list-disc">
+                          Моем и сушим форму, потом мажем маслом или вазелином,
+                          чтобы потом легко вытащить.
+                        </li>
+                        <li className="p-1 list-disc">
+                          Аккуратно заливаем смесь в форму, стараясь не
+                          оставлять пузырьков
+                        </li>
+                        <li className="p-1 list-disc">
+                          Ждем высыхания: Оставляем на 30-60 минут, чтобы гипс
+                          полностью застыл. В это время отдыхаем, проводим кофе
+                          и чаепитие)
+                        </li>
+                        <li className="p-1 list-disc">
+                          Когда застынет, аккуратно достаем. Шлифуем, красим
+                          акриловыми красками в несколько слоев, потом покрываем
+                          лаком.
+                        </li>
+                        <li className="p-1 list-disc">
+                          В гипсовые кашпо заливаем воск с ароматизатором,
+                          украшаем сухоцветами, травами, шишками и ракушками.
+                        </li>
+                        Вуаля!
+                      </ul>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как одеться на мастер-класс?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что будет если я опоздаю?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что делать если я не смогу прийти?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как я могу доверить вам своего ребенка на мастер-классе?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
+         
             </ul>
           </div>
         </div>

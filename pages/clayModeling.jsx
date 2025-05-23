@@ -7,7 +7,7 @@ export default function ClayModeling() {
       <button className="m-1 fixed z-100">
         <Link
           href={`./#2`}
-          className="btn btn-neutral bg-white text-black max-sm:text-sm"
+          className="btn btn-neutral bg-white text-black max-sm:text-md"
         >
           <Image
             src="/arrow1.svg"
@@ -20,7 +20,7 @@ export default function ClayModeling() {
           Назад
         </Link>
       </button>
-      
+
       <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5">
         <table className="table table-zebra">
           {/* head */}
@@ -73,13 +73,13 @@ export default function ClayModeling() {
             {/* row 3 */}
             <tr>
               <th>2</th>
-              <td>Индивидуальные занятия</td>
               <td>
-                Один - 3.300р<br></br>
+                Индивидуальные занятия:<br></br> Один - 3.300р<br></br>
                 Двое - 2.700р/чел.
                 <br></br>
                 Три и больше - 2.400р/чел.
               </td>
+              <td></td>
               <td>
                 {" "}
                 <Image
@@ -109,110 +109,46 @@ export default function ClayModeling() {
           <div className="mt-20">
             <ul className="">
               <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
+                <div className="flex flex-row items-start mb-5 bg-gray-100 ">
                   <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как проходит мастер-класс по живописи?
+                      Почему мы не заберем сегодня изделия? А когда? А почему
+                      так долго?
                     </h4>
                   </div>
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                    <p className="text-gray-700 text-md">
+                      Слепленное изделие нельзя сразу обжигать, оно должно
+                      высохнуть 3-7 дней.<br></br>
+                      <br></br>
+                      Первый обжиг происходит в специальной печи при температуре
+                      900-1050 градусов. Запечь в обычной духовке не получится(
+                      <br></br>
+                      <br></br>
+                      Обжиг занимает 8-10 часов, после чего печь медленно
+                      остывает. Затем изделие наносится глазурь, сохнет пару
+                      часов и затем обжигается снова. Глазуровка также требует
+                      времени.<br></br>
+                      <br></br>
+                      Второй обжиг происходит при температуре 1050-1250 градусов
+                      и занимает 8-10 часов. Изделия обжигаются по очереди, так
+                      как печь ограничена по размеру.
+                      <br></br>
+                      <br></br>
+                      <span className="font-bold text-orange-600">
+                        Керамика требует терпения и не терпит спешки!
+                      </span><br></br>
+                      Поэтому свое творение вы увидите только через 3-5 недель.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как одеться на мастер-класс?
-                    </h4>
-                  </div>
-                </div>
 
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что будет если я опоздаю?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что делать если я не смогу прийти?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как я могу доверить вам своего ребенка на мастер-классе?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
+              
             </ul>
           </div>
         </div>
