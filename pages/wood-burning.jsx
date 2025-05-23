@@ -5,9 +5,9 @@ import Footer from './components/Footer';
 export default function WoodBurningPage() {
   return (
     <>
-      <button className="m-5">
+      <button className="m-1 fixed z-100">
         <Link
-          href={`./#group`}
+          href={`./#5`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image
@@ -20,7 +20,7 @@ export default function WoodBurningPage() {
           Назад
         </Link>
       </button>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-10">
+      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-10 mt-7">
         <table className="table table-zebra">
           {/* head */}
           <thead>

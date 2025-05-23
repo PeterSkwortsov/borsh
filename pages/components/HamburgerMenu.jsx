@@ -65,9 +65,9 @@ const HamburgerMenu = () => {
             <li>
               <Link href="#group">Направления занятий</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="#cometome">Почему меня выбирают</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="#quetion">Ответы на вопросы</Link>
             </li>

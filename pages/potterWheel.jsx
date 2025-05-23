@@ -2,14 +2,17 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from './components/Footer';
+import useWindowSize from './useWindowSize';
 
 export default function PotterWheel() {
+
+  const { width } = useWindowSize();
+
   return (
     <>
-      <button className="m-5">
+      <button className="m-1 fixed z-100">
         <Link
-          href={`./#group`}
+          href={`./#4`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image
@@ -17,11 +20,25 @@ export default function PotterWheel() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "50%" }}
+            style={{ width: "100%" }}
           />
           Назад
         </Link>
       </button>
+      <div className="text-center">
+        {width > 486 ? (
+          <></>
+        ) : (
+          <Image
+            src="/tap.png"
+            unoptimized
+            width={40}
+            height={40}
+            className="m-auto mt-5"
+            alt="Vitaly Gorbachev"
+          />
+        )}
+      </div>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
         <table className="table table-zebra">
           {/* head */}
@@ -49,7 +66,6 @@ export default function PotterWheel() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -64,10 +80,9 @@ export default function PotterWheel() {
                 <Image
                   src="/3.jpeg"
                   unoptimized
-                  width={100}
-                  height={100}
+                  width={200}
+                  height={200}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>

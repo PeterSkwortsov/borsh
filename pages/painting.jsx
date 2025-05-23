@@ -4,25 +4,20 @@ import Link from 'next/link';
 import Footer from './components/Footer';
 
 
-import { Swiper, SwiperSlide } from "swiper/react";
-// import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/effect-cards";
-
-import { EffectCards } from "swiper/modules";
-
-
+import useWindowSize from './useWindowSize';
 
 
 
 export default function Painting() {
+  const { width } = useWindowSize();
 
+  
   
     return (
       <>
-        <button className="m-5 shadow-xl fixed z-100">
+        <button className="m-1 fixed z-100">
           <Link
-            href={`./#group`}
+            href={`./#1`}
             className="btn btn-neutral bg-white text-black max-sm:text-sm"
           >
             <Image
@@ -35,7 +30,22 @@ export default function Painting() {
             Назад
           </Link>
         </button>
-        <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 shadow-xl/20 mb-10">
+        <div className="text-center">
+          {width > 472 ? (
+            <></>
+          ) : (
+            <Image
+              src="/tap.png"
+              unoptimized
+              width={40}
+              height={40}
+              className="m-auto mt-5"
+              alt="Vitaly Gorbachev"
+            />
+          )}
+        </div>
+
+        <div className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10">
           <table className="table table-zebra">
             {/* head */}
             <thead>
@@ -64,8 +74,8 @@ export default function Painting() {
                   <Image
                     src="/4.jpeg"
                     unoptimized
-                    width={140}
-                    height={140}
+                    width={200}
+                    height={200}
                     alt="Picture of the author"
                     className="w-46 md:w-52 lg:w-62 xl:w-72"
                   />
@@ -88,8 +98,8 @@ export default function Painting() {
                   <Image
                     src="/3.jpeg"
                     unoptimized
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     alt="Picture of the author"
                     className="w-46 md:w-52 lg:w-62 xl:w-72"
                   />

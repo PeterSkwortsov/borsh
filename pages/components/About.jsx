@@ -6,7 +6,10 @@ import Link from 'next/link';
 export const About = () => {
   return (
     <>
-      <section className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mask-b-from-85% mask-b-to-100%">
+      <section
+        className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mask-b-from-85% mask-b-to-100%"
+        id="anchor_one"
+      >
         <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 md:grid-cols-2">
             <div className="px-4">

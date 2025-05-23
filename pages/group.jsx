@@ -7,7 +7,7 @@ export default function Group() {
     <>
       <button className="m-5">
         <Link
-          href={`./#group`}
+          href={`./#3`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image

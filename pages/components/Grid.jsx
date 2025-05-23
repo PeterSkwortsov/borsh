@@ -15,7 +15,7 @@ const Grid = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:px-20 mb-20"
         id="group"
       >
-        <div className="card bg-base-200 image-full w-auto shadow-sm">
+        <div className="card bg-base-200 image-full w-auto shadow-sm" id="1">
           <figure>
             <Image
               src="/4.jpeg"
@@ -26,7 +26,7 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body" id="1">
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по живописи
             </h2>
@@ -58,7 +58,7 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body" id="2">
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по ручной лепке из глины
             </h2>
@@ -91,10 +91,9 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body" id="3">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Групповые занятия для разных возрастных категорий по различным
-              направлениям
+              Групповые занятия для детей и взрослых
             </h2>
             <p> Абонемент на 4 и 8 занятий.</p>
             <div className="card-actions justify-end items-center z-20">
@@ -121,7 +120,7 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body ">
+          <div className="card-body" id="4">
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс на гончарном круге
             </h2>
@@ -155,7 +154,7 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body" id="5">
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по выжиганию по дереву.
             </h2>
@@ -189,7 +188,7 @@ const Grid = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-orange-200 font-extrabold font-extrabold">
+            <h2 className="card-title text-orange-200 font-extrabold" id="6">
               Мастер-класс по свечеварению
             </h2>
             <p>

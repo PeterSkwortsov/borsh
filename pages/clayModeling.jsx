@@ -1,12 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from './components/Footer';
+import useWindowSize from "./useWindowSize";
+
 export default function ClayModeling() {
+
+  const { width } = useWindowSize();
+
+
   return (
     <>
-      <button className="m-5">
+      <button className="m-1 fixed z-100">
         <Link
-          href={`./#group`}
+          href={`./#2`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image
@@ -15,12 +20,26 @@ export default function ClayModeling() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "50%" }}
+            style={{ width: "100%" }}
           />
           Назад
         </Link>
       </button>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5">
+      <div className="text-center">
+        {width > 472 ? (
+          <></>
+        ) : (
+          <Image
+            src="/tap.png"
+            unoptimized
+            width={40}
+            height={40}
+            alt="Vitaly Gorbachev"
+            className="m-auto mt-7"
+          />
+        )}
+      </div>
+      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5">
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -48,7 +67,6 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -67,19 +85,18 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>2</th>
-              <td>Индивидуальные занятие для одного человека</td>
+              <td>Индивидуальные занятия</td>
               <td>
                 Один - 3.300р<br></br>
-                Для двоих - 2.700р/человек
+                Двое - 2.700р/чел.
                 <br></br>
-                Три и больше - 2.400р
+                Три и больше - 2.400р/чел.
               </td>
               <td>
                 {" "}
@@ -89,7 +106,6 @@ export default function ClayModeling() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -112,7 +128,7 @@ export default function ClayModeling() {
             <ul className="">
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
                       Как проходит мастер-класс по живописи?
                     </h4>
@@ -120,7 +136,7 @@ export default function ClayModeling() {
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
@@ -133,7 +149,7 @@ export default function ClayModeling() {
               </li>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
                       Как одеться на мастер-класс?
                     </h4>
@@ -141,7 +157,7 @@ export default function ClayModeling() {
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
@@ -154,7 +170,7 @@ export default function ClayModeling() {
               </li>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
                       Что будет если я опоздаю?
                     </h4>
@@ -162,7 +178,7 @@ export default function ClayModeling() {
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
@@ -175,7 +191,7 @@ export default function ClayModeling() {
               </li>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
                       Что делать если я не смогу прийти?
                     </h4>
@@ -183,7 +199,7 @@ export default function ClayModeling() {
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
@@ -196,7 +212,7 @@ export default function ClayModeling() {
               </li>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
                       Как я могу доверить вам своего ребенка на мастер-классе?
                     </h4>
@@ -204,7 +220,7 @@ export default function ClayModeling() {
                 </div>
 
                 <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                  <div className="bg-orange-70 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor

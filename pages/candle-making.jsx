@@ -2,14 +2,18 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "./components/Footer";
-
+import useWindowSize from "./useWindowSize";
 export default function CandleMaking() {
+
+  const { width } = useWindowSize();
+
+
+
   return (
     <>
       <button className="m-5">
         <Link
-          href={`./#group`}
+          href={`./#6`}
           className="btn btn-neutral bg-white text-black max-sm:text-sm"
         >
           <Image
@@ -18,13 +22,27 @@ export default function CandleMaking() {
             width={200}
             height={200}
             alt="Picture of the author"
-            style={{ width: "50%" }}
+            style={{ width: "100%" }}
           />
           Назад
         </Link>
       </button>
+      <div className="text-center">
+        {width > 513 ? (
+          <></>
+        ) : (
+          <Image
+            src="/tap.png"
+            unoptimized
+            width={40}
+            height={40}
+            className="m-auto mt-5"
+            alt="Vitaly Gorbachev"
+          />
+        )}
+      </div>
 
-      <div className="overflow-x-auto md:max-w-2/3 m-auto">
+      <div className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10">
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -32,6 +50,7 @@ export default function CandleMaking() {
               <th></th>
               <th className="fb">Декор свечей и гипсовых кашпо</th>
               <th className="fb">Цена</th>
+              <th className="fb">Изображение</th>
             </tr>
           </thead>
           <tbody>
@@ -49,7 +68,6 @@ export default function CandleMaking() {
                   width={140}
                   height={140}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>
@@ -69,10 +87,9 @@ export default function CandleMaking() {
                 <Image
                   src="/3.jpeg"
                   unoptimized
-                  width={100}
-                  height={100}
+                  width={200}
+                  height={200}
                   alt="Picture of the author"
-                  style={{ width: "50%" }}
                 />
               </td>
             </tr>

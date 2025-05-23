@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -68,6 +69,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <ul className='mt-2'>
+          <li className="text-center text-xs mb-1">
+            <Link href="certificate">Подарочный сертификат</Link>
+          </li>
+          <li className="text-center  text-xs">
+            <Link href="oven">Услуги муфельной печи</Link>
+          </li>
+        </ul>
       </div>
     </footer>
   );
