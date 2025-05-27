@@ -35,6 +35,9 @@ const Grid = () => {
               референсы, чтобы у участников получились интересные и
               индивидуальные работы.
             </p>
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новая программа
+            </span>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
               <a
@@ -91,11 +94,16 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
+
           <div className="card-body" id="3">
             <h2 className="card-title text-orange-200 font-extrabold">
               Групповые занятия для детей и взрослых
             </h2>
             <p> Абонемент на 4 и 8 занятий.</p>
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новая программа
+            </span>
+
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
 
@@ -130,6 +138,9 @@ const Grid = () => {
               подглазурными красками. Есть возможность расписать глазурями после
               первого обжига.
             </p>
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новая программа
+            </span>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 

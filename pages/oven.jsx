@@ -134,9 +134,14 @@ const oven = () => {
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <span className="text-md">
-                    Выcoкотeмпepатуpный обжиг(1200 C)<br></br> 
-                    Вcя печь - 2800р.<br></br>Пoлка выcoтa 10
-                    см - 1200р<br></br> Одно изделия до 10*10 см-150р.{" "}
+                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
+                      Выcoкотeмпepатуpный обжиг(1200 C)
+                    </h3>
+                    <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">
+                      ------------
+                    </p>
+                    Вcя печь - 2800р.<br></br>Полка выcoтой до 10см - 1200р
+                    <br></br> Одно изделия до 10*10 см-150р.{" "}
                   </span>
                 </div>
               </div>

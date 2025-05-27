@@ -40,7 +40,7 @@ const Utp = () => {
             className="chat-bubble max-sm:text-sm
 "
           >
-            Место ожидания с горячим чаем и печеньками.
+            Место ожидания с горячим чаем и печеньками, кондиционер.
           </div>
         </div>
         <div className="chat chat-start">

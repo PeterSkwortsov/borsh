@@ -70,7 +70,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/16.jpeg"
+            src="/31.jpg"
             unoptimized
             width={300}
             height={100}
@@ -79,7 +79,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/13.jpeg"
+            src="/13.jpg"
             unoptimized
             width={300}
             height={100}

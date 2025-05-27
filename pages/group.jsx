@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Group() {
   return (
     <>
-      <button className="m-5">
+      <button className="m-1 fixed z-100">
         <Link
           href={`./#3`}
           className="btn btn-neutral bg-white text-black max-sm:text-md"
@@ -20,7 +20,7 @@ export default function Group() {
         </Link>
       </button>
 
-      <h2 className="flex text-center justify-center text-2xl m-3">
+      <h2 className="flex text-center justify-center text-2xl m-3 text-orange-600">
         Абонементы на занятия по рисованию:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
@@ -73,10 +73,27 @@ export default function Group() {
               </td>
             </tr>
             <tr>
-              <th>2</th>
+              <th>3</th>
               <td>4 занятия / 8 занятий для детей 10-16 лет</td>
               <td>120 минут</td>
               <td>3.400р /3.800р</td>
+              <td>
+                {" "}
+                <Image
+                  src="/3.jpeg"
+                  unoptimized
+                  width={100}
+                  height={100}
+                  alt="Picture of the author"
+                  style={{ width: "50%" }}
+                />
+              </td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>4 занятия для взрослых, 18+</td>
+              <td>120 минут</td>
+              <td></td>
               <td>
                 {" "}
                 <Image
@@ -93,7 +110,7 @@ export default function Group() {
         </table>
       </div>
 
-      <h2 className="flex text-center justify-center text-2xl mt-8 mb-8">
+      <h2 className="flex text-center justify-center text-2xl mt-8 mb-8 text-orange-600">
         Абонементы на гончарные занятия:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
@@ -146,8 +163,8 @@ export default function Group() {
               </td>
             </tr>
             <tr>
-              <th>2</th>
-              <td>Для взрослых</td>
+              <th>3</th>
+              <td>Для взрослых, 18+</td>
               <td>120 минут</td>
               <td>5000р</td>
               <td>
@@ -188,7 +205,8 @@ export default function Group() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                      Актуальную информацию всегда уточнйте по указанным контактам на сайте
+                      Актуальную информацию всегда уточнйте по указанным
+                      контактам на сайте
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
