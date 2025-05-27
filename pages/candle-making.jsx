@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function CandleMaking() {
   return (
     <>
-      <button className="m-5">
+      <button className="m-1 fixed z-100">
         <Link
           href={`./#6`}
           className="btn btn-neutral bg-white text-black max-sm:text-md"
@@ -101,40 +101,39 @@ export default function CandleMaking() {
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                      <ul className="text-gray-700 text-md">
-                        <li  className="p-1 list-disc">
-                          Берем одну часть гипса и одну часть воды, хорошенько
-                          перемешиваем, чтобы получилось однородно.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Моем и сушим форму, потом мажем маслом или вазелином,
-                          чтобы потом легко вытащить.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Аккуратно заливаем смесь в форму, стараясь не
-                          оставлять пузырьков
-                        </li>
-                        <li className="p-1 list-disc">
-                          Ждем высыхания: Оставляем на 30-60 минут, чтобы гипс
-                          полностью застыл. В это время отдыхаем, проводим кофе
-                          и чаепитие)
-                        </li>
-                        <li className="p-1 list-disc">
-                          Когда застынет, аккуратно достаем. Шлифуем, красим
-                          акриловыми красками в несколько слоев, потом покрываем
-                          лаком.
-                        </li>
-                        <li className="p-1 list-disc">
-                          В гипсовые кашпо заливаем воск с ароматизатором,
-                          украшаем сухоцветами, травами, шишками и ракушками.
-                        </li>
-                        Вуаля!
-                      </ul>
+                    <ul className="text-gray-700 text-md">
+                      <li className="p-1 list-disc">
+                        Берем одну часть гипса и одну часть воды, хорошенько
+                        перемешиваем, чтобы получилось однородно.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Моем и сушим форму, потом мажем маслом или вазелином,
+                        чтобы потом легко вытащить.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Аккуратно заливаем смесь в форму, стараясь не оставлять
+                        пузырьков
+                      </li>
+                      <li className="p-1 list-disc">
+                        Ждем высыхания: Оставляем на 30-60 минут, чтобы гипс
+                        полностью застыл. В это время отдыхаем, проводим кофе и
+                        чаепитие)
+                      </li>
+                      <li className="p-1 list-disc">
+                        Когда застынет, аккуратно достаем. Шлифуем, красим
+                        акриловыми красками в несколько слоев, потом покрываем
+                        лаком.
+                      </li>
+                      <li className="p-1 list-disc">
+                        В гипсовые кашпо заливаем воск с ароматизатором,
+                        украшаем сухоцветами, травами, шишками и ракушками.
+                      </li>
+                      Вуаля!
+                    </ul>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-         
             </ul>
           </div>
         </div>

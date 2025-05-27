@@ -1,9 +1,29 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 const certificate = () => {
   return (
     <>
+      <Head>
+        <title>Подарочный сертификат</title>
+        <meta
+          name="description"
+          content="Рисование и гончарное мастерство
+для взрослых и детей"
+        />
+        <meta
+          name="keywords"
+          content="Подарочный сертификат в творческую мастерскую Вики Борщ"
+        />
+        <meta name="author" content="Виктория Борщ" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta
+          property="og:title"
+          content="Подарочный сертификат в студию Вики Борщ"
+        />
+      </Head>
       <button className="m-5">
         <Link
           href={`./#group`}

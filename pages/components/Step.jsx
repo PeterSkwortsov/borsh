@@ -10,7 +10,7 @@ const Step = () => {
         Как прийти в мастерскую?
       </h6>
       <ul className="steps steps-horizontal mt-10 max-sm:steps-vertical max-md:steps-vertical text-sm p-2 mb-10 ип">
-        <li className="step step-warning text-wrap">
+        <li className="step text-balance">
           Записаться по телефону +7-904-901-79-26 или через мессенджер ВК,
           Telegram, WhatsApp
         </li>

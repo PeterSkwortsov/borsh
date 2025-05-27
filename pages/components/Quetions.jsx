@@ -43,7 +43,7 @@ const Quetions = () => {
             меропрятие?
           </div>
           <div className="collapse-content text-md">
-            Записаться можно по телефону 89049017926 через телеграм или ватсап
+            Записаться можно по телефону 89049017926 через телеграм или ватсап.
           </div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
@@ -97,8 +97,17 @@ const Quetions = () => {
             получится ли?
           </div>
           <div className="collapse-content text-md">
-            Конечно! Главная цель наших занятий - получение удовольствия от процесса, остальное прикладывается!
+            Конечно! Главная цель наших занятий - получение удовольствия от
+            процесса, остальное прикладывается!
           </div>
+        </div>
+        <div className="collapse collapse-plus bg-base-100 border border-base-300">
+          <input type="radio" name="my-accordion-3" />
+          <div className="collapse-title font-semibold ">
+            Есть ли занятия{" "}
+            <span className="text-orange-600">только для взрослых?</span> 18+
+          </div>
+          <div className="collapse-content text-md">Конечно. Уточнйте подробности по указанным контактам на сайте.</div>
         </div>
       </div>
     </>

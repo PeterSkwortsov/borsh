@@ -9,14 +9,14 @@ const Map = () => {
           <div className="chat-image avatar">
             <div className="w-10 rounded-full"></div>
           </div>
-          <div className="chat-bubble">
+          <div className="chat-bubble bg-gray-200">
             Если вы занимаетесь изготовлением глиняных изделий{" "}
            самостоятельно и
             у вас нет своей печки, можете воспользоваться{" "}
-            <span className="font-bold text-orange-600">
+            <span className="font-bold">
               возможностями нашей
             </span>{" "}
-            <Link className="link text-orange-600 font-bold" href={`./oven`}>
+            <Link className="link  font-bold" href={`./oven`}>
               муфельной печи.
             </Link>
           </div>
@@ -40,7 +40,7 @@ const Map = () => {
           <div className="chat-image avatar">
             <div className="w-10 rounded-full"></div>
           </div>
-          <div className="chat-bubble">
+          <div className="chat-bubble bg-gray-200">
             Понравилась наша студия и хотите провести в ней уже свое
             мероприятие? - Пишите!
           </div>
@@ -49,7 +49,7 @@ const Map = () => {
           <div className="chat-image avatar">
             <div className="w-10 rounded-full"></div>
           </div>
-          <div className="chat-bubble">
+          <div className="chat-bubble bg-gray-200">
             Мы открыты к сотрудничесву с новыми мастерами.
           </div>
         </div>

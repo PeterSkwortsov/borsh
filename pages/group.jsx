@@ -20,7 +20,7 @@ export default function Group() {
         </Link>
       </button>
 
-      <h2 className="flex text-center justify-center text-2xl m-3 text-orange-600">
+      <h2 className="flex text-center justify-center text-2xl font-extrabold m-3 text-orange-600">
         Абонементы на занятия по рисованию:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
@@ -110,7 +110,7 @@ export default function Group() {
         </table>
       </div>
 
-      <h2 className="flex text-center justify-center text-2xl mt-8 mb-8 text-orange-600">
+      <h2 className="flex text-center justify-center text-2xl mt-8 mb-8 font-extrabold text-orange-600">
         Абонементы на гончарные занятия:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
