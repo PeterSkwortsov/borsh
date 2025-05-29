@@ -38,7 +38,7 @@ export default function CandleMaking() {
             <tr>
               <th>1</th>
               <td>Свечи в гипсовом кашпо</td>
-              <td>1.800р</td>
+              <td>1.800₽</td>
 
               <td>
                 {" "}
@@ -55,13 +55,13 @@ export default function CandleMaking() {
             <tr>
               <th>2</th>
               <td>Свечи в стеклянном стакане</td>
-              <td>2.000р</td>
+              <td>2.000₽</td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>3</th>
               <td>Свечи в скорлупе кокоса</td>
-              <td>2.200р</td>
+              <td>2.200₽</td>
               <td>
                 {" "}
                 <Image
@@ -76,7 +76,7 @@ export default function CandleMaking() {
           </tbody>
         </table>
         <p className="text-md flex text-center justify-center m-5 mt-8">
-          Индивидуальный мастер-класс - 2.700р/человек.
+          Индивидуальный мастер-класс - 2.700₽/человек.
         </p>
       </div>
 
@@ -94,42 +94,27 @@ export default function CandleMaking() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как мы будем их создавать?
+                      Как мы будем создавать свечи?
                     </h4>
                   </div>
                 </div>
 
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <ul className="text-gray-700 text-md">
-                      <li className="p-1 list-disc">
-                        Берем одну часть гипса и одну часть воды, хорошенько
-                        перемешиваем, чтобы получилось однородно.
-                      </li>
-                      <li className="p-1 list-disc">
-                        Моем и сушим форму, потом мажем маслом или вазелином,
-                        чтобы потом легко вытащить.
-                      </li>
-                      <li className="p-1 list-disc">
-                        Аккуратно заливаем смесь в форму, стараясь не оставлять
-                        пузырьков
-                      </li>
-                      <li className="p-1 list-disc">
-                        Ждем высыхания: Оставляем на 30-60 минут, чтобы гипс
-                        полностью застыл. В это время отдыхаем, проводим кофе и
-                        чаепитие)
-                      </li>
-                      <li className="p-1 list-disc">
-                        Когда застынет, аккуратно достаем. Шлифуем, красим
-                        акриловыми красками в несколько слоев, потом покрываем
-                        лаком.
-                      </li>
-                      <li className="p-1 list-disc">
-                        В гипсовые кашпо заливаем воск с ароматизатором,
-                        украшаем сухоцветами, травами, шишками и ракушками.
-                      </li>
+                    <p className="text-gray-700 text-md">
+                      Сначала мы с вами слушаем и выбираем подходящие ароматы
+                      для будущей свечи. Когда вы составили композицию из
+                      ароматов, мы приступаем к практической части. Закрепляем
+                      фитиль в емкости, параллельно топим воск. Заливаем воск в
+                      мерный стакан, добавляем нужное количество аромамасел.
+                      Выбираем цвет пигмента для окрашивания свечи (по желанию).
+                      Полученную заготовку выливаем в емкость для свечи. Ждем
+                      застывания 15-20 минут. В это время можно подобрать декор
+                      для свечи из сухоцветов.
+                      <br></br>
+                      <br></br>
                       Вуаля!
-                    </ul>
+                    </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>

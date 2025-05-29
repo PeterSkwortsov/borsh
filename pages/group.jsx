@@ -41,7 +41,7 @@ export default function Group() {
               <th>1</th>
               <td>4 занятия / 8 занятий для детей 6-8 лет</td>
               <td>60 мин</td>
-              <td>1.800р / 3.200р</td>
+              <td>1.800₽ / 3.200₽</td>
               <td>
                 {" "}
                 <Image
@@ -59,7 +59,7 @@ export default function Group() {
               <th>2</th>
               <td>4 занятия / 8 занятий для детей 8-10 лет</td>
               <td>90 минут</td>
-              <td>2.000р / 3.600р</td>
+              <td>2.000₽ / 3.600₽</td>
               <td>
                 {" "}
                 <Image
@@ -76,7 +76,7 @@ export default function Group() {
               <th>3</th>
               <td>4 занятия / 8 занятий для детей 10-16 лет</td>
               <td>120 минут</td>
-              <td>3.400р /3.800р</td>
+              <td>3.400₽ /4.200₽</td>
               <td>
                 {" "}
                 <Image
@@ -93,7 +93,7 @@ export default function Group() {
               <th>4</th>
               <td>4 занятия для взрослых, 18+</td>
               <td>120 минут</td>
-              <td></td>
+              <td>4400₽</td>
               <td>
                 {" "}
                 <Image
@@ -131,7 +131,7 @@ export default function Group() {
               <th>1</th>
               <td>Для детей 6-9 лет</td>
               <td>90 мин</td>
-              <td>3.600р</td>
+              <td>3.600₽</td>
               <td>
                 {" "}
                 <Image
@@ -149,7 +149,7 @@ export default function Group() {
               <th>2</th>
               <td>Для детей 9-16 лет </td>
               <td>1 час 45 минут</td>
-              <td>4200р</td>
+              <td>4200₽</td>
               <td>
                 {" "}
                 <Image
@@ -166,7 +166,7 @@ export default function Group() {
               <th>3</th>
               <td>Для взрослых, 18+</td>
               <td>120 минут</td>
-              <td>5000р</td>
+              <td>5000₽</td>
               <td>
                 {" "}
                 <Image
@@ -205,18 +205,19 @@ export default function Group() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                      Актуальную информацию всегда уточнйте по указанным
+                      Актуальную информацию всегда уточняйте по указанным
                       контактам на сайте
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              {/* <li className="text-left mb-10">
+              <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как одеться на мастер-класс?
+                      Предоставляются ли материалы по рисованию на занятия (по
+                      абонементу)?
                     </h4>
                   </div>
                 </div>
@@ -224,10 +225,10 @@ export default function Group() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                      Материалы выдаются только на первое занятие, после вы
+                      приобретаете необходимые краски, инструменты и бумагу
+                      самостоятельно. Мы всегда готовы подсказать бюджетные и
+                      качественные варианты.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -237,7 +238,8 @@ export default function Group() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что будет если я опоздаю?
+                      Нужно ли брать что-то с собой на гончарное занятие (по
+                      абонементу)?
                     </h4>
                   </div>
                 </div>
@@ -245,57 +247,13 @@ export default function Group() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
+                       На гончарное занятие от вас ничего
+                      не требуется брать. Все материалы мы предоставим.{" "}
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что делать если я не смогу прийти?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как я могу доверить вам своего ребенка на мастер-классе?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li> */}
             </ul>
           </div>
         </div>

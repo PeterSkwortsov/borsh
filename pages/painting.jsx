@@ -27,7 +27,7 @@ export default function Painting() {
             <tr>
               <th></th>
               <th className="fb">Название</th>
-              <th className="fb">Подрамник</th>
+              <th className="fb">Размер</th>
               <th className="fb">Цена</th>
               <th className="fb">Изображение</th>
             </tr>
@@ -37,7 +37,7 @@ export default function Painting() {
             <tr>
               <th>1</th>
               <td>
-                Живопись акриловыми красками на холсте<br></br>
+                Живопись акриловыми красками на холсте /<br></br>
                 Масляными красками на холсте
               </td>
               <td>20*20 см</td>
@@ -61,7 +61,7 @@ export default function Painting() {
               <th>2</th>
               <td>
                 {" "}
-                Живопись акриловыми красками на холсте<br></br>
+                Живопись акриловыми красками на холсте /<br></br>
                 Масляными красками на холсте
               </td>
               <td>30*40 см</td>
@@ -85,7 +85,7 @@ export default function Painting() {
               <th>3</th>
               <td>
                 {" "}
-                Живопись акриловыми красками на холсте<br></br>
+                Живопись акриловыми красками на холсте /<br></br>
                 Масляными красками на холсте
               </td>
               <td>50*70 см</td>
@@ -134,50 +134,31 @@ export default function Painting() {
                         <span className="text-orange-600 font-bold">
                           Выбор темы и красок.
                         </span>{" "}
-                        Сначала мы с тобой решаем, какими красками будем
-                        рисовать и какой сюжет выберем.
+                        Сначала мы с вами выбираем, какой сюжет и жанр будем
+                        рисовать и какие краски нам для этого понадобятся.
                       </li>
                       <li>
                         <span className="text-orange-600 font-bold">
                           Размер холста.
                         </span>{" "}
-                        Я предлагаю тебе несколько вариантов размера холста, от
-                        этого зависит цена мастер-класса.
+                        В зависимости от идеи мы с вами выбираем размер холста,
+                        от этого будет зависеть конечная стоимость
+                        мастер-класса.
                       </li>
                       <li>
                         <span className="text-orange-600 font-bold">
-                          Подготовка материалов.
+                          Эскиз и работа над композицией.
                         </span>{" "}
-                        Я показываю палитру, выдавливаю краски, наливаю воду или
-                        разбавитель, готовлю кисточки и тряпку для кистей.
+                        Делаем предварительный набросок, намечаем композиционное
+                        построение и находим основные цветовые соотношения.
                       </li>
+
                       <li>
                         <span className="text-orange-600 font-bold">
-                          Композиция.
+                          Работа над картиной.
                         </span>{" "}
-                        Ты берёшь краску, разводишь её и намечаешь композицию.
-                        Сложные предметы разбиваешь на простые формы и
-                        компонуешь их на холсте.
-                      </li>
-                      <li>
-                        <span className="text-orange-600 font-bold">
-                          Закрашивание холста.
-                        </span>{" "}
-                        Ты раскрываешь холст и закрашиваешь белые места грунта.
-                      </li>
-                      <li>
-                        <span className="text-orange-600 font-bold">
-                          Работа над деталями.
-                        </span>{" "}
-                        Ты работаешь от общего к частному, создаёшь плановость и
-                        оттенки. Я подсказываю по ходу работы.
-                      </li>
-                      <li>
-                        <span className="text-orange-600 font-bold">
-                          Финальная проработка.
-                        </span>{" "}
-                        В конце я поправляю работу и прорабатываю детали, но не
-                        всегда — всё зависит от ситуации.
+                        Мы идем от общего к частному, создаем плановость и
+                        подбираем оттенки.
                       </li>
                     </ul>
                   </div>
@@ -198,9 +179,9 @@ export default function Painting() {
                     <p className="text-gray-700 text-md">
                       Выбрать практичную одежду. Она должна быть свободной и не
                       сковывать движений. Не стоит брать слишком дорогие вещи,
-                      которые могут испачкаться. Надеть закрытую обувь. Это
-                      поможет защитить ноги от случайных брызг. Избегать одежды
-                      с длинными рукавами, которые могут мешать.
+                      которые могут испачкаться.
+                      <br></br>
+                      На занятии мы выдаем фартук и тапочки.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -210,7 +191,7 @@ export default function Painting() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что будет если я опоздаю?
+                      Что будет, если я опоздаю?
                     </h4>
                   </div>
                 </div>
@@ -218,8 +199,11 @@ export default function Painting() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                      Если все участники мастер-класса собрались, то, как
-                      говорится, семеро одного не ждут. :)
+                      Мастер-класс начнется вовремя, однако если кто-то
+                      опаздывает не более чем на 30 минут, то мы поможем создать
+                      картину в отведенное для занятия время. <br></br>
+                      Если вы опаздываете более чем на 30 минут, то мы вас будем
+                      ждать на следующем мастер-классе :)
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
@@ -229,7 +213,7 @@ export default function Painting() {
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что делать если я не смогу прийти?
+                      Что делать, если я не смогу прийти?
                     </h4>
                   </div>
                 </div>
@@ -239,8 +223,8 @@ export default function Painting() {
                     <p className="text-gray-700 text-md">
                       Важно заранее предупредить о невозможности присутствовать
                       на запланированном мастер-классе, чем раньше, тем лучше.
-                      Минимально за день. Так как на кадого участника закупаются
-                      материалы и инструменты.
+                      Так как на каждого участника закупаются материалы и
+                      инструменты.
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>

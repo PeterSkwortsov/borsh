@@ -5,21 +5,18 @@ const Map = () => {
   return (
     <>
       <section className="center flex flex-col mt-5 mb-8 ">
-        <div className="chat chat-start">
-          <div className="chat-image avatar">
-            <div className="w-10 rounded-full"></div>
+        <div className="flex flex-row items-start">
+          <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+            <p className="text-gray-700 text-md">
+              Если вы занимаетесь изготовлением глиняных изделий самостоятельно
+              и у вас нет своей печки, можете воспользоваться{" "}
+              <span className="font-bold">возможностями нашей</span>{" "}
+              <Link className="link  font-bold" href={`./oven`}>
+                муфельной печи.
+              </Link>
+            </p>
           </div>
-          <div className="chat-bubble bg-gray-200">
-            Если вы занимаетесь изготовлением глиняных изделий{" "}
-           самостоятельно и
-            у вас нет своей печки, можете воспользоваться{" "}
-            <span className="font-bold">
-              возможностями нашей
-            </span>{" "}
-            <Link className="link  font-bold" href={`./oven`}>
-              муфельной печи.
-            </Link>
-          </div>
+          <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
         </div>
       </section>
 
@@ -35,23 +32,25 @@ const Map = () => {
           />
         </a>
       </div>
-      <section className="center flex flex-col mt-5 mb-8">
-        <div className="chat chat-start">
-          <div className="chat-image avatar">
-            <div className="w-10 rounded-full"></div>
+
+      <section className="center flex flex-col mt-5 mb-8 ">
+        <div className="flex flex-row items-start">
+          <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+            <p className="text-gray-700 text-md">
+              Понравилась наша студия и хотите провести в ней уже свое
+              мероприятие? - Пишите!
+            </p>
           </div>
-          <div className="chat-bubble bg-gray-200">
-            Понравилась наша студия и хотите провести в ней уже свое
-            мероприятие? - Пишите!
-          </div>
+          <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
         </div>
-        <div className="chat chat-start">
-          <div className="chat-image avatar">
-            <div className="w-10 rounded-full"></div>
+
+        <div className="flex flex-row items-start mt-3 mb-8">
+          <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+            <p className="text-gray-700 text-md">
+              Мы открыты к сотрудничеству с новыми мастерами.
+            </p>
           </div>
-          <div className="chat-bubble bg-gray-200">
-            Мы открыты к сотрудничесву с новыми мастерами.
-          </div>
+          <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
         </div>
       </section>
     </>
