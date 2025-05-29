@@ -88,11 +88,11 @@ const Phone = () => {
 
             <Image
               className="w-full"
-              src="/18.jpeg"
+              src="/18.jpg"
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Картина художника Леонида Колосова (пример)"
               style={{ width: "100%" }}
             />
 
