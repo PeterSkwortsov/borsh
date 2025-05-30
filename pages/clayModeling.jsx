@@ -29,7 +29,7 @@ export default function ClayModeling() {
               <th></th>
               <th className="fb">Описание</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -41,7 +41,7 @@ export default function ClayModeling() {
                 подсвечника
               </td>
               <td>1.600₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -50,7 +50,7 @@ export default function ClayModeling() {
                   height={140}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -59,7 +59,7 @@ export default function ClayModeling() {
                 Мастер-класс по лепке кружки, чайной пары, вазочки до 15 см
               </td>
               <td>2.000₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -68,7 +68,7 @@ export default function ClayModeling() {
                   height={140}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 3 */}
             <tr>
@@ -80,7 +80,7 @@ export default function ClayModeling() {
                 Три и больше - 2.400₽/чел.
               </td>
               <td></td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -89,7 +89,7 @@ export default function ClayModeling() {
                   height={140}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>

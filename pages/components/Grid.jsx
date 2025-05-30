@@ -18,7 +18,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm" id="1">
           <figure>
             <Image
-              src="/4.jpeg"
+              src="/4.jpg"
               unoptimized
               width={200}
               height={200}
@@ -53,7 +53,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/3.jpeg"
+              src="/3.jpg"
               unoptimized
               width={200}
               height={200}
@@ -86,7 +86,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/2.jpeg"
+              src="/2.jpg"
               unoptimized
               width={200}
               height={200}
@@ -120,7 +120,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/1.jpeg"
+              src="/1.jpg"
               unoptimized
               width={200}
               height={200}
@@ -157,7 +157,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/5.jpeg"
+              src="/5.jpg"
               unoptimized
               width={200}
               height={200}
@@ -190,7 +190,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/6.jpeg"
+              src="/6.jpg"
               unoptimized
               width={200}
               height={200}

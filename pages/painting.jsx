@@ -29,7 +29,7 @@ export default function Painting() {
               <th className="fb">Название</th>
               <th className="fb">Размер</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -44,7 +44,7 @@ export default function Painting() {
               <td>
                 1.600₽<br></br> 2.000₽
               </td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -54,7 +54,7 @@ export default function Painting() {
                   alt="Picture of the author"
                   className="w-46 md:w-52 lg:w-62 xl:w-72"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -68,7 +68,7 @@ export default function Painting() {
               <td>
                 2.200₽<br></br>2.600₽
               </td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -78,7 +78,7 @@ export default function Painting() {
                   alt="Picture of the author"
                   className="w-46 md:w-52 lg:w-62 xl:w-72"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 3 */}
             <tr>
@@ -92,7 +92,7 @@ export default function Painting() {
               <td>
                 2.600₽<br></br> 3.200₽
               </td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/2.jpeg"
@@ -102,7 +102,7 @@ export default function Painting() {
                   alt="Picture of the author"
                   className="w-46 md:w-52 lg:w-62 xl:w-72"
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>

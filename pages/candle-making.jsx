@@ -30,7 +30,7 @@ export default function CandleMaking() {
               <th></th>
               <th className="fb">Декор свечей и гипсовых кашпо</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -40,7 +40,7 @@ export default function CandleMaking() {
               <td>Свечи в гипсовом кашпо</td>
               <td>1.800₽</td>
 
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -49,7 +49,7 @@ export default function CandleMaking() {
                   height={140}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -62,7 +62,7 @@ export default function CandleMaking() {
               <th>3</th>
               <td>Свечи в скорлупе кокоса</td>
               <td>2.200₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -71,7 +71,7 @@ export default function CandleMaking() {
                   height={200}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>

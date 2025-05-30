@@ -32,7 +32,7 @@ export default function Group() {
               <th className="fb">Абонемент</th>
               <th className="fb">Время</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -42,7 +42,7 @@ export default function Group() {
               <td>4 занятия / 8 занятий для детей 6-8 лет</td>
               <td>60 мин</td>
               <td>1.800₽ / 3.200₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -52,7 +52,7 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -60,7 +60,7 @@ export default function Group() {
               <td>4 занятия / 8 занятий для детей 8-10 лет</td>
               <td>90 минут</td>
               <td>2.000₽ / 3.600₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -70,14 +70,14 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
             <tr>
               <th>3</th>
               <td>4 занятия / 8 занятий для детей 10-16 лет</td>
               <td>120 минут</td>
-              <td>3.400₽ /4.200₽</td>
-              <td>
+              <td>3.400₽ / 4.200₽</td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -87,14 +87,14 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
             <tr>
               <th>4</th>
               <td>4 занятия для взрослых, 18+</td>
               <td>120 минут</td>
               <td>4400₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -104,7 +104,7 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>
@@ -122,7 +122,7 @@ export default function Group() {
               <th className="fb">Абонемент</th>
               <th className="fb">Время</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -132,7 +132,7 @@ export default function Group() {
               <td>Для детей 6-9 лет</td>
               <td>90 мин</td>
               <td>3.600₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -142,7 +142,7 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -150,7 +150,7 @@ export default function Group() {
               <td>Для детей 9-16 лет </td>
               <td>1 час 45 минут</td>
               <td>4200₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -160,14 +160,14 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
             <tr>
               <th>3</th>
               <td>Для взрослых, 18+</td>
               <td>120 минут</td>
               <td>5000₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -177,7 +177,7 @@ export default function Group() {
                   alt="Picture of the author"
                   style={{ width: "50%" }}
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>

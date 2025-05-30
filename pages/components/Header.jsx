@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import fon from "../../public/10.jpeg";
 import Image from "next/image";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import { Autoplay, Pagination, Navigation } from "swiper/modules";

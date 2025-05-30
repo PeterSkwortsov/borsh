@@ -31,7 +31,7 @@ export default function PotterWheel() {
               <th className="fb">Название</th>
               <th className="fb">Размер изделия</th>
               <th className="fb">Цена</th>
-              <th className="fb">Изображение</th>
+              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
@@ -41,7 +41,7 @@ export default function PotterWheel() {
               <td>Мастер-класс на гончарном круге</td>
               <td>Диаметр до 20 см или в высоту 15 см</td>
               <td>2.000₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/4.jpeg"
@@ -50,7 +50,7 @@ export default function PotterWheel() {
                   height={140}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
             {/* row 2 */}
             <tr>
@@ -58,7 +58,7 @@ export default function PotterWheel() {
               <td>Мастер-класс на гончарном круге</td>
               <td>Диаметр до 25 см или в высоту 20 см</td>
               <td>2.500₽</td>
-              <td>
+              {/* <td>
                 {" "}
                 <Image
                   src="/3.jpeg"
@@ -67,7 +67,7 @@ export default function PotterWheel() {
                   height={200}
                   alt="Picture of the author"
                 />
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>
