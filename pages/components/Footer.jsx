@@ -9,8 +9,11 @@ const Footer = () => {
         <p className="text-center text-xs p-1">
           Информация на данном сайте не является публичной офертой.<br></br>
           На сайте используется cookies. Продолжая им пользоваться вы
-          соглашаетесь на обработку персональных данных в соответствии с
-          Политикой конфиденциальности.<br></br>
+          соглашаетесь на обработку персональных данных в соответствии с{" "}
+          <Link href="./confidentiality" className="link">
+            Политикой конфиденциальности.
+          </Link>
+          <br></br>
           &copy; {new Date().getFullYear()}{" "}
           <span>
             Сайт разработан{" "}
@@ -69,7 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <ul className='mt-4'>
+        <ul className="mt-4">
           <li className="text-center text-md ">
             <Link href="certificate">Подарочный сертификат</Link>
           </li>
