@@ -2,10 +2,32 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
+
 
 export default function PotterWheel() {
   return (
     <>
+      <Head>
+        <title>Мастер-класс на гончарном круге</title>
+
+        <meta
+          name="description"
+          content="Почувствуйте себя настоящим мастером гончарного искусства на нашем мастер-классе! Изделия после изготовления расписываем ангобами или подглазурными красками. Есть возможность расписать глазурями после первого обжига"
+        />
+
+        <meta property="og:title" content="Мастер-класс на гончарном круге" />
+
+        <meta
+          property="og:description"
+          content="Стань настоящим мастером гончарного искусства на нашем мастер-классе!"
+        />
+
+        <meta property="og:image" content="/3.jpg" />
+
+        <meta property="og:url" content="https://borsch-art.ru/potterWheel/" />
+      </Head>
+
       <button className="m-1 fixed z-100">
         <Link
           href={`./#4`}
@@ -135,7 +157,6 @@ export default function PotterWheel() {
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              
             </ul>
           </div>
         </div>

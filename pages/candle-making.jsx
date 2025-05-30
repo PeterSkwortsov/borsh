@@ -1,10 +1,34 @@
-"use client";
 
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
+
 export default function CandleMaking() {
   return (
     <>
+      <Head>
+        <title>Мастер-класс по свечеварению</title>
+
+        <meta
+          name="description"
+          content="За мастер-класс вы получаете две ароматических свечи в гипсовом кашпо/стеклянном стакане/скорлупе кокоса.Работаем на кокосовом и соевом воске.Есть варианты декора свечей и гипсовых кашпо."
+        />
+
+        <meta property="og:title" content="Мастер-класс по свечеварению" />
+
+        <meta
+          property="og:description"
+          content="За мастер-класс вы получаете две ароматических свечи в гипсовом кашпо/стеклянном стакане/скорлупе кокоса.Работаем на кокосовом и соевом воске.Есть варианты декора свечей и гипсовых кашпо."
+        />
+
+        <meta property="og:image" content="/6.jpg" />
+
+        <meta
+          property="og:url"
+          content="https://borsch-art.ru/candle-making/"
+        />
+      </Head>
+
       <button className="m-1 fixed z-100">
         <Link
           href={`./#6`}

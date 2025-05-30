@@ -1,9 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Head from "next/head";
 export default function ClayModeling() {
   return (
     <>
+      <Head>
+        <title>Мастер-класс по ручной лепке из глины</title>
+
+        <meta
+          name="description"
+          content="Лепим изделия из глины, расписываем ангобами или подглазурными красками.Есть возможность расписать глазурями после первого обжига."
+        />
+
+        <meta
+          property="og:title"
+          content="Мастер-класс по ручной лепке из глины"
+        />
+
+        <meta
+          property="og:description"
+          content="Записывайтесь на мастер-класс по ручной лепке из глины.Мастер-класс по лепке плоской тарелочки, миски, пиалы, подсвечника, кружки, чайной пары, вазочки"
+        />
+
+        <meta property="og:image" content="/3.jpg" />
+
+        <meta property="og:url" content="https://borsch-art.ru/clayModeling/" />
+      </Head>
+
       <button className="m-1 fixed z-100">
         <Link
           href={`./#2`}

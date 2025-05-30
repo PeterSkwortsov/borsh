@@ -1,9 +1,33 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Group() {
   return (
     <>
+      <Head>
+        <title>Групповые занятия для детей и взрослых</title>
+
+        <meta
+          name="description"
+          content="Для тех, кто хочет общения с единомышленниками в веселой компании с близкими людьми по духу, мы организовали групповые занятия."
+        />
+
+        <meta
+          property="og:title"
+          content="Абонементы на занятия по гончарному мастерству и рисованию."
+        />
+
+        <meta
+          property="og:description"
+          content="На выбор программы из 4 или 8 занятий, от 1 до 2 часов в нашей уютной студии."
+        />
+
+        <meta property="og:image" content="/4.jpg" />
+
+        <meta property="og:url" content="https://borsch-art.ru/clayModeling/" />
+      </Head>
+
       <button className="m-1 fixed z-100">
         <Link
           href={`./#3`}
@@ -20,7 +44,7 @@ export default function Group() {
         </Link>
       </button>
 
-      <h2 className="flex text-center justify-center text-2xl font-extrabold m-3 text-orange-600">
+      <h2 className="flex text-center justify-center text-2xl font-extrabold m-3 mt-7 text-orange-600">
         Абонементы на занятия по рисованию:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">
@@ -247,8 +271,8 @@ export default function Group() {
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
                     <p className="text-gray-700 text-md">
-                       На гончарное занятие от вас ничего
-                      не требуется брать. Все материалы мы предоставим.{" "}
+                      На гончарное занятие от вас ничего не требуется брать. Все
+                      материалы мы предоставим.{" "}
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>

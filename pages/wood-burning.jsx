@@ -1,9 +1,32 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import Head from 'next/head';
 export default function WoodBurningPage() {
   return (
     <>
+      <Head>
+        <title>Мастер-класс по выжиганию по дереву</title>
+
+        <meta
+          name="description"
+          content="Мастер-класс по выжиганию на деревянных листах форматов А3,А4,А5"
+        />
+
+        <meta
+          property="og:title"
+          content="Мастер-класс по выжиганию по дереву"
+        />
+
+        <meta
+          property="og:description"
+          content="Выжигание - один из древнейших видов творчества!Процесс приносит умиротворение и спокойствие."
+        />
+
+        <meta property="og:image" content="/vika.png" />
+
+        <meta property="og:url" content="https://borsch-art.ru/wood-burning/" />
+      </Head>
+
       <button className="m-1 fixed z-100">
         <Link
           href={`./#5`}

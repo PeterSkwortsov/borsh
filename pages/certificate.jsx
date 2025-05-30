@@ -9,12 +9,11 @@ const certificate = () => {
         <title>Подарочный сертификат</title>
         <meta
           name="description"
-          content="Рисование и гончарное мастерство
-для взрослых и детей"
+          content="Подарочный сертификат в творческую мастерскую Вики Борщ"
         />
         <meta
           name="keywords"
-          content="Подарочный сертификат в творческую мастерскую Вики Борщ"
+          content="сертификат, подарок"
         />
         <meta name="author" content="Виктория Борщ" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

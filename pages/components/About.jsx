@@ -7,20 +7,20 @@ export const About = () => {
   return (
     <>
       <section
-        className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mask-b-from-85% mask-b-to-100%"
+        className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16"
         id="anchor_one"
       >
         <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 md:grid-cols-2">
             <div className="px-4">
-              <h3 className="text-black text-2xl font-bold">
+              <h3 className="text-black text-2xl font-extrabold">
                 Здравствуйте!<br></br> Меня зовут{" "}
                 <span className="text-orange-600">Виктория</span>
               </h3>
               <p className="max-w-sm mt-3 text-md leading-relaxed text-black md:mt-8">
                 Родилась в небольшом поселке Ломовка. С детства увлекалась
-                рисованием, но, к сожалению, ни художественной школы, ни кружка в
-                этом направлении не было. И любовь к рисованию так и могла
+                рисованием, но, к сожалению, ни художественной школы, ни кружка
+                в этом направлении не было. И любовь к рисованию так и могла
                 остаться лишь увлечением и хобби...<br></br>
                 Однако ближе к старшим классам в нашей сельской школе появилась
                 новая учительница ИЗО, которая приезжала к нам из города. Я была
@@ -36,29 +36,13 @@ export const About = () => {
                   {" "}
                   своему учителю, которая поверила в меня.
                 </span>
-                <span className="font-bold">
+                <span className="font-bold"> Теперь я сама понимаю,</span>
+                <span className="font-bold text-orange-600">
                   {" "}
-                  Теперь я сама понимаю,</span><span className="font-bold text-orange-600"> как важен учитель в жизни каждого
-                  ребенка и как от его действий зависит порой чье-то будущее.
+                  как важен учитель в жизни каждого ребенка и как от его
+                  действий зависит порой чье-то будущее.
                 </span>
               </p>
-
-              {/* <button className="">
-                <Link
-                  href={`./#group`}
-                  className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                >
-                  <Image
-                    src="/arrow1.svg"
-                    unoptimized
-                    width={200}
-                    height={200}
-                    alt="Picture of the author"
-                    style={{ width: "50%" }}
-                  />
-                  Однако...
-                </Link>
-              </button> */}
             </div>
 
             <div className="relative">
@@ -67,19 +51,20 @@ export const About = () => {
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
                 alt=""
               /> */}
-              <Image
+              {/* <Image
                 src="/op.png"
                 unoptimized
                 width={300}
                 height={200}
                 alt="Picture of the author"
                 className='className="absolute inset-x-0 bottom-0 -mb-48 left-1/2"'
-              ></Image>
+              ></Image> */}
 
               <Image
-                className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
+                className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 
+                mask-b-from-75% mask-b-to-100% mt-10"
                 src="./vika.png"
-                alt=""
+                alt="Виктория Скворцова"
                 width={100}
                 height={100}
               />
@@ -87,8 +72,6 @@ export const About = () => {
           </div>
         </div>
       </section>
-
-   
     </>
   );
 }
