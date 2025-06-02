@@ -21,7 +21,10 @@ const oven = () => {
       </button>
 
       <div className="container relative flex flex-col justify-between h-full max-w-6xl  mx-auto xl:px-0 mt-5 mb-10">
-        <h2 className="mb-5 text-3xl font-extrabold leading-tight text-gray-900 p-3">
+        <h2
+          className="mb-5 text-3xl font-extrabold leading-tight text-gray-900 p-3"
+          role="sectionhead"
+        >
           Услуги муфельной печи
         </h2>
         <p className=" text-gray-600 mt-5 mb-5 text-md p-3">
@@ -58,7 +61,6 @@ const oven = () => {
               <div className="relative h-full ml-0 md:mr-10">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                 <div className="relative h-full bg-white border-2 border-yellow-400 rounded-lg">
-                  
                   <div className="flex flex-row items-start">
                     <div className="bg-orange-100 p-5  w-full flex items-center">
                       <p className="text-gray-700 text-md">
@@ -73,8 +75,6 @@ const oven = () => {
                     </div>
                     <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                   </div>
-
-                
 
                   <div className="flex flex-row items-start">
                     <div className="bg-orange-100 p-5  w-full flex items-center">

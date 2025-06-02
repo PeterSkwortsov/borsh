@@ -12,7 +12,7 @@ const Utp = () => {
                 src="/location.svg"
                 width={50}
                 height={50}
-                alt="Picture of the author"
+                alt="Гео-локация"
                 style={{ width: "80%" }}
               />
             </div>
@@ -32,7 +32,7 @@ const Utp = () => {
                 src="/coffee.svg"
                 width={100}
                 height={100}
-                alt="Picture of the author"
+                alt="изобраение кофе"
                 style={{ width: "80%" }}
               />
             </div>
@@ -51,7 +51,7 @@ const Utp = () => {
                 src="/family.svg"
                 width={100}
                 height={100}
-                alt="Picture of the author"
+                alt="изображение группы людей"
                 style={{ width: "80%" }}
               />
             </div>
@@ -68,7 +68,7 @@ const Utp = () => {
                 src="/bake.svg"
                 width={100}
                 height={100}
-                alt="Picture of the author"
+                alt="Изображение муфельной печи"
                 style={{ width: "80%" }}
               />
             </div>

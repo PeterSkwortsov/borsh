@@ -29,7 +29,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Интерьер студии"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -38,7 +38,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиент создает изделие из глины"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -47,7 +47,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиент создает изделие из глины"
           />
         </div>
         <div className="carousel-item h-max">
@@ -56,7 +56,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Занятие на гончарном круге"
           />
         </div>
         <div className="carousel-item h-full">
@@ -65,7 +65,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиент создает изделие из глины"
           />
         </div>
         <div className="carousel-item h-full">
@@ -74,7 +74,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Участники мастер-класса"
           />
         </div>
         <div className="carousel-item h-full">
@@ -83,7 +83,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Интерьер студии"
           />
         </div>
         <div className="carousel-item h-full">
@@ -92,7 +92,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиент создает изделие из глины"
           />
         </div>
         <div className="carousel-item h-full">
@@ -101,7 +101,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиент создает изделие из глины"
           />
         </div>
         <div className="carousel-item h-full">
@@ -110,7 +110,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Участники мастер-класса"
           />
         </div>
         <div className="carousel-item h-full">
@@ -119,7 +119,7 @@ const ContentPrice = () => {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Участники мастер-класса"
           />
         </div>
       </div>

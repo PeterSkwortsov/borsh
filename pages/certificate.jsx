@@ -11,10 +11,7 @@ const certificate = () => {
           name="description"
           content="Подарочный сертификат в творческую мастерскую Вики Борщ"
         />
-        <meta
-          name="keywords"
-          content="сертификат, подарок"
-        />
+        <meta name="keywords" content="сертификат, подарок" />
         <meta name="author" content="Виктория Борщ" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -40,7 +37,10 @@ const certificate = () => {
       </button>
 
       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5 mb-10">
-        <h2 className="mb-5 text-3xl font-extrabold leading-tight text-gray-900">
+        <h2
+          className="mb-5 text-3xl font-extrabold leading-tight text-gray-900"
+          role="sectionhead"
+        >
           Номинал сертификатов
         </h2>
         <p className=" text-gray-600 mt-5 mb-5">

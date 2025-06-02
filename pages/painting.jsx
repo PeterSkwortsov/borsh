@@ -45,7 +45,10 @@ export default function Painting() {
         </Link>
       </button>
 
-      <div className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10">
+      <div
+        className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
+        role="sectionhead"
+      >
         <table className="table table-zebra">
           {/* head */}
           <thead>

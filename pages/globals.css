@@ -116,3 +116,6 @@ body {
     height: 35vh;
 }
 
+address {
+    font-style: normal; 
+}

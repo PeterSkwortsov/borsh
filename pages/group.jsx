@@ -44,7 +44,10 @@ export default function Group() {
         </Link>
       </button>
 
-      <h2 className="flex text-center justify-center text-2xl font-extrabold m-3 mt-7 text-orange-600">
+      <h2
+        className="flex text-center justify-center text-2xl font-extrabold m-3 mt-7 text-orange-600"
+        role="sectionhead"
+      >
         Абонементы на занятия по рисованию:
       </h2>
       <div className="overflow-x-auto md:max-w-2/3 m-auto">

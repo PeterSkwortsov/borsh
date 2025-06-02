@@ -44,7 +44,10 @@ export default function ClayModeling() {
         </Link>
       </button>
 
-      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5">
+      <div
+        className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5"
+        role="sectionhead"
+      >
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -168,7 +171,7 @@ export default function ClayModeling() {
             alt="Picture of the author"
           />
         </div>
-       
+
         <div className="carousel-item h-full">
           <Image
             src="/56.jpg"

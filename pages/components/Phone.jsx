@@ -17,7 +17,7 @@ const Phone = () => {
                     unoptimized
                     width={200}
                     height={200}
-                    alt="Picture of the author"
+                    alt="Изображение дочери"
                     style={{ width: "100%" }}
                   />
                 </div>
@@ -39,7 +39,7 @@ const Phone = () => {
                     unoptimized
                     width={200}
                     height={200}
-                    alt="Picture of the author"
+                    alt="Изображение дочери"
                     style={{ width: "100%" }}
                   />
                 </div>
@@ -60,7 +60,7 @@ const Phone = () => {
                     unoptimized
                     width={200}
                     height={200}
-                    alt="Picture of the author"
+                    alt="Изображение дочери"
                     style={{ width: "100%" }}
                   />
                 </div>
@@ -105,7 +105,7 @@ const Phone = () => {
                     unoptimized
                     width={200}
                     height={200}
-                    alt="Picture of the author"
+                    alt="Изображение отца"
                     style={{ width: "100%" }}
                   />
                 </div>

@@ -20,7 +20,7 @@ const Header = () => {
              
             />
 
-            <h3
+            <h1
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default  font-bold"
             >
@@ -51,15 +51,15 @@ const Header = () => {
                   className="card card-sm dropdown-content bg-base-100 rounded-box z-1 w-52 shadow-sm"
                 >
                   <div tabIndex={0} className="card-body bg-black">
-                    <p className="font-bold">
+                    <h4 className="font-bold">
                       Максимальное кол-во человек в группе - 15.<br></br>
                       Для детей страше 4 лет!
-                    </p>
+                    </h4>
                   </div>
                 </div>
               </div>
-            </h3>
-            <h5 className="font-bold ">ул. Ломоносова 9, 4 этаж, офис 408</h5>
+            </h1>
+            <address className="font-bold">ул. Ломоносова 9, 4 этаж, офис 408</address>
             <a
               href="tel:+79049017926"
               className="p-3 mt-5 font-extrabold text-white-400  hover:text-blue-400"
@@ -74,7 +74,7 @@ const Header = () => {
                       src="/vk.svg"
                       width={200}
                       height={100}
-                      alt="Picture of the author"
+                      alt="Социальная сеть ВКонтакте"
                       style={{ width: "100%" }}
                     />
                   </a>
@@ -87,7 +87,7 @@ const Header = () => {
                       src="/tg2.svg"
                       width={200}
                       height={100}
-                      alt="Picture of the author"
+                      alt="Мессенджер Telegram"
                       style={{ width: "100%" }}
                     />
                   </a>
@@ -100,7 +100,7 @@ const Header = () => {
                       src="/whatsapp.svg"
                       width={200}
                       height={100}
-                      alt="Picture of the author"
+                      alt="Мессенджер WhatsApp"
                       style={{ width: "100%" }}
                     />
                   </a>

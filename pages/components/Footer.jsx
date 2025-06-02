@@ -22,9 +22,9 @@ const Footer = () => {
             </a>
           </span>
         </p>
-        <h5 className="font-bold flex gap-2 justify-center mt-2">
+        <address className="font-bold flex gap-2 justify-center mt-2">
           ул. Ломоносова 9, 4 этаж, офис 408
-        </h5>
+        </address>
         <a
           href="tel:+79049017926"
           className="p-3 mt-5 flex gap-2 justify-center font-extrabold text-withe"
@@ -72,6 +72,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
+        <iframe src="https://yandex.ru/sprav/widget/rating-badge/204996255834?type=rating" width="150" height="50" frameborder="0" className='m-auto mt-5'></iframe>
+       
+       
         <ul className="mt-4">
           <li className="text-center text-md ">
             <Link href="certificate">Подарочный сертификат</Link>

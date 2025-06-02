@@ -44,7 +44,10 @@ export default function PotterWheel() {
         </Link>
       </button>
 
-      <div className="overflow-x-auto md:max-w-2/3 mt-5 m-auto">
+      <div
+        className="overflow-x-auto md:max-w-2/3 mt-5 m-auto"
+        role="sectionhead"
+      >
         <table className="table table-zebra">
           {/* head */}
           <thead>

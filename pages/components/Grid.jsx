@@ -26,7 +26,11 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body" id="1">
+          <div
+            className="card-body"
+            id="1"
+            aria-label="Мастер-класс по живописи"
+          >
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс по живописи
             </h2>
@@ -50,14 +54,17 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-200 image-full w-auto shadow-sm">
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
           <figure>
             <Image
               src="/3.jpg"
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Мастер-класс по ручной лепке из глины"
               style={{ width: "200%" }}
             />
           </figure>
@@ -90,12 +97,16 @@ const Grid = () => {
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Групповые занятия для детей и взрослых"
               style={{ width: "200%" }}
             />
           </figure>
 
-          <div className="card-body" id="3">
+          <div
+            className="card-body"
+            id="3"
+            aria-label="Групповые занятия для детей и взрослых"
+          >
             <h2 className="card-title text-orange-200 font-extrabold">
               Групповые занятия для детей и взрослых
             </h2>
@@ -117,18 +128,25 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-200 image-full w-auto shadow-sm">
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Мастер-класс на гончарном круге"
+        >
           <figure>
             <Image
               src="/1.jpg"
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Мастер-класс на гончарном круге"
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body" id="4">
+          <div
+            className="card-body"
+            id="4"
+            aria-label="Мастер-класс на гончарном круге"
+          >
             <h2 className="card-title text-orange-200 font-extrabold">
               Мастер-класс на гончарном круге
             </h2>
@@ -154,14 +172,17 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-200 image-full w-auto shadow-sm">
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Мастер-класс по выжиганию по дереву"
+        >
           <figure>
             <Image
               src="/5.jpg"
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Мастер-класс по выжиганию по дереву"
               style={{ width: "200%" }}
             />
           </figure>
@@ -187,14 +208,17 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="card bg-base-200 image-full w-auto shadow-sm">
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Мастер-класс по свечеварению"
+        >
           <figure>
             <Image
               src="/6.jpg"
               unoptimized
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Мастер-класс по свечеварению"
               style={{ width: "200%" }}
             />
           </figure>

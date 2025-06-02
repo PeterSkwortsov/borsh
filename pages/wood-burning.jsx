@@ -42,7 +42,10 @@ export default function WoodBurningPage() {
           Назад
         </Link>
       </button>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto mb-10 mt-7">
+      <div
+        className="overflow-x-auto md:max-w-2/3 m-auto mb-10 mt-7"
+        role="sectionhead"
+      >
         <table className="table table-zebra">
           {/* head */}
           <thead>
