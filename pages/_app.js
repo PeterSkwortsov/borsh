@@ -28,6 +28,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://borsch-art.ru/" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="yandex-verification" content="4677ee3f6a2214af" />
 
       
 

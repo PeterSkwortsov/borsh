@@ -25,7 +25,25 @@ const ContentPrice = () => {
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
-            src="/30.jpg"
+            src="/42.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/44.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/51.jpg"
             unoptimized
             width={300}
             height={100}
@@ -61,7 +79,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/34.jpg"
+            src="/46.jpg"
             unoptimized
             width={300}
             height={100}
@@ -80,6 +98,24 @@ const ContentPrice = () => {
         <div className="carousel-item h-full">
           <Image
             src="/37.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/45.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/47.jpg"
             unoptimized
             width={300}
             height={100}

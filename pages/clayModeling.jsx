@@ -121,6 +121,74 @@ export default function ClayModeling() {
             уточняйте у меня*
           </p> */}
       </div>
+
+      <div className="carousel carousel-center mt-10 mb-10 w-fit">
+        <div className="carousel-item h-full ">
+          <Image
+            src="/44.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/51.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-max">
+          <Image
+            src="/52.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/53.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/54.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+       
+        <div className="carousel-item h-full">
+          <Image
+            src="/56.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/49.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+      </div>
+
       <div className="py-4 bg-white">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div className="text-center">
