@@ -51,7 +51,7 @@ export const About = () => {
               <Image
                 className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 
                 mask-b-from-75% mask-b-to-100% mt-10"
-                src="./vika.png"
+                src="./vika.webp"
                 alt="Фотография Виктории Скворцовой"
                 width={100}
                 height={100}

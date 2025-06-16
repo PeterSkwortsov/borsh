@@ -12,7 +12,7 @@ const Header = () => {
           <div className="hero-overlay-2 rounded-4xl w-full p-8">
             <Image
               unoptimized
-              src="/logo1.png"
+              src="/logo1.webp"
               width={350}
               height={350}
               alt="Picture of the author"

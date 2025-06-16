@@ -18,7 +18,7 @@ body {
 }
 
 .background-image {
-    background-image: url(../public/pr1.jpg);
+    background-image: url(../public/pr1.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -92,13 +92,13 @@ body {
 }
 
 
-.dNew {
+/* .dNew {
     width: 100%;
     display: grid;
     position: relative;
     overflow: hidden;
     container-type: inline-size;
-}
+} */
 
 .hero-overlay-2 {
     grid-column-start: 1;

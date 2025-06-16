@@ -128,7 +128,7 @@ export default function ClayModeling() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
-            src="/44.jpg"
+            src="/44.webp"
             unoptimized
             width={300}
             height={100}
@@ -137,7 +137,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/51.jpg"
+            src="/51.webp"
             unoptimized
             width={300}
             height={100}

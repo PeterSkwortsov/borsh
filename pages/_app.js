@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/inline-script-id */
+/* eslint-disable @next/next/no-script-component-in-head */
+/* eslint-disable react/jsx-no-undef */
 import './globals.css'
 import HamburgerMenu from './components/HamburgerMenu'
 import { Nunito } from 'next/font/google'
@@ -6,14 +9,15 @@ import Footer from './components/Footer'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Metrika } from './components/Metrika'
-
-
-
+import { Suspense } from 'react'
+import YandexMetrika from './components/YandexMetrika'
+import Script from 'next/script'
 export default function MyApp({ Component, pageProps }) {
 
   
   return (
+
+    
     <>
       <Head>
         <title>Творческая студия Вики Борщ</title>
@@ -29,17 +33,17 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="yandex-verification" content="4677ee3f6a2214af" />
-
-      
-
       </Head>
-
-
+     
+     
  
       <main>
-
+      
+        <YandexMetrika />
+   
         <Component {...pageProps} />
         <Footer />
+        
       </main>
     </>
   )

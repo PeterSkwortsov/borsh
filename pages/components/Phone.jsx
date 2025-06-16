@@ -13,7 +13,7 @@ const Phone = () => {
                 <div className="w-10 rounded-full ml-1">
                   <Image
                     className="w-full"
-                    src="/19.jpeg"
+                    src="/19.webp"
                     unoptimized
                     width={200}
                     height={200}
@@ -35,7 +35,7 @@ const Phone = () => {
                 <div className="w-10 rounded-full ml-1">
                   <Image
                     className="w-full"
-                    src="/19.jpeg"
+                    src="/19.webp"
                     unoptimized
                     width={200}
                     height={200}
@@ -56,7 +56,7 @@ const Phone = () => {
                 <div className="w-10 rounded-full ml-1">
                   <Image
                     className="w-full"
-                    src="/19.jpeg"
+                    src="/19.webp"
                     unoptimized
                     width={200}
                     height={200}
@@ -88,7 +88,7 @@ const Phone = () => {
 
             <Image
               className="w-full"
-              src="/18.jpg"
+              src="/18.webp"
               unoptimized
               width={200}
               height={200}

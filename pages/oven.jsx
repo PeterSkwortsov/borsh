@@ -47,7 +47,7 @@ const oven = () => {
                     ------------
                   </p>
                   <Image
-                    src="/oven3.jpg"
+                    src="/oven3.webp"
                     width={100}
                     height={200}
                     alt="Picture of the author"
