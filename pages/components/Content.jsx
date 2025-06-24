@@ -34,6 +34,15 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full ">
           <Image
+            src="/63.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиент создает изделие из глины"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
             src="/44.webp"
             unoptimized
             width={300}

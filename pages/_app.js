@@ -9,8 +9,6 @@ import Footer from './components/Footer'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Suspense } from 'react'
-import YandexMetrika from './components/YandexMetrika'
 import Script from 'next/script'
 export default function MyApp({ Component, pageProps }) {
 
@@ -39,7 +37,6 @@ export default function MyApp({ Component, pageProps }) {
  
       <main>
       
-        <YandexMetrika />
    
         <Component {...pageProps} />
         <Footer />

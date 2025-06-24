@@ -46,12 +46,10 @@ export const About = () => {
             </div>
 
             <div className="relative">
-          
-
               <Image
                 className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 
-                mask-b-from-75% mask-b-to-100% mt-10"
-                src="./vika.webp"
+                mask-t-from-75% mask-t-to-100% mask-b-from-65% mask-b-to-100% mask-l-from-75% mask-l-to-100% mask-r-from-75% mask-r-to-100% mt-10"
+                src="./62.jpg"
                 alt="Фотография Виктории Скворцовой"
                 width={100}
                 height={100}
