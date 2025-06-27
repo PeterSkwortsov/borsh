@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <iframe src="https://yandex.ru/sprav/widget/rating-badge/204996255834?type=rating" width="150" height="50" frameborder="0" className='m-auto mt-5'></iframe>
+        <iframe src="https://yandex.ru/sprav/widget/rating-badge/204996255834?type=rating" width="150" height="50" frameBorder="0" className='m-auto mt-5'></iframe>
        
        
         <ul className="mt-4">
