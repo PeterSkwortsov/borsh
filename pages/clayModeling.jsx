@@ -128,7 +128,7 @@ export default function ClayModeling() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
-            src="/59.jpg"
+            src="/59.webp"
             unoptimized
             width={300}
             height={100}
@@ -137,7 +137,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/60.jpg"
+            src="/60.webp"
             unoptimized
             width={300}
             height={100}
@@ -146,7 +146,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-max">
           <Image
-            src="/61.jpg"
+            src="/61.webp"
             unoptimized
             width={300}
             height={100}
@@ -155,7 +155,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/64.jpg"
+            src="/64.webp"
             unoptimized
             width={300}
             height={100}
@@ -164,7 +164,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/54.jpg"
+            src="/54.webp"
             unoptimized
             width={300}
             height={100}
@@ -174,7 +174,7 @@ export default function ClayModeling() {
 
         <div className="carousel-item h-full">
           <Image
-            src="/56.jpg"
+            src="/56.webp"
             unoptimized
             width={300}
             height={100}
@@ -183,7 +183,25 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/49.jpg"
+            src="/77.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/72.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/78.webp"
             unoptimized
             width={300}
             height={100}

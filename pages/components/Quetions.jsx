@@ -101,7 +101,7 @@ const Quetions = () => {
             процесса, остальное прикладывается!
           </div>
         </div>
-        <div className="collapse collapse-plus bg-base-100 border border-base-300">
+        {/* <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title font-semibold ">
             Есть ли занятия{" "}
@@ -110,7 +110,7 @@ const Quetions = () => {
           <div className="collapse-content text-md">
             Да. Уточните подробности по указанным контактам на сайте.
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

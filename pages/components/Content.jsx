@@ -35,7 +35,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/63.jpg"
+            src="/63.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -63,9 +63,19 @@ const ContentPrice = () => {
             alt="Клиент создает изделие из глины"
           />
         </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/79.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиент создает изделие из глины"
+          />
+        </div>
         <div className="carousel-item h-max" itemProp="contentUrl">
           <Image
-            src="/35.jpg"
+            src="/35.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -75,7 +85,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/36.jpg"
+            src="/36.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -85,7 +95,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/33.jpg"
+            src="/33.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -93,9 +103,10 @@ const ContentPrice = () => {
             alt="Участники мастер-класса"
           />
         </div>
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/46.webp"
+            src="/76.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -105,7 +116,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/31.jpg"
+            src="/31.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -115,7 +126,7 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/37.jpg"
+            src="/37.webp"
             itemProp="image"
             unoptimized
             width={300}
@@ -135,12 +146,42 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
+            src="/41.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Участники мастер-класса"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/80.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Участники мастер-класса"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
             src="/47.webp"
             itemProp="image"
             unoptimized
             width={300}
             height={100}
             alt="Участники мастер-класса"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/46.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Интерьер студии"
           />
         </div>
       </div>

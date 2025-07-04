@@ -136,38 +136,55 @@ export default function Painting() {
         </table>
       </div>
 
-       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex">
-              <div className="carousel-item h-full ">
-                <Image
-                  src="/65.jpg"
-                  unoptimized
-                  width={300}
-                  height={100}
-                  alt="Picture of the author"
-                />
-              </div>
-            
-      
-              <div className="carousel-item h-full">
-                <Image
-                  src="/73.jpg"
-                  unoptimized
-                  width={300}
-                  height={100}
-                  alt="Picture of the author"
-                />
-              </div>
-          
-              <div className="carousel-item h-full ">
-                <Image
-                  src="/75.jpg"
-                  unoptimized
-                  width={300}
-                  height={100}
-                  alt="Picture of the author"
-                />
-              </div>
-            </div>
+      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex">
+        <div className="carousel-item h-full ">
+          <Image
+            src="/65.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+
+        <div className="carousel-item h-full">
+          <Image
+            src="/73.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+
+        <div className="carousel-item h-full ">
+          <Image
+            src="/75.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/74.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/30.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+      </div>
 
       <div className="py-4 bg-white">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">

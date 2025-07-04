@@ -52,7 +52,7 @@ const Header = () => {
                 >
                   <div tabIndex={0} className="card-body bg-black">
                     <h4 className="font-bold">
-                      Максимальное кол-во человек в группе - 15.<br></br>
+                      Максимальное кол-во человек в группе - 10.<br></br>
                       Для детей страше 4 лет!
                     </h4>
                   </div>

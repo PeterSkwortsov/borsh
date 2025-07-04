@@ -105,6 +105,45 @@ export default function PotterWheel() {
         Гончарное свидание для двоих - 5.000₽.
       </p>
 
+      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
+        <div className="carousel-item h-full ">
+          <Image
+            src="/81.jpg"
+            unoptimized
+            width={299}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/82.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/83.webp"
+            unoptimized
+            width={301}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/84.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+      </div>
+
       <div className="py-4 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           {/* <div className="text-center">
@@ -118,44 +157,44 @@ export default function PotterWheel() {
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-md">
-                      {/* <span className="text-orange-600 font-bold">
+                    {/* <span className="text-orange-600 font-bold">
                         Гончарный мастер-класс — это весело и интересно! Вот что
                         вас ждет:
                       </span>
                       <br></br> */}
-                      <ul>
-                        <li className="p-1 list-disc">
-                          Сначала мастер покажет, как работать с глиной на
-                          круге, расскажет, какая она и как из нее делать разные
-                          изделия.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Потом вы сами будете создавать форму будущего изделия
-                          на круге, делать стенки ровными, контролировать
-                          толщину и форму.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Когда форма готова, вы сгладите все неровности влажной
-                          губкой и проверите, чтобы края были ровными и без
-                          трещин.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Подсушиваем феном, чтобы было проще снять его с круга,
-                          нужно использовать специальный инструмент — струну.
-                        </li>
-                        <li className="p-1 list-disc">
-                          Расписываем ангобами или подглазурными красками. А
-                          после отправляем сушиться на 7 дней и обжигаем.
-                        </li>
-                        <li className="p-1 list-disc">
-                          <span className="text-black font-bold">
-                            В итоге у вас будет красивая и водонепроницаемая
-                            керамика!
-                          </span>
-                        </li>
-                      </ul>
-                    </p>
+                    <ul className="text-gray-700 text-md">
+                      <span className="text-orange-600 font-bold">
+                        Гончарный мастер-класс - это весело и интересно!
+                        <br></br> Вот что вас ждет:
+                      </span>
+                      <li className="p-1 list-disc">
+                        Сначала мастер покажет, как работать с глиной на круге,
+                        расскажет, какая она и как из нее делать разные изделия.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Потом вы сами будете создавать форму будущего изделия на
+                        круге, делать стенки ровными, контролировать толщину и
+                        форму.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Когда форма готова, вы сгладите все неровности влажной
+                        губкой и проверите, чтобы края были ровными и без
+                        трещин.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Подсушиваем феном, чтобы было проще снять его с круга,
+                        нужно использовать специальный инструмент — струну.
+                      </li>
+                      <li className="p-1 list-disc">
+                        Расписываем ангобами или подглазурными красками. А после
+                        отправляем сушиться на 7 дней и обжигаем.
+                      </li>
+
+                      <strong>
+                        В итоге у вас будет красивая и водонепроницаемая
+                        керамика!
+                      </strong>
+                    </ul>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
