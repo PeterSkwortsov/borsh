@@ -137,7 +137,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/60.webp"
+            src="/60.jpg"
             unoptimized
             width={300}
             height={100}
@@ -164,7 +164,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/54.webp"
+            src="/86.webp"
             unoptimized
             width={300}
             height={100}
@@ -174,7 +174,7 @@ export default function ClayModeling() {
 
         <div className="carousel-item h-full">
           <Image
-            src="/56.webp"
+            src="/87.webp"
             unoptimized
             width={300}
             height={100}

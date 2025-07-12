@@ -1,4 +1,3 @@
-"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -108,7 +107,7 @@ export default function PotterWheel() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
         <div className="carousel-item h-full ">
           <Image
-            src="/81.jpg"
+            src="/81.webp"
             unoptimized
             width={299}
             height={100}
@@ -138,6 +137,15 @@ export default function PotterWheel() {
             src="/84.webp"
             unoptimized
             width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/85.webp"
+            unoptimized
+            width={298}
             height={100}
             alt="Picture of the author"
           />

@@ -32,7 +32,7 @@ const Grid = () => {
             aria-label="Мастер-класс по живописи"
           >
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по живописи
+              Мастер-класс ПО ЖИВОПИСИ
             </h2>
             <p>
               На каждую тему мастер-класса предоставляем разные идеи и
@@ -70,7 +70,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="2">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по ручной лепке из глины
+              Мастер-класс по РУЧНОЙ ЛЕПКЕ из глины
             </h2>
             <p>
               Лепим изделия из глины, расписываем ангобами или подглазурными
@@ -108,7 +108,7 @@ const Grid = () => {
             aria-label="Групповые занятия для детей и взрослых"
           >
             <h2 className="card-title text-orange-200 font-extrabold">
-              Групповые занятия для детей и взрослых
+              ГРУППОВЫЕ ЗАНЯТИЯ для детей и взрослых
             </h2>
             <p> Абонемент на 4 и 8 занятий.</p>
             <span className="indicator-item badge bg-orange-600 text-white border-none">
@@ -148,7 +148,7 @@ const Grid = () => {
             aria-label="Мастер-класс на гончарном круге"
           >
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс на гончарном круге
+              Мастер-класс НА ГОНЧАРНОМ КРУГЕ
             </h2>
             <p>
               Почувствуйте себя настоящим мастером гончарного искусства на нашем
@@ -188,7 +188,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="5">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по выжиганию по дереву.
+              Мастер-класс ПО ВЫЖИГАНИЮ по дереву.
             </h2>
             <p>
               Выжигание - один из древнейших видов творчества! Процесс приносит
@@ -224,7 +224,7 @@ const Grid = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-orange-200 font-extrabold" id="6">
-              Мастер-класс по свечеварению
+              Мастер-класс по СВЕЧЕВАРЕНИЮ
             </h2>
             <p>
               За мастер-класс вы получаете две ароматических свечи в гипсовом
@@ -238,6 +238,111 @@ const Grid = () => {
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href="/candle-making"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/63-2.jpg"
+              unoptimized
+              width={200}
+              height={200}
+              alt="Гончарное свидание"
+              style={{ width: "200%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="7">
+              ДЕТСКИЙ мастер-класс<br></br>по лепке
+            </h2>
+            <p>
+              Ваши руки и руки вашего ребенка вместе погружаются в мягкую,
+              податливую глину. Вы вместе творите, смеетесь, создаете что-то
+              уникальное и настоящее для себя.
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 2700 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/childrens-master-class"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/79-2.jpg"
+              unoptimized
+              width={200}
+              height={200}
+              alt="Гончарное свидание"
+              style={{ width: "200%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="8">
+              Гончарное СВИДАНИЕ
+            </h2>
+            <p>
+              Забудьте про стандартные ужины и кино!<br></br>Подарите себе и
+              любимому человеку невероятно теплое, творческое и понастоящему
+              близкое свидание – за гончарным кругом!
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">5000 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/loveMeeting"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/80.png"
+              unoptimized
+              width={200}
+              height={200}
+              alt="Гончарное свидание"
+              style={{ width: "200%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="9">
+              Интенсив. Создаем СВОЮ идеальную кухонную посуду за 2 ДНЯ!
+            </h2>
+            <p>
+              Всего за два насыщенных выходных дня вы погрузитесь в мир глины и
+              создадите целый набор практичной и красивой посуды для своего
+              дома!
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">3700 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/love-meeting"
               >
                 Подробнее
               </Link>

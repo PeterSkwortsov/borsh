@@ -11,7 +11,7 @@ import Phone from "./components/Phone";
 import Step from "./components/Step";
 import Map from "./components/Map";
 import HamburgerMenu from "./components/HamburgerMenu";
-
+import Mk from "./components/Mk";
 
 export default function Home() {
     return (
@@ -22,6 +22,7 @@ export default function Home() {
             <HamburgerMenu />
             <Header />
             <Table />
+            <Mk />
             <About />
             <ContentPrice />
             <Grid />

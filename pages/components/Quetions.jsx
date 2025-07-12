@@ -43,7 +43,7 @@ const Quetions = () => {
             мероприятие?
           </div>
           <div className="collapse-content text-md">
-            Записаться можно по телефону 89049017926 через телеграм или ватсап.
+            Записаться можно по телефону 89049017926 через телеграм или ватсап. Удобный переход в лс по ссылке внизу и вверху сайта.
           </div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">

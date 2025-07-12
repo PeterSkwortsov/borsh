@@ -17,14 +17,14 @@ const Header = () => {
               height={350}
               alt="Picture of the author"
               priority={true}
-             
+              className="m-auto"
             />
 
             <h1
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default  font-bold"
             >
-              Рисование и гончарное мастерство<br></br>для взрослых и детей
+              Рисование и гончарное мастерство<br></br>для взрослых и детей в Нижнем Новгороде
               <div className="dropdown dropdown-end text-center">
                 <div
                   tabIndex={0}
