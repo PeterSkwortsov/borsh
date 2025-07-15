@@ -2,10 +2,32 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
+import Head from "next/head";
 export default function loveMeeting() {
   return (
     <>
+      <Head>
+        <title>Гончарное свидание в Нижнем Новгороде</title>
+
+        <meta
+          name="description"
+          content="Уникальный опыт и общее воспоминание. Вы не просто проведете время вместе – вы создадите что-то своими руками! Пусть это будет милая чашка, тарелочка или загадочный абстрактный сосуд – это будет ВАШ шедевр."
+        />
+
+        <meta
+          property="og:title"
+          content="Гончарное свидание в Нижнем Новгороде"
+        />
+
+        <meta
+          property="og:description"
+          content="Искра, смех и нежность. Работа с глиной раскрепощает, сближает и дарит море позитивных эмоций. Идеальный способ узнать друг друга с новой стороны!"
+        />
+
+        <meta property="og:image" content="/97.jpg" />
+
+        <meta property="og:url" content="https://borsch-art.ru/loveMeeting/" />
+      </Head>
       <button className="m-1 fixed z-100">
         <Link
           href={`./#8`}
@@ -117,32 +139,27 @@ export default function loveMeeting() {
             <li className="text-left mb-10">
               <div className="flex flex-row items-start">
                 <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                  {/* <span className="text-orange-600 font-bold">
-                        Гончарный мастер-класс — это весело и интересно! Вот что
-                        вас ждет:
-                      </span>
-                      <br></br> */}
                   <ul className="text-gray-700 text-md">
                     <span className="text-orange-600 font-bold">
                       И так, что вас ждет?
                     </span>
                     <li className="p-1 list-disc">
-                      2 часа погружения в мир керамики 
+                      2 часа погружения в мир керамики
                     </li>
                     <li className="p-1 list-disc">
                       Индивидуальное внимание мастера: все покажу, научу и
-                      помогу (даже если вы никогда не касались глины) 
+                      помогу (даже если вы никогда не касались глины)
                     </li>
                     <li className="p-1 list-disc">
                       Работа за гончарным кругом: каждый создаст свое изделие
-                      или будет помогать партнеру – как договоритесь 
+                      или будет помогать партнеру – как договоритесь
                     </li>
                     <li className="p-1 list-disc">
                       Все материалы включены: глина, инструменты, фартуки, обжиг
-                      керамики 
+                      керамики
                     </li>
                     <li className="p-1 list-disc">
-                      Ароматный чай и кофе для вас на протяжении всего свидания 
+                      Ароматный чай и кофе для вас на протяжении всего свидания
                     </li>
                     <strong className="flex text-center justify-center font-bold text-xl mt-3">
                       Цена 5000₽ за двоих 💞
@@ -157,7 +174,7 @@ export default function loveMeeting() {
         </div>
       </div>
 
-      <div className="mb-8">
+      <div className="mb-5">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div>
             <div className="flex flex-row items-start">
@@ -178,14 +195,34 @@ export default function loveMeeting() {
           </div>
         </div>
       </div>
+      <div className="mb-5">
+        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
+          <div>
+            <div className="flex flex-row items-start">
+              <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
+                <p className="text-gray-700 text-md">
+                  Подарите не просто вечер, а волшебные эмоции и материальное
+                  воспоминание о вашей любви! ❤️
+                </p>
+              </div>
+              <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="mb-8">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center justify-center">
           <div>
             <div className="flex flex-row items-center center m-auto">
-              <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                <p className="text-gray-700 font-bold text-lg flex text-center center justify-center">
-                  Записывайтесь 👇
-                </p>
+              <div
+                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl
+"
+              >
+                <a href="https://t.me/vika_borsch99">
+                  <p className="text-gray-700 font-bold text-lg flex text-center center justify-center">
+                    👉 Мы придем! 👈
+                  </p>
+                </a>
               </div>
             </div>
           </div>

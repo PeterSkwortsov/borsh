@@ -342,7 +342,7 @@ const Grid = () => {
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="/love-meeting"
+                href="/intensive"
               >
                 Подробнее
               </Link>

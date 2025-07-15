@@ -96,6 +96,8 @@ export default function PotterWheel() {
           </tbody>
         </table>
       </div>
+
+      
       <p className="text-md flex text-center justify-center m-5 mt-8">
         Индивидуальное занятие для одного человека - 3.400₽<br></br>
         Для двоих - 2.800₽/чел.<br></br>
@@ -104,7 +106,7 @@ export default function PotterWheel() {
         Гончарное свидание для двоих - 5.000₽.
       </p>
 
-      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
+      {/* <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
         <div className="carousel-item h-full ">
           <Image
             src="/81.webp"
@@ -150,7 +152,7 @@ export default function PotterWheel() {
             alt="Picture of the author"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="py-4 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
