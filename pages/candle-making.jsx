@@ -29,22 +29,47 @@ export default function CandleMaking() {
         />
       </Head>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#6`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            unoptimized
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "100%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#5`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/candle-making/`}
+                itemProp="item"
+                title="Мастер-класс по свечеварению"
+              >
+                <span itemProp="name">Мастер-класс по свечеварению</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
+
+      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
+        <span className="text-orange-600">Мастер-класс</span> по свечеварению{" "}
+        <span className="text-orange-600">в Нижнем Новгороде</span>
+      </h2>
 
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10"

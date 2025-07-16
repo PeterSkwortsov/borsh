@@ -28,21 +28,42 @@ export default function Group() {
         <meta property="og:url" content="https://borsch-art.ru/clayModeling/" />
       </Head>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#3`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "50%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#3`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/group/`}
+                itemProp="item"
+                title="Абонементы"
+              >
+                <span itemProp="name">Абонементы</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
 
       <h2
         className="flex text-center justify-center text-2xl font-extrabold m-3 mt-7 text-orange-600"
@@ -210,7 +231,7 @@ export default function Group() {
         </table>
       </div>
 
-      <div className="py-4 bg-white">
+      <div className="py-4 bg-white mt-5">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div className="text-center">
             <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">

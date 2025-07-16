@@ -20,21 +20,45 @@ const certificate = () => {
           content="Подарочный сертификат в студию Вики Борщ"
         />
       </Head>
-      <button className="m-5">
-        <Link
-          href={`./#group`}
-          className="btn btn-neutral bg-white text-black max-sm:text-sm"
-        >
-          <Image
-            src="/arrow1.svg"
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "50%" }}
-          />
-          Назад
-        </Link>
-      </button>
+
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#group`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/certificate/`}
+                itemProp="item"
+                title="Подарочный сертификат"
+              >
+                <span itemProp="name">Подарочный сертификат</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
+
+      {/* ./#group */}
 
       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5 mb-10">
         <h2

@@ -27,23 +27,47 @@ export default function ClayModeling() {
         <meta property="og:url" content="https://borsch-art.ru/clayModeling/" />
       </Head>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#2`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            unoptimized
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "100%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#2`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/clayModeling/`}
+                itemProp="item"
+                title="Ручная лепка из глины"
+              >
+                <span itemProp="name">Ручная лепка из глины</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
 
+      <h3 className="text-center justify-center m-5 mt-8 text-3xl font-extrabold">
+        <span className="text-orange-600">Мастер-класс </span>
+        по ручной лепке из глины
+      </h3>
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5"
         role="sectionhead"
@@ -124,7 +148,6 @@ export default function ClayModeling() {
             уточняйте у меня*
           </p> */}
       </div>
-
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
@@ -206,6 +229,57 @@ export default function ClayModeling() {
             width={300}
             height={100}
             alt="Picture of the author"
+          />
+        </div>
+      </div>
+      <div className="text-center mb-5 mt-5">
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Отзывы <span className="text-orange-600">начинающих мастеров</span>
+        </h3>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/107.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/105.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/108.jpg"
+            unoptimized
+            width={100}
+            height={50}
+            alt="Отзывы"
+            style={{ width: "90%" }}
+            className="rounded-lg"
           />
         </div>
       </div>

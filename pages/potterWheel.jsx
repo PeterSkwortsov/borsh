@@ -27,21 +27,48 @@ export default function PotterWheel() {
         <meta property="og:url" content="https://borsch-art.ru/potterWheel/" />
       </Head>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#4`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "100%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#4`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/potterWheel/`}
+                itemProp="item"
+                title="МК на гончарном круге"
+              >
+                <span itemProp="name">МК на гончарном круге</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
+
+      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
+        <span className="text-orange-600">Мастер-класс</span> на гончарном круге
+        для <span className="text-orange-600">взрослых и детей</span>
+        <br></br>в Нижнем Новгороде
+      </h2>
 
       <div
         className="overflow-x-auto md:max-w-2/3 mt-5 m-auto"
@@ -52,107 +79,33 @@ export default function PotterWheel() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Название</th>
+              <th className="fb">Групповые занятия</th>
               <th className="fb">Размер изделия</th>
               <th className="fb">Цена</th>
-              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
-            {/* row 1 */}
             <tr>
               <th>1</th>
               <td>Мастер-класс на гончарном круге</td>
               <td>Диаметр до 20 см или в высоту 15 см</td>
               <td>2.000₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                />
-              </td> */}
             </tr>
-            {/* row 2 */}
             <tr>
               <th>2</th>
               <td>Мастер-класс на гончарном круге</td>
               <td>Диаметр до 25 см или в высоту 20 см</td>
               <td>2.500₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={200}
-                  height={200}
-                  alt="Picture of the author"
-                />
-              </td> */}
             </tr>
           </tbody>
         </table>
       </div>
 
-      
       <p className="text-md flex text-center justify-center m-5 mt-8">
-        Индивидуальное занятие для одного человека - 3.400₽<br></br>
-        Для двоих - 2.800₽/чел.<br></br>
-        Три и больше - 2.500₽/чел.
-        <br></br>
-        Гончарное свидание для двоих - 5.000₽.
+        Индивидуальные занятия: для одного человека - 3.300₽<br></br>
+        Для двоих - 2.500₽/чел.<br></br>
+        Три и больше - 2.300₽/чел.
       </p>
-
-      {/* <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
-        <div className="carousel-item h-full ">
-          <Image
-            src="/81.webp"
-            unoptimized
-            width={299}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/82.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/83.webp"
-            unoptimized
-            width={301}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/84.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/85.webp"
-            unoptimized
-            width={298}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-      </div> */}
 
       <div className="py-4 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">

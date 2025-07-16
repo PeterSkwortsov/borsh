@@ -24,7 +24,8 @@ const Header = () => {
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default  font-bold"
             >
-              Рисование и гончарное мастерство<br></br>для взрослых и детей в Нижнем Новгороде
+              Рисование и гончарное мастерство<br></br>для взрослых и детей в
+              Нижнем Новгороде
               <div className="dropdown dropdown-end text-center">
                 <div
                   tabIndex={0}
@@ -59,7 +60,9 @@ const Header = () => {
                 </div>
               </div>
             </h1>
-            <address className="font-bold">ул. Ломоносова 9, 4 этаж, офис 408</address>
+            <address className="font-bold">
+              ул. Ломоносова 9, 4 этаж, офис 408
+            </address>
             <a
               href="tel:+79049017926"
               className="p-3 mt-5 font-extrabold text-white-400  hover:text-blue-400"
@@ -69,7 +72,7 @@ const Header = () => {
             <div className="flex gap-2 justify-center mt-2">
               <div className="avatar">
                 <div className="w-10 rounded-full">
-                  <a href="https://vk.com/vika.borsch">
+                  <a href="https://vk.com/club231519644?from=groups">
                     <Image
                       src="/vk.svg"
                       width={200}

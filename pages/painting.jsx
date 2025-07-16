@@ -29,21 +29,48 @@ export default function Painting() {
         <meta property="og:url" content="https://borsch-art.ru/painting/" />
       </Head>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#1`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "50%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#1`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/painting/`}
+                itemProp="item"
+                title="Мастер-класс по живописи"
+              >
+                <span itemProp="name">Мастер-класс по живописи</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
+
+      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
+        <span className="text-orange-600">Мастер-класс</span> по живописи для
+        взрослыхи детей<br></br>
+        <span className="text-orange-600">в Нижнем Новгороде</span>
+      </h2>
 
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
@@ -175,9 +202,18 @@ export default function Painting() {
             alt="Picture of the author"
           />
         </div>
-        <div className="carousel-item h-full ">
+        {/* <div className="carousel-item h-full ">
           <Image
             src="/30.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div> */}
+        <div className="carousel-item h-full ">
+          <Image
+            src="/103.jpg"
             unoptimized
             width={300}
             height={100}
@@ -312,6 +348,21 @@ export default function Painting() {
           </div>
         </div>
       </div>
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
+              <div className=" max-w-sm flex justify-center m-auto" id="1">
+                <Image
+                  src="/109.jpg"
+                  unoptimized
+                  width={100}
+                  height={100}
+                  alt="Отзывы"
+                  style={{ width: "80%" }}
+                  className="rounded-lg"
+                />
+              </div>
+      
+           
+            </div>
     </>
   );
 }

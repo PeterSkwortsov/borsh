@@ -37,34 +37,53 @@ export default function ChildrensClass() {
           content="https://borsch-art.ru/childrens-master-class/"
         />
       </Head>
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#7`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/childrens-master-class/`}
+                itemProp="item"
+                title="Мастер-класс для детей и родителей"
+              >
+                <span itemProp="name">Мастер-класс для детей и родителей</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
 
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#7`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            unoptimized
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "100%" }}
-          />
-          Назад
-        </Link>
-      </button>
+      {/* Мастер-класс для детей и родителей ./#7 */}
 
       <h3 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
         <span className="text-orange-600">ДЕТСКИЙ </span>
         <br></br>мастер-класс по ЛЕПКЕ
       </h3>
-
       <p className="flex text-center justify-center p-5">
         Лепим что душе угодно! Милые зверушки, волшебные замки, чашечки,
         разноцветные блюдца или забавные монстрики – решать вам!
       </p>
-
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
         <div>
           <div className="flex flex-row items-start">
@@ -151,7 +170,6 @@ export default function ChildrensClass() {
           />
         </div>
       </div>
-
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
         role="sectionhead"
@@ -196,7 +214,6 @@ export default function ChildrensClass() {
           </tbody>
         </table>
       </div>
-
       <div className="mb-8">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div>
@@ -257,6 +274,22 @@ export default function ChildrensClass() {
           </div>
         </div>
       </div>
+
+       {/* <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
+                    <div className=" max-w-sm flex justify-center m-auto" id="1">
+                      <Image
+                        src="/104.jpg"
+                        unoptimized
+                        width={100}
+                        height={100}
+                        alt="Отзывы"
+                        style={{ width: "80%" }}
+                        className="rounded-lg"
+                      />
+                    </div>
+            
+                 
+                  </div> */}
     </>
   );
 }

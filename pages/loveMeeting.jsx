@@ -28,34 +28,60 @@ export default function loveMeeting() {
 
         <meta property="og:url" content="https://borsch-art.ru/loveMeeting/" />
       </Head>
-      <button className="m-1 fixed z-100">
-        <Link
-          href={`./#8`}
-          className="btn btn-neutral bg-white text-black max-sm:text-md"
-        >
-          <Image
-            src="/arrow1.svg"
-            unoptimized
-            width={200}
-            height={200}
-            alt="Picture of the author"
-            style={{ width: "100%" }}
-          />
-          Назад
-        </Link>
-      </button>
 
-      <h3 className="text-orange-600  flex text-center justify-center m-5 mt-8 text-2xl font-extrabold">
-        Гончарное свидание, которое точно запомнится!
+      <ol
+        itemScope
+        itemType="https://schema.org/BreadcrumbList"
+        className="breadcrumbs text-sm m-2"
+      >
+        <ul>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button className="indicator-item badge bg-orange-600 text-white border-none">
+              <Link href={`./#5`} itemProp="item" title="Главная">
+                <span itemProp="name">Главная</span>
+              </Link>
+              <meta itemProp="position" content="0"></meta>
+            </button>
+          </li>
+          <li
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <button>
+              <Link
+                href={`https://borsch-art.ru/loveMeeting/`}
+                itemProp="item"
+                title="Гончарное свидание"
+              >
+                <span itemProp="name">Гончарное свидание</span>
+              </Link>
+              <meta itemProp="position" content="1"></meta>
+            </button>
+          </li>
+        </ul>
+      </ol>
+
+      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
+        <span className="text-orange-600">Гончарное свидание</span> для
+        влюбленных <span className="text-orange-600">в Нижнем Новгороде</span>
+      </h2>
+
+      <h3 className="flex text-center justify-center m-5 mt-8 text-1xl font-extrabold">
+        Проведите свидание, которое точно запомнится!
       </h3>
 
-      <p className="flex text-center justify-center">
+      <p className="flex text-center justify-center p-2">
         Медитативный шум круга, уютная атмосфера студии 🍃 <br></br>
         Погружение в процесс, где время летит незаметно, а все тревоги остаются
         за дверью.
       </p>
 
-      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
+      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
         <div className="carousel-item h-full ">
           <Image
             src="/81.webp"
@@ -210,22 +236,70 @@ export default function loveMeeting() {
           </div>
         </div>
       </div>
-      <div className="mb-8">
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center justify-center">
+
+      <div className="mb-8 ">
+        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
           <div>
-            <div className="flex flex-row items-center center m-auto">
+            <div className="flex flex-row items-center center m-auto cursor-pointer">
               <div
-                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl
+                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
               >
                 <a href="https://t.me/vika_borsch99">
-                  <p className="text-gray-700 font-bold text-lg flex text-center center justify-center">
+                  <p className="text-black font-bold text-lg flex text-center center justify-center">
                     👉 Мы придем! 👈
                   </p>
                 </a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="text-center mb-5 mt-5">
+        <h3 className="text-3xl sm:text-3xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Отзывы <span className="text-orange-600">счастливых пар</span>
+        </h3>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+        <div className=" max-w-sm flex justify-center m-auto" id="1">
+          <Image
+            src="/106.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/110.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/111.jpg"
+            unoptimized
+            width={100}
+            height={50}
+            alt="Отзывы"
+            style={{ width: "90%", height: "60%" }}
+            className="rounded-lg"
+          />
         </div>
       </div>
     </>
