@@ -1,9 +1,29 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 const oven = () => {
   return (
     <>
+      <Head>
+        <title>Аренда муфельной печи для изделий из глины</title>
+
+        <meta
+          name="description"
+          content="Муфельная печь для обжига ваших изделий из глины"
+        />
+
+        <meta property="og:title" content="Печь для обжига изделий из глины" />
+
+        <meta
+          property="og:description"
+          content="Самостоятельно слепили кружку из глины, но не знаете, где ее запечь? Возьмите в аренду возможности нашей муфельной печи. Работаем без выходных."
+        />
+
+        <meta property="og:image" content="/3.jpg" />
+
+        <meta property="og:url" content="https://borsch-art.ru/oven/" />
+      </Head>
       <ol
         itemScope
         itemType="https://schema.org/BreadcrumbList"

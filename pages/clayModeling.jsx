@@ -104,7 +104,7 @@ export default function ClayModeling() {
             </tr>
             {/* row 2 */}
             <tr>
-              <th>1</th>
+              <th>2</th>
               <td>
                 Мастер-класс по лепке кружки, чайной пары, вазочки до 15 см
               </td>
@@ -122,7 +122,7 @@ export default function ClayModeling() {
             </tr>
             {/* row 3 */}
             <tr>
-              <th>2</th>
+              <th>3</th>
               <td>
                 Индивидуальные занятия:<br></br> Один - 3.300₽<br></br>
                 Двое - 2.700₽/чел.
@@ -231,6 +231,15 @@ export default function ClayModeling() {
             alt="Picture of the author"
           />
         </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/119.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
       </div>
       <div className="text-center mb-5 mt-5">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
@@ -280,6 +289,77 @@ export default function ClayModeling() {
             alt="Отзывы"
             style={{ width: "90%" }}
             className="rounded-lg"
+          />
+        </div>
+      </div>
+      <div className="text-center">
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Для<span className="text-orange-600"> вдохновения</span>
+        </h3>
+      </div>
+      <div className="carousel carousel-center flex m-auto mt-10 mb-10 w-fit">
+        <div className="carousel-item h-full ">
+          <Image
+            src="/112.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+
+        <div className="carousel-item h-full ">
+          <Image
+            src="/113.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/114.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/115.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/123.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/124.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/125.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
           />
         </div>
       </div>

@@ -82,7 +82,6 @@ const Footer = () => {
             Политикой конфиденциальности.
           </Link>
           <br></br>
-          &copy; {new Date().getFullYear()}{" "}
           <span>
             Сайт разработан{" "}
             <a href="https://vk.com/skwortsow.petia" className="font-bold">

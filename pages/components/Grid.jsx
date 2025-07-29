@@ -111,9 +111,6 @@ const Grid = () => {
               ГРУППОВЫЕ ЗАНЯТИЯ для детей и взрослых
             </h2>
             <p> Абонемент на 4 и 8 занятий.</p>
-            <span className="indicator-item badge bg-orange-600 text-white border-none">
-              Новая программа
-            </span>
 
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
@@ -156,9 +153,7 @@ const Grid = () => {
               подглазурными красками. Есть возможность расписать глазурями после
               первого обжига.
             </p>
-            <span className="indicator-item badge bg-orange-600 text-white border-none">
-              Новая программа
-            </span>
+       
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
@@ -267,6 +262,9 @@ const Grid = () => {
               податливую глину. Вы вместе творите, смеетесь, создаете что-то
               уникальное и настоящее для себя.
             </p>
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новый формат
+            </span>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2700 ₽</p>
 
@@ -337,6 +335,9 @@ const Grid = () => {
               создадите целый набор практичной и красивой посуды для своего
               дома!
             </p>
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новая программа
+            </span>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">3700 ₽</p>
 

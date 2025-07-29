@@ -24,8 +24,8 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="author" content="Виктория Борщ" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content="Творческая студия Вики Борщ" />
-        <meta property="og:description" content="Рисование и гончарное мастерство для взрослых и детей" />
+        <meta property="og:title" content="Мастер-классы по живописи и гончарному делу от Вики Борщ" />
+        <meta property="og:description" content="Мастер-классы по живописи и лепке из глины для взрослых и детей" />
         <meta property="og:image" content="/vika.png" />
         <meta property="og:url" content="https://borsch-art.ru/" />
         <meta property="og:type" content="website" />

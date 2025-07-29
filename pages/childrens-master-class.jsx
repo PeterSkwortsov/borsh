@@ -99,10 +99,7 @@ export default function ChildrensClass() {
           </div>
         </div>
       </div>
-      <p className="flex text-center justify-center p-5">
-        Лепим что душе угодно! Милые зверушки, волшебные замки, чашечки,
-        разноцветные блюдца или забавные монстрики – решать вам!
-      </p>
+    
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
         <div className="carousel-item h-full ">
           <Image

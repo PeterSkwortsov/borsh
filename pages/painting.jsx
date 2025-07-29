@@ -68,7 +68,7 @@ export default function Painting() {
 
       <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
         <span className="text-orange-600">Мастер-класс</span> по живописи для
-        взрослыхи детей<br></br>
+        взрослых и детей<br></br>
         <span className="text-orange-600">в Нижнем Новгороде</span>
       </h2>
 
@@ -77,18 +77,15 @@ export default function Painting() {
         role="sectionhead"
       >
         <table className="table table-zebra">
-          {/* head */}
           <thead>
             <tr>
               <th></th>
               <th className="fb">Название</th>
               <th className="fb">Размер</th>
               <th className="fb">Цена</th>
-              {/* <th className="fb">Изображение</th> */}
             </tr>
           </thead>
           <tbody>
-            {/* row 1 */}
             <tr>
               <th>1</th>
               <td>
@@ -99,19 +96,7 @@ export default function Painting() {
               <td>
                 1.600₽<br></br> 2.000₽
               </td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={200}
-                  height={200}
-                  alt="Picture of the author"
-                  className="w-46 md:w-52 lg:w-62 xl:w-72"
-                />
-              </td> */}
             </tr>
-            {/* row 2 */}
             <tr>
               <th>2</th>
               <td>
@@ -123,19 +108,7 @@ export default function Painting() {
               <td>
                 2.200₽<br></br>2.600₽
               </td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={200}
-                  height={200}
-                  alt="Picture of the author"
-                  className="w-46 md:w-52 lg:w-62 xl:w-72"
-                />
-              </td> */}
             </tr>
-            {/* row 3 */}
             <tr>
               <th>3</th>
               <td>
@@ -147,17 +120,6 @@ export default function Painting() {
               <td>
                 2.600₽<br></br> 3.200₽
               </td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/2.jpeg"
-                  unoptimized
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                  className="w-46 md:w-52 lg:w-62 xl:w-72"
-                />
-              </td> */}
             </tr>
           </tbody>
         </table>
@@ -183,10 +145,28 @@ export default function Painting() {
             alt="Picture of the author"
           />
         </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/128.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
 
         <div className="carousel-item h-full ">
           <Image
             src="/75.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/127.jpg"
             unoptimized
             width={300}
             height={100}
@@ -202,20 +182,58 @@ export default function Painting() {
             alt="Picture of the author"
           />
         </div>
-        {/* <div className="carousel-item h-full ">
-          <Image
-            src="/30.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div> */}
+
         <div className="carousel-item h-full ">
           <Image
             src="/103.jpg"
             unoptimized
             width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/118.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/129.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/117.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/130.jpg"
+            unoptimized
+            width={535}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+
+        <div className="carousel-item h-full ">
+          <Image
+            src="/126.jpg"
+            unoptimized
+            width={535}
             height={100}
             alt="Picture of the author"
           />
@@ -348,21 +366,36 @@ export default function Painting() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
-              <div className=" max-w-sm flex justify-center m-auto" id="1">
-                <Image
-                  src="/109.jpg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Отзывы"
-                  style={{ width: "80%" }}
-                  className="rounded-lg"
-                />
-              </div>
-      
-           
-            </div>
+      <div className="text-center mb-6 mt-5">
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Отзывы <span className="text-orange-600">начинающих мастеров</span>
+        </h3>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 p-2 mb-10">
+        <div className=" max-w-sm flex justify-center m-auto" id="1">
+          <Image
+            src="/109.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div className=" max-w-sm flex justify-center m-auto" id="1">
+          <Image
+            src="/116.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+      </div>
     </>
   );
 }
