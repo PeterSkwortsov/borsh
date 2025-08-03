@@ -312,7 +312,8 @@ const Grid = () => {
             </div>
           </div>
         </div>
-        <div
+
+        {/* <div
           className="card bg-base-200 image-full w-auto shadow-sm"
           aria-label="Гончарное свидание"
         >
@@ -349,7 +350,7 @@ const Grid = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -372,10 +372,21 @@ export default function Painting() {
         </h3>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 p-2 mb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
             src="/109.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div className=" max-w-sm flex justify-center m-auto" id="1">
+          <Image
+            src="/132.jpg"
             unoptimized
             width={100}
             height={100}

@@ -78,11 +78,7 @@ const HamburgerMenu = () => {
                 Ответы на вопросы
               </Link>
             </li>
-            <li>
-              <Link href="#stephow" aria-label="Как записаться?">
-                Как записаться?
-              </Link>
-            </li>
+       
             <li className="font-bold">
               <Link href="certificate" aria-label="Подарочный сертификат">
                 Подарочный сертификат

@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex gap-2 justify-center">
           <div className="avatar">
             <div className="w-10 rounded-full">
-              <a href="https://vk.com/vika.borsch">
+              <a href="https://vk.com/borsch_art?from=groups">
                 <Image
                   src="/vk.svg"
                   width={200}
