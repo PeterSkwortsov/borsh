@@ -99,11 +99,11 @@ export default function ChildrensClass() {
           </div>
         </div>
       </div>
-    
+
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-xl">
         <div className="carousel-item h-full ">
           <Image
-            src="/99.jpg"
+            src="/99.webp"
             unoptimized
             width={310}
             height={100}
@@ -112,7 +112,7 @@ export default function ChildrensClass() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/100.jpg"
+            src="/100.webp"
             unoptimized
             width={310}
             height={100}
@@ -121,7 +121,7 @@ export default function ChildrensClass() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/94.jpg"
+            src="/94.webp"
             unoptimized
             width={310}
             height={100}
@@ -130,7 +130,7 @@ export default function ChildrensClass() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/93.jpg"
+            src="/93.webp"
             unoptimized
             width={310}
             height={100}
@@ -139,7 +139,16 @@ export default function ChildrensClass() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/92.jpg"
+            src="/148.webp"
+            unoptimized
+            width={310}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/92.webp"
             unoptimized
             width={310}
             height={100}
@@ -159,7 +168,7 @@ export default function ChildrensClass() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/101.jpg"
+            src="/101.webp"
             unoptimized
             width={310}
             height={100}
@@ -167,12 +176,14 @@ export default function ChildrensClass() {
           />
         </div>
       </div>
+
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
         role="sectionhead"
       >
         <table className="table table-zebra">
           {/* head */}
+
           <thead>
             <tr>
               <th></th>
@@ -186,19 +197,19 @@ export default function ChildrensClass() {
             {/* row 1 */}
             <tr>
               <th>1</th>
-              <td>Цена за взрослого + ребенок</td>
+              <td>Цена за взрослого + ребенок (одно изделие)</td>
               <td>от 4 до 6 лет</td>
               <td>2.000₽</td>
             </tr>
             <tr>
               <th>2</th>
-              <td>Цена за взрослого + ребенок</td>
+              <td>Цена за взрослого + ребенок (два изделия)</td>
               <td>от 4 до 14 лет</td>
               <td>3.200₽</td>
             </tr>
             <tr>
               <th>3</th>
-              <td>Цена за взрослого и двоих детей</td>
+              <td>Цена за взрослого и двоих детей (три изделия)</td>
               <td>до 14 лет</td>
               <td>4.800₽</td>
             </tr>
@@ -207,6 +218,18 @@ export default function ChildrensClass() {
               <td>
                 * Другое количество детей и взрослых уточняйте индивидуально.
               </td>
+            </tr>
+            <tr className="bg-green-100">
+              <th>5</th>
+              <td>
+                * Действуют купоны на скидку от:{" "}
+                <span className="font-bold">
+                  Легозы, London Bus, СуперТачки, Рыбалочка.
+                </span>
+                <br></br>Уточняйте индивидуально
+              </td>
+              <td></td>
+              <td>- 250₽</td>
             </tr>
           </tbody>
         </table>
@@ -263,7 +286,7 @@ export default function ChildrensClass() {
               >
                 <a href="https://t.me/vika_borsch99">
                   <p className="text-gray-700 font-bold text-lg flex text-center center justify-center">
-                    👉 Мы придем! 👈
+                    👉 Записаться 👈
                   </p>
                 </a>
               </div>
@@ -272,7 +295,7 @@ export default function ChildrensClass() {
         </div>
       </div>
 
-       {/* <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
                     <div className=" max-w-sm flex justify-center m-auto" id="1">
                       <Image
                         src="/104.jpg"

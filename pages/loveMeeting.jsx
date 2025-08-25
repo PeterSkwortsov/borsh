@@ -24,7 +24,7 @@ export default function loveMeeting() {
           content="Искра, смех и нежность. Работа с глиной раскрепощает, сближает и дарит море позитивных эмоций. Идеальный способ узнать друг друга с новой стороны!"
         />
 
-        <meta property="og:image" content="/97.jpg" />
+        <meta property="og:image" content="/97.webp" />
 
         <meta property="og:url" content="https://borsch-art.ru/loveMeeting/" />
       </Head>
@@ -93,7 +93,16 @@ export default function loveMeeting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/95.jpg"
+            src="/95.webp"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/151.jpg"
             unoptimized
             width={338}
             height={100}
@@ -111,7 +120,16 @@ export default function loveMeeting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/98.jpg"
+            src="/149.webp"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/98.webp"
             unoptimized
             width={338}
             height={100}
@@ -130,7 +148,7 @@ export default function loveMeeting() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/96.jpg"
+            src="/96.webp"
             unoptimized
             width={338}
             height={100}
@@ -150,7 +168,7 @@ export default function loveMeeting() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/97.jpg"
+            src="/97.webp"
             unoptimized
             width={338}
             height={100}
@@ -260,10 +278,10 @@ export default function loveMeeting() {
           Отзывы <span className="text-orange-600">счастливых пар</span>
         </h3>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
-            src="/106.jpg"
+            src="/106.webp"
             unoptimized
             width={100}
             height={100}
@@ -278,7 +296,7 @@ export default function loveMeeting() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/110.jpg"
+            src="/110.webp"
             unoptimized
             width={100}
             height={100}
@@ -292,12 +310,26 @@ export default function loveMeeting() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/111.jpg"
+            src="/111.webp"
             unoptimized
             width={100}
             height={50}
             alt="Отзывы"
             style={{ width: "90%", height: "60%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/152.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
             className="rounded-lg"
           />
         </div>

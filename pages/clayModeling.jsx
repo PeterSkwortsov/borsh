@@ -77,7 +77,7 @@ export default function ClayModeling() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Описание</th>
+              <th className="fb">Групповой мастер-класс от 3-х человек</th>
               <th className="fb">Цена</th>
               {/* <th className="fb">Изображение</th> */}
             </tr>
@@ -90,7 +90,7 @@ export default function ClayModeling() {
                 Мастер-класс по лепке плоской тарелочки, миски, пиалы,
                 подсвечника
               </td>
-              <td>1.600₽</td>
+              <td>1600₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -108,45 +108,23 @@ export default function ClayModeling() {
               <td>
                 Мастер-класс по лепке кружки, чайной пары, вазочки до 15 см
               </td>
-              <td>2.000₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                />
-              </td> */}
+              <td>2000₽</td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>3</th>
-              <td>
-                Индивидуальные занятия:<br></br> Один - 3.300₽<br></br>
-                Двое - 2.700₽/чел.
-                <br></br>
-                Три и больше - 2.400₽/чел.
-              </td>
-              <td></td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                />
-              </td> */}
+              <td>Мастер-класс по лепке чайной пары или менажницы</td>
+              <td>2500₽</td>
+          
             </tr>
           </tbody>
         </table>
-        {/* <p className="text-xs font-bold flex text-center justify-center m-5 mt-8">
-            Расписание примерное и может измениться! Актуальную информацию
-            уточняйте у меня*
-          </p> */}
+        <p className="text-md flex text-center justify-center m-5 mt-8">
+          Индивидуальный мастер-класс для одного человека - 3300₽.
+        </p>
+        <p className="text-md flex text-center justify-center m-5">
+          Индивидуальный мастер-класс для двух человек - 5000₽.
+        </p>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
@@ -160,7 +138,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/60.jpg"
+            src="/60.webp"
             unoptimized
             width={300}
             height={100}
@@ -204,6 +182,15 @@ export default function ClayModeling() {
             alt="Picture of the author"
           />
         </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/144.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
         <div className="carousel-item h-full ">
           <Image
             src="/77.webp"
@@ -233,7 +220,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/119.jpg"
+            src="/119.webp"
             unoptimized
             width={300}
             height={100}
@@ -252,7 +239,7 @@ export default function ClayModeling() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/107.jpg"
+            src="/107.webp"
             unoptimized
             width={100}
             height={100}
@@ -267,7 +254,7 @@ export default function ClayModeling() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/105.jpg"
+            src="/105.webp"
             unoptimized
             width={100}
             height={100}
@@ -282,12 +269,54 @@ export default function ClayModeling() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/108.jpg"
+            src="/108.webp"
             unoptimized
             width={100}
             height={50}
             alt="Отзывы"
             style={{ width: "90%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/137.webp"
+            unoptimized
+            width={100}
+            height={50}
+            alt="Отзывы"
+            style={{ width: "95%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/138.webp"
+            unoptimized
+            width={100}
+            height={50}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/145.webp"
+            unoptimized
+            width={100}
+            height={50}
+            alt="Отзывы"
+            style={{ width: "100%" }}
             className="rounded-lg"
           />
         </div>
@@ -300,7 +329,15 @@ export default function ClayModeling() {
       <div className="carousel carousel-center flex m-auto mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
-            src="/112.jpg"
+            src="/112.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+          <Image
+            src="/131.jpg"
             unoptimized
             width={300}
             height={100}
@@ -310,7 +347,7 @@ export default function ClayModeling() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/113.jpg"
+            src="/113.webp"
             unoptimized
             width={300}
             height={100}
@@ -319,7 +356,25 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/114.jpg"
+            src="/114.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+
+        <div className="carousel-item h-full ">
+          <Image
+            src="/115.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        <div className="carousel-item h-full ">
+          <Image
+            src="/133.webp"
             unoptimized
             width={300}
             height={100}
@@ -328,7 +383,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/115.jpg"
+            src="/123.webp"
             unoptimized
             width={300}
             height={100}
@@ -337,7 +392,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/123.jpg"
+            src="/134.webp"
             unoptimized
             width={300}
             height={100}
@@ -346,7 +401,7 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/124.jpg"
+            src="/124.webp"
             unoptimized
             width={300}
             height={100}
@@ -355,7 +410,25 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/125.jpg"
+            src="/135.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/125.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/136.webp"
             unoptimized
             width={300}
             height={100}

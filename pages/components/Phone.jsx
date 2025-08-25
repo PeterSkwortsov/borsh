@@ -101,7 +101,7 @@ const Phone = () => {
                 <div className="w-10 rounded-full mr-1">
                   <Image
                     className="w-full"
-                    src="/20.jpeg"
+                    src="/20.webp"
                     unoptimized
                     width={200}
                     height={200}

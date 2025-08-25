@@ -80,7 +80,7 @@ export default function Painting() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Название</th>
+              <th className="fb">Мастер-класс от 3-х человек</th>
               <th className="fb">Размер</th>
               <th className="fb">Цена</th>
             </tr>
@@ -123,6 +123,12 @@ export default function Painting() {
             </tr>
           </tbody>
         </table>
+        <p className="text-md flex text-center justify-center m-5 mt-8">
+          Индивидуальный мастер-класс для одного человека от 3300₽.
+        </p>
+        <p className="text-md flex text-center justify-center m-5">
+          Индивидуальный мастер-класс для двух человек от 5000₽.
+        </p>
       </div>
 
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex">
@@ -147,7 +153,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/128.jpg"
+            src="/128.webp"
             unoptimized
             width={300}
             height={100}
@@ -166,7 +172,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/127.jpg"
+            src="/127.webp"
             unoptimized
             width={300}
             height={100}
@@ -185,7 +191,7 @@ export default function Painting() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/103.jpg"
+            src="/103.webp"
             unoptimized
             width={300}
             height={100}
@@ -194,7 +200,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/118.jpg"
+            src="/118.webp"
             unoptimized
             width={300}
             height={100}
@@ -203,7 +209,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/129.jpg"
+            src="/129.webp"
             unoptimized
             width={300}
             height={100}
@@ -212,7 +218,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/117.jpg"
+            src="/117.webp"
             unoptimized
             width={300}
             height={100}
@@ -221,7 +227,7 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/130.jpg"
+            src="/130.webp"
             unoptimized
             width={535}
             height={100}
@@ -231,7 +237,7 @@ export default function Painting() {
 
         <div className="carousel-item h-full ">
           <Image
-            src="/126.jpg"
+            src="/126.webp"
             unoptimized
             width={535}
             height={100}
@@ -375,7 +381,7 @@ export default function Painting() {
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
-            src="/109.jpg"
+            src="/109.webp"
             unoptimized
             width={100}
             height={100}
@@ -386,7 +392,7 @@ export default function Painting() {
         </div>
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
-            src="/132.jpg"
+            src="/132.webp"
             unoptimized
             width={100}
             height={100}
@@ -397,7 +403,7 @@ export default function Painting() {
         </div>
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
-            src="/116.jpg"
+            src="/116.webp"
             unoptimized
             width={100}
             height={100}

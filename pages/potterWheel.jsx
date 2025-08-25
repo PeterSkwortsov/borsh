@@ -79,7 +79,7 @@ export default function PotterWheel() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Групповые занятия</th>
+              <th className="fb">Групповые занятия от 3-х человек</th>
               <th className="fb">Размер изделия</th>
               <th className="fb">Цена</th>
             </tr>
@@ -103,28 +103,44 @@ export default function PotterWheel() {
 
       <p className="text-md flex text-center justify-center m-5 mt-8">
         Индивидуальные занятия: для одного человека - 3.300₽<br></br>
-        Для двоих - 2.500₽/чел.<br></br>
-        Три и больше - 2.300₽/чел.
+        Для двоих - 5000₽<br></br>
       </p>
+
+
+   <div className="text-center mb-5 mt-5">
+        <h3 className="text-1xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Отзывы <span className="text-orange-600">начинающих мастеров</span>
+        </h3>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/150.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+
+      
+      </div>
 
       <div className="py-4 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
-          {/* <div className="text-center">
-            <h3 className="text-3xl sm:text-4xl leading-normal  font-extrabold tracking-tight text-gray-900">
-              Ответы на <span className="text-orange-600">вопросы</span>
-            </h3>
-          </div> */}
+          
 
-          <div className="">
-            <ul className="">
+          <div>
+            <ul>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    {/* <span className="text-orange-600 font-bold">
-                        Гончарный мастер-класс — это весело и интересно! Вот что
-                        вас ждет:
-                      </span>
-                      <br></br> */}
+               
                     <ul className="text-gray-700 text-md">
                       <span className="text-orange-600 font-bold">
                         Гончарный мастер-класс - это весело и интересно!

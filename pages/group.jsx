@@ -88,8 +88,8 @@ export default function Group() {
             <tr>
               <th>1</th>
               <td>4 занятия / 8 занятий для детей 6-8 лет</td>
-              <td>60 мин</td>
-              <td>1.800₽ / 3.200₽</td>
+              <td>60 минут</td>
+              <td>1800₽ / 3200₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -107,7 +107,7 @@ export default function Group() {
               <th>2</th>
               <td>4 занятия / 8 занятий для детей 8-10 лет</td>
               <td>90 минут</td>
-              <td>2.000₽ / 3.600₽</td>
+              <td>2000₽ / 3600₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -124,7 +124,7 @@ export default function Group() {
               <th>3</th>
               <td>4 занятия / 8 занятий для детей 10-16 лет</td>
               <td>120 минут</td>
-              <td>3.400₽ / 4.200₽</td>
+              <td>3400₽ / 4200₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -167,6 +167,7 @@ export default function Group() {
           <thead>
             <tr>
               <th></th>
+              <th className="fb">Возраст</th>
               <th className="fb">Абонемент</th>
               <th className="fb">Время</th>
               <th className="fb">Цена</th>
@@ -178,8 +179,9 @@ export default function Group() {
             <tr>
               <th>1</th>
               <td>Для детей 6-9 лет</td>
-              <td>90 мин</td>
-              <td>3.600₽</td>
+              <td>4 занятия</td>
+              <td>90 минут</td>
+              <td>4000₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -195,9 +197,10 @@ export default function Group() {
             {/* row 2 */}
             <tr>
               <th>2</th>
-              <td>Для детей 9-16 лет </td>
-              <td>1 час 45 минут</td>
-              <td>4200₽</td>
+              <td>Для детей 9-14 лет </td>
+              <td>4 занятия</td>
+              <td>90 минут</td>
+              <td>4000₽</td>
               {/* <td>
                 {" "}
                 <Image
@@ -212,7 +215,8 @@ export default function Group() {
             </tr>
             <tr>
               <th>3</th>
-              <td>Для взрослых, 18+</td>
+              <td>Для взрослых, 15+</td>
+              <td>4 занятия</td>
               <td>120 минут</td>
               <td>5000₽</td>
               {/* <td>

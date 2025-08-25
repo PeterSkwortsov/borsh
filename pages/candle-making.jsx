@@ -80,7 +80,7 @@ export default function CandleMaking() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Декор свечей и гипсовых кашпо</th>
+              <th className="fb">Создание и декор свечей от 3-х человек</th>
               <th className="fb">Цена</th>
               {/* <th className="fb">Изображение</th> */}
             </tr>
@@ -90,7 +90,7 @@ export default function CandleMaking() {
             <tr>
               <th>1</th>
               <td>Свечи в гипсовом кашпо</td>
-              <td>1.800₽</td>
+              <td>1800₽ / человек</td>
 
               {/* <td>
                 {" "}
@@ -107,13 +107,13 @@ export default function CandleMaking() {
             <tr>
               <th>2</th>
               <td>Свечи в стеклянном стакане</td>
-              <td>2.000₽</td>
+              <td>2000₽ / человек</td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>3</th>
               <td>Свечи в скорлупе кокоса</td>
-              <td>2.200₽</td>
+              <td>2200₽ / человек</td>
               {/* <td>
                 {" "}
                 <Image
@@ -128,7 +128,10 @@ export default function CandleMaking() {
           </tbody>
         </table>
         <p className="text-md flex text-center justify-center m-5 mt-8">
-          Индивидуальный мастер-класс - 2.700₽/человек.
+          Индивидуальный мастер-класс для одного человека - 3300₽.
+        </p>
+        <p className="text-md flex text-center justify-center m-5">
+          Индивидуальный мастер-класс для двух человек - 5000₽.
         </p>
       </div>
 
@@ -173,6 +176,42 @@ export default function CandleMaking() {
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="text-center mb-5 mt-5">
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+          Отзывы <span className="text-orange-600">начинающих мастеров</span>
+        </h3>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/146.webp"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/147.webp"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
         </div>
       </div>
     </>

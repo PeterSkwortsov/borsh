@@ -191,7 +191,7 @@ const Grid = () => {
             </p>
 
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1.000 ₽</p>
+              <p className="text-base">от 1000 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -266,7 +266,7 @@ const Grid = () => {
               Новый формат
             </span>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2700 ₽</p>
+              <p className="text-base">от 2000 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -312,45 +312,6 @@ const Grid = () => {
             </div>
           </div>
         </div>
-
-        {/* <div
-          className="card bg-base-200 image-full w-auto shadow-sm"
-          aria-label="Гончарное свидание"
-        >
-          <figure>
-            <Image
-              src="/80.png"
-              unoptimized
-              width={200}
-              height={200}
-              alt="Гончарное свидание"
-              style={{ width: "200%" }}
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-orange-200 font-extrabold" id="9">
-              Интенсив. Создаем СВОЮ идеальную кухонную посуду за 2 ДНЯ!
-            </h2>
-            <p>
-              Всего за два насыщенных выходных дня вы погрузитесь в мир глины и
-              создадите целый набор практичной и красивой посуды для своего
-              дома!
-            </p>
-            <span className="indicator-item badge bg-orange-600 text-white border-none">
-              Новая программа
-            </span>
-            <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">3700 ₽</p>
-
-              <Link
-                className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="/intensive"
-              >
-                Подробнее
-              </Link>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );
