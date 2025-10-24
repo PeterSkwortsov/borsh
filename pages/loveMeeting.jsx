@@ -84,6 +84,33 @@ export default function loveMeeting() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
         <div className="carousel-item h-full ">
           <Image
+            src="/161.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/153.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/154.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
             src="/81.webp"
             unoptimized
             width={298}
@@ -188,7 +215,7 @@ export default function loveMeeting() {
                       И так, что вас ждет?
                     </span>
                     <li className="p-1 list-disc">
-                      2 часа погружения в мир керамики
+                      2.5 часа погружения в мир керамики
                     </li>
                     <li className="p-1 list-disc">
                       Индивидуальное внимание мастера: все покажу, научу и
@@ -310,12 +337,12 @@ export default function loveMeeting() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/111.webp"
+            src="/168.jpg"
             unoptimized
-            width={100}
-            height={50}
+            width={200}
+            height={200}
             alt="Отзывы"
-            style={{ width: "90%", height: "60%" }}
+            style={{ width: "90%", height: "100%" }}
             className="rounded-lg"
           />
         </div>
@@ -325,6 +352,48 @@ export default function loveMeeting() {
         >
           <Image
             src="/152.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/163.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/165.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/166.jpg"
             unoptimized
             width={100}
             height={100}

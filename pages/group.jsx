@@ -65,174 +65,75 @@ export default function Group() {
         </ul>
       </ol>
 
-      <h2
-        className="flex text-center justify-center text-2xl font-extrabold m-3 mt-7 text-orange-600"
+      <div
+        className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
         role="sectionhead"
       >
-        Абонементы на занятия по рисованию:
-      </h2>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto">
+        <h3
+          className="text-black text-2xl font-extrabold p-3 m-auto text-center mb-4"
+          itemProp="name"
+        >
+          Групповые занятия для детей и взрослых
+          <span className="text-orange-600"> по средам</span>
+        </h3>
+        <h6 className="text-md flex text-center justify-center m-5 font-bold">
+          Расписание групповых занятий по рисунку и живописи:
+        </h6>
         <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr>
-              <th></th>
-              <th className="fb">Абонемент</th>
-              <th className="fb">Время</th>
-              <th className="fb">Цена</th>
-              {/* <th className="fb">Изображение</th> */}
+              <th className="fb w-1/6">Возраст</th>
+              <th className="fb w-1/6">Среда</th>
+              <th className="fb w-1/6">
+                Стоимость 4-х занятий (1 раз в неделю){" "}
+              </th>
             </tr>
           </thead>
-          <tbody>
-            {/* row 1 */}
+          {/* row 1 */}
+          <tbody bgcolor="Lavender">
             <tr>
-              <th>1</th>
-              <td>4 занятия / 8 занятий для детей 6-8 лет</td>
-              <td>60 минут</td>
-              <td>1800₽ / 3200₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
+              <td>7-10 лет</td>
+              <td>14.15-15.30</td>
+              <td>2.400₽ (600р занятие)</td>
             </tr>
-            {/* row 2 */}
-            <tr>
-              <th>2</th>
-              <td>4 занятия / 8 занятий для детей 8-10 лет</td>
-              <td>90 минут</td>
-              <td>2000₽ / 3600₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
-            </tr>
-            <tr>
-              <th>3</th>
-              <td>4 занятия / 8 занятий для детей 10-16 лет</td>
-              <td>120 минут</td>
-              <td>3400₽ / 4200₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
-            </tr>
-            <tr>
-              <th>4</th>
-              <td>4 занятия для взрослых, 18+</td>
-              <td>120 минут</td>
-              <td>4400₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
-            </tr>
-          </tbody>
-        </table>
-      </div>
 
-      <h2 className="flex text-center justify-center text-2xl mt-8 mb-8 font-extrabold text-orange-600">
-        Абонементы на гончарные занятия:
-      </h2>
-      <div className="overflow-x-auto md:max-w-2/3 m-auto">
-        <table className="table table-zebra">
-          {/* head */}
-          <thead>
             <tr>
-              <th></th>
-              <th className="fb">Возраст</th>
-              <th className="fb">Абонемент</th>
-              <th className="fb">Время</th>
-              <th className="fb">Цена</th>
-              {/* <th className="fb">Изображение</th> */}
-            </tr>
-          </thead>
-          <tbody>
-            {/* row 1 */}
-            <tr>
-              <th>1</th>
-              <td>Для детей 6-9 лет</td>
-              <td>4 занятия</td>
-              <td>90 минут</td>
-              <td>4000₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
-            </tr>
-            {/* row 2 */}
-            <tr>
-              <th>2</th>
-              <td>Для детей 9-14 лет </td>
-              <td>4 занятия</td>
-              <td>90 минут</td>
-              <td>4000₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
-            </tr>
-            <tr>
-              <th>3</th>
-              <td>Для взрослых, 15+</td>
-              <td>4 занятия</td>
-              <td>120 минут</td>
-              <td>5000₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={100}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "50%" }}
-                />
-              </td> */}
+              <td>11-16 лет</td>
+              <td>15:30-17.00</td>
+              <td>2.800₽ (700р занятие)</td>
             </tr>
           </tbody>
         </table>
+
+        <h6 className="text-md flex text-center justify-center m-5 mt-8 font-bold">
+          Расписание групповых занятий для детей по лепке из глины:
+        </h6>
+
+        <table className="table table-zebra">
+          <thead>
+            <tr>
+              <th className="fb w-1/6">Возраст</th>
+              <th className="fb w-1/6">Среда</th>
+              <th className="fb w-1/6">
+                Стоимость 4-х занятий (1 раз в неделю)
+              </th>
+              {/* min-w-sm */}
+            </tr>
+          </thead>
+          <tbody bgcolor="PapayaWhip	">
+            <tr>
+              <td>7-11 лет</td>
+              <td>17.00-18.30</td>
+              <td>4.000₽ (1000р занятие)</td>
+            </tr>
+          </tbody>
+        </table>
+        <p className="text-md flex text-center justify-center m-5">
+          Абонемент для более старших детей и взрослых по гончарному мастерству,
+          4 занятия в месяц - 5.500₽, в рамках абонемента можно посещать любые
+          двухчасовые групповые занятия по расписанию.
+        </p>
       </div>
 
       <div className="py-4 bg-white mt-5">
@@ -307,6 +208,53 @@ export default function Group() {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+        <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
+          <div className="carousel-item h-full ">
+            <Image
+              src="/155.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="carousel-item h-full ">
+            <Image
+              src="/159.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="carousel-item h-full ">
+            <Image
+              src="/156.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="carousel-item h-full ">
+            <Image
+              src="/157.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="carousel-item h-full ">
+            <Image
+              src="/162.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Picture of the author"
+            />
           </div>
         </div>
       </div>

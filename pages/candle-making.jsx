@@ -198,6 +198,20 @@ export default function CandleMaking() {
             className="rounded-lg"
           />
         </div>
+        <div
+          className="max-w-sm flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/167.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
 
         <div
           className="max-w-sm flex justify-center m-auto"

@@ -55,6 +55,16 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
+            src="/160.jpg"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиент создает изделие из глины"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
             src="/89.webp"
             itemProp="image"
             unoptimized
@@ -73,7 +83,7 @@ const ContentPrice = () => {
             alt="Клиент создает изделие из глины"
           />
         </div>
-       
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/36.webp"
@@ -145,7 +155,7 @@ const ContentPrice = () => {
             alt="Участники мастер-класса"
           />
         </div>
-   
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/80.webp"
@@ -187,6 +197,35 @@ const ContentPrice = () => {
           />
         </div>
       </div>
+
+      {/* <div className="container mx-auto px-8 lg:px-0 mb-10">
+        <div className="mx-auto mt-8 max-w-md rounded overflow-hidden shadow-lg">
+          <span className="indicator-item badge bg-orange-600 text-white border-none">
+            Новая программа
+          </span>
+          <Image
+            src="/class.jpg"
+            unoptimized
+            width={700}
+            height={700}
+            alt="Расписание мастер классов на сентябрь"
+          ></Image>
+
+          <div className="px-6 py-4">
+            <div className="card-actions justify-end items-center z-20">
+              <p className=" font-extrabold m-auto">
+                Для взрослых и детей от 7 лет
+              </p>
+              <a
+                className="btn btn-neutral bg-white text-black max-sm:text-sm m-auto"
+                href="https://vk.com/borsch_art?from=groups&w=wall-231519644_43"
+              >
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };

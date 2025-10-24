@@ -228,6 +228,24 @@ const certificate = () => {
             </div>
           </div>
         </div>
+        <div className="text-center mb-5 mt-5">
+          <h3 className="text-3xl sm:text-3xl leading-normal font-extrabold tracking-tight text-gray-900">
+            Отзывы
+          </h3>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+          <div className=" max-w-sm flex justify-center m-auto" id="1">
+            <Image
+              src="/164.jpg"
+              unoptimized
+              width={100}
+              height={100}
+              alt="Отзывы"
+              style={{ width: "80%" }}
+              className="rounded-lg"
+            />
+          </div>
+        </div>
       </div>
     </>
   );

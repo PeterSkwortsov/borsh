@@ -183,7 +183,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="5">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс ПО ВЫЖИГАНИЮ по дереву.
+              Мастер-класс по ВЫЖИГАНИЮ по дереву.
             </h2>
             <p>
               Выжигание - один из древнейших видов творчества! Процесс приносит
@@ -239,9 +239,9 @@ const Grid = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="card bg-base-200 image-full w-auto shadow-sm"
-          aria-label="Гончарное свидание"
+          aria-label="Детский мастер-класс"
         >
           <figure>
             <Image
@@ -276,7 +276,7 @@ const Grid = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="card bg-base-200 image-full w-auto shadow-sm"
           aria-label="Гончарное свидание"

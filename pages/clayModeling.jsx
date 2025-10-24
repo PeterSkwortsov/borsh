@@ -90,17 +90,7 @@ export default function ClayModeling() {
                 Мастер-класс по лепке плоской тарелочки, миски, пиалы,
                 подсвечника
               </td>
-              <td>1600₽</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                />
-              </td> */}
+              <td>1600₽ / человек</td>
             </tr>
             {/* row 2 */}
             <tr>
@@ -108,22 +98,21 @@ export default function ClayModeling() {
               <td>
                 Мастер-класс по лепке кружки, чайной пары, вазочки до 15 см
               </td>
-              <td>2000₽</td>
+              <td>2000₽ / человек</td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>3</th>
               <td>Мастер-класс по лепке чайной пары или менажницы</td>
-              <td>2500₽</td>
-          
+              <td>2500₽ / человек</td>
             </tr>
           </tbody>
         </table>
         <p className="text-md flex text-center justify-center m-5 mt-8">
-          Индивидуальный мастер-класс для одного человека - 3300₽.
+          Индивидуальный мастер-класс для одного человека - 3300₽
         </p>
         <p className="text-md flex text-center justify-center m-5">
-          Индивидуальный мастер-класс для двух человек - 5000₽.
+          Индивидуальный мастер-класс для двух человек - 5000₽
         </p>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
@@ -336,15 +325,6 @@ export default function ClayModeling() {
             alt="Picture of the author"
           />
         </div>
-          <Image
-            src="/131.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-
         <div className="carousel-item h-full ">
           <Image
             src="/113.webp"
@@ -353,87 +333,89 @@ export default function ClayModeling() {
             height={100}
             alt="Picture of the author"
           />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/114.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
 
-        <div className="carousel-item h-full ">
-          <Image
-            src="/115.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        <div className="carousel-item h-full ">
-          <Image
-            src="/133.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/123.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/134.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/124.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/135.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/125.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/136.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
+          <div className="carousel-item h-full ">
+            <Image
+              src="/114.webp"
+              unoptimized
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+
+          <div className="carousel-item h-full ">
+            <Image
+              src="/115.webp"
+              unoptimized
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            />
+            <div className="carousel-item h-full ">
+              <Image
+                src="/133.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/123.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/134.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/124.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/135.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/125.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className="carousel-item h-full ">
+              <Image
+                src="/136.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+          </div>
         </div>
       </div>
 

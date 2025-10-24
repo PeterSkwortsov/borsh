@@ -11,13 +11,13 @@ import Phone from "./components/Phone";
 import Map from "./components/Map";
 import HamburgerMenu from "./components/HamburgerMenu";
 import Mk from "./components/Mk";
-
+import Cooke from "./components/Cooke.jsx"
 export default function Home() {
     return (
         <>
 
       
-    
+            <Cooke/>
             <HamburgerMenu />
             <Header />
             <Table />

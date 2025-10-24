@@ -108,7 +108,7 @@ export default function PotterWheel() {
 
 
    <div className="text-center mb-5 mt-5">
-        <h3 className="text-1xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
           Отзывы <span className="text-orange-600">начинающих мастеров</span>
         </h3>
       </div>
