@@ -105,9 +105,36 @@ export default function PotterWheel() {
         Индивидуальные занятия: для одного человека - 3.300₽<br></br>
         Для двоих - 5000₽<br></br>
       </p>
-
-
-   <div className="text-center mb-5 mt-5">
+ <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
+      
+        <div className="carousel-item h-full ">
+          <Image
+            src="/154.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        
+      </div>
+      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+        <div>
+          <div className="flex flex-row items-center center m-auto cursor-pointer">
+            <div
+              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+"
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg flex text-center center justify-center">
+                  👉 Забронировать день и время 👈
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-center mb-5 mt-5">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
           Отзывы <span className="text-orange-600">начинающих мастеров</span>
         </h3>
@@ -127,20 +154,15 @@ export default function PotterWheel() {
             className="rounded-lg"
           />
         </div>
-
-      
       </div>
 
       <div className="py-4 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
-          
-
           <div>
             <ul>
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start">
                   <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-               
                     <ul className="text-gray-700 text-md">
                       <span className="text-orange-600 font-bold">
                         Гончарный мастер-класс - это весело и интересно!

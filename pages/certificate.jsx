@@ -233,7 +233,7 @@ const certificate = () => {
             Отзывы
           </h3>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-5 p-2 mb-10">
           <div className=" max-w-sm flex justify-center m-auto" id="1">
             <Image
               src="/164.jpg"
@@ -241,7 +241,7 @@ const certificate = () => {
               width={100}
               height={100}
               alt="Отзывы"
-              style={{ width: "80%" }}
+              style={{ width: "100%" }}
               className="rounded-lg"
             />
           </div>

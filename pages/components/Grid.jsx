@@ -39,9 +39,7 @@ const Grid = () => {
               референсы, чтобы у участников получились интересные и
               индивидуальные работы.
             </p>
-            <span className="indicator-item badge bg-orange-600 text-white border-none">
-              Новая программа
-            </span>
+
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1600 ₽</p>
               <a
@@ -153,7 +151,7 @@ const Grid = () => {
               подглазурными красками. Есть возможность расписать глазурями после
               первого обжига.
             </p>
-       
+
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 2000 ₽</p>
 
@@ -239,13 +237,13 @@ const Grid = () => {
             </div>
           </div>
         </div>
-        {/* <div
+        <div
           className="card bg-base-200 image-full w-auto shadow-sm"
           aria-label="Детский мастер-класс"
         >
           <figure>
             <Image
-              src="/63-2.jpg"
+              src="/170.jpg"
               unoptimized
               width={200}
               height={200}
@@ -253,30 +251,67 @@ const Grid = () => {
               style={{ width: "200%" }}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body" id="6">
             <h2 className="card-title text-orange-200 font-extrabold" id="7">
-              ДЕТСКИЙ мастер-класс<br></br>по лепке
+              ВЫЕЗДНОЙ мастер-класс<br></br>на ваш праздник
             </h2>
             <p>
-              Ваши руки и руки вашего ребенка вместе погружаются в мягкую,
-              податливую глину. Вы вместе творите, смеетесь, создаете что-то
-              уникальное и настоящее для себя.
+              Проведем занятие в школе, на дому, учебном центре или на природе.
+              Добавим ярких красок на ваш День рождение
             </p>
             <span className="indicator-item badge bg-orange-600 text-white border-none">
               Новый формат
             </span>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">от 1450 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="/childrens-master-class"
+                href="/outside-master-class"
               >
                 Подробнее
               </Link>
             </div>
           </div>
-        </div> */}
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/nobiles.png"
+              unoptimized
+              width={100}
+              height={100}
+              alt="Новогодняя композиция из пихты нобилиса"
+              style={{ width: "100%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="8">
+              НОВОГОДНЯЯ КОМПОЗИЦИЯ из пихты нобилиса
+            </h2>
+            <p>
+              Вы освоите искусство создания новогодних композиций, которые
+              станут украшением вашего интерьера или прекрасным подарком для
+              близких.
+            </p>{" "}
+            <span className="indicator-item badge bg-orange-600 text-white border-none">
+              Новый формат
+            </span>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 1600 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/new-year-compositions"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
         <div
           className="card bg-base-200 image-full w-auto shadow-sm"
           aria-label="Гончарное свидание"

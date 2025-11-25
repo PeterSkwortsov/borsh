@@ -111,125 +111,23 @@ export default function WoodBurningPage() {
           </tbody>
         </table>
       </div>
-      {/* <div className="py-4 bg-white">
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
-          <div className="text-center">
-            <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-              Ответы на <span className="text-orange-600">вопросы</span>
-            </h3>
-          </div>
-
-          <div className="mt-20">
-            <ul className="">
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как проходит мастер-класс по живописи?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как одеться на мастер-класс?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что будет если я опоздаю?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Что делать если я не смогу прийти?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5">
-                  <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Как я могу доверить вам своего ребенка на мастер-классе?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-sm">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-            </ul>
+      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center mb-8 justify-center">
+        <div>
+          <div className="flex flex-row items-center center m-auto cursor-pointer">
+            <div
+              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+"
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg flex text-center center justify-center">
+                  👉 Забронировать день и время 👈
+                </p>
+              </a>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
+  
     </>
   );
 }

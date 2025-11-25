@@ -134,16 +134,46 @@ export default function CandleMaking() {
           Индивидуальный мастер-класс для двух человек - 5000₽.
         </p>
       </div>
-
+      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
+       
+        <div className="carousel-item h-full ">
+          <Image
+            src="/192.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+         <span className="indicator-item absolute badge bg-orange-600 text-white border-none">
+          Свечка в стеклянном бокале
+        </span>
+      </div>
+      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+        <div>
+          <div className="flex flex-row items-center center m-auto cursor-pointer">
+            <div
+              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+"
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg flex text-center center justify-center">
+                  👉 Забронировать день и время 👈
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="py-4 bg-white">
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
+        <div className="max-w-screen-md mx-auto mt-10 px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div className="text-center">
             <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
               Ответы на <span className="text-orange-600">вопросы</span>
             </h3>
           </div>
 
-          <div className="mt-20">
+          <div className="mt-10">
             <ul className="">
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
@@ -178,6 +208,7 @@ export default function CandleMaking() {
           </div>
         </div>
       </div>
+
       <div className="text-center mb-5 mt-5">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
           Отзывы <span className="text-orange-600">начинающих мастеров</span>

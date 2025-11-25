@@ -115,6 +115,22 @@ export default function ClayModeling() {
           Индивидуальный мастер-класс для двух человек - 5000₽
         </p>
       </div>
+      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+        <div>
+          <div className="flex flex-row items-center center m-auto cursor-pointer">
+            <div
+              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+"
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg flex text-center center justify-center">
+                  👉 Забронировать день и время 👈
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full ">
           <Image
@@ -191,6 +207,15 @@ export default function ClayModeling() {
         </div>
         <div className="carousel-item h-full ">
           <Image
+            src="/186.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
             src="/72.webp"
             unoptimized
             width={300}
@@ -210,6 +235,24 @@ export default function ClayModeling() {
         <div className="carousel-item h-full ">
           <Image
             src="/119.webp"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/181.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/185.jpg"
             unoptimized
             width={300}
             height={100}
@@ -309,6 +352,34 @@ export default function ClayModeling() {
             className="rounded-lg"
           />
         </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/188.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/189.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
       </div>
       <div className="text-center">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
@@ -373,6 +444,16 @@ export default function ClayModeling() {
             <div className="carousel-item h-full ">
               <Image
                 src="/134.webp"
+                unoptimized
+                width={300}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            
+            <div className="carousel-item h-full ">
+              <Image
+                src="/182.jpg"
                 unoptimized
                 width={300}
                 height={100}

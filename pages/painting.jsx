@@ -130,8 +130,33 @@ export default function Painting() {
           Индивидуальный мастер-класс для двух человек от 5000₽.
         </p>
       </div>
+        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+          <div>
+            <div className="flex flex-row items-center center m-auto cursor-pointer">
+              <div
+                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+"
+              >
+                <a href="https://t.me/vika_borsch99">
+                  <p className="text-black font-bold text-lg flex text-center center justify-center">
+                    👉 Забронировать день и время 👈
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex">
+        <div className="carousel-item h-full ">
+          <Image
+            src="/174.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
         <div className="carousel-item h-full ">
           <Image
             src="/65.webp"
@@ -141,19 +166,9 @@ export default function Painting() {
             alt="Picture of the author"
           />
         </div>
-
-        <div className="carousel-item h-full">
-          <Image
-            src="/73.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/128.webp"
+            src="/194.jpg"
             unoptimized
             width={300}
             height={100}
@@ -161,33 +176,7 @@ export default function Painting() {
           />
         </div>
 
-        <div className="carousel-item h-full ">
-          <Image
-            src="/75.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/127.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/74.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
+        
 
         <div className="carousel-item h-full ">
           <Image
@@ -203,43 +192,6 @@ export default function Painting() {
             src="/118.webp"
             unoptimized
             width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/129.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/117.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/130.webp"
-            unoptimized
-            width={535}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-
-        <div className="carousel-item h-full ">
-          <Image
-            src="/126.webp"
-            unoptimized
-            width={535}
             height={100}
             alt="Picture of the author"
           />
@@ -404,6 +356,17 @@ export default function Painting() {
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
             src="/116.webp"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "80%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div className=" max-w-sm flex justify-center m-auto" id="1">
+          <Image
+            src="/192.png"
             unoptimized
             width={100}
             height={100}

@@ -102,7 +102,17 @@ export default function loveMeeting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/154.jpg"
+            src="/193.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        
+        <div className="carousel-item h-full ">
+          <Image
+            src="/196.jpg"
             unoptimized
             width={338}
             height={100}
@@ -111,9 +121,9 @@ export default function loveMeeting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/81.webp"
+            src="/183.jpg"
             unoptimized
-            width={298}
+            width={441}
             height={100}
             alt="Picture of the author"
           />
@@ -188,6 +198,15 @@ export default function loveMeeting() {
             src="/84.webp"
             unoptimized
             width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/187.jpg"
+            unoptimized
+            width={338}
             height={100}
             alt="Picture of the author"
           />
@@ -292,7 +311,7 @@ export default function loveMeeting() {
               >
                 <a href="https://t.me/vika_borsch99">
                   <p className="text-black font-bold text-lg flex text-center center justify-center">
-                    👉 Мы придем! 👈
+                    👉 Забронировать день и время 👈
                   </p>
                 </a>
               </div>
@@ -394,6 +413,34 @@ export default function loveMeeting() {
         >
           <Image
             src="/166.jpg"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/190.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/191.png"
             unoptimized
             width={100}
             height={100}
