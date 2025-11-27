@@ -5,32 +5,41 @@ import React, { useEffect, useState } from "react";
 
 const Snowfall = () => {
   const [snowflakes, setSnowflakes] = useState([]);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    const generateSnowflakes = () => {
-      const newSnowflakes = Array.from({ length: 50 }, (_, i) => ({
-        id: i,
-        left: Math.random() * 100,
-        size: Math.random() * 20 + 10,
-        duration: Math.random() * 5 + 5,
-        delay: Math.random() * 10,
-        character: ['❄', '•', '✽'][Math.floor(Math.random() * 3)]
-      }));
-      setSnowflakes(newSnowflakes);
-    };
+if (typeof window !== "undefined") {
+  generateSnowflakes();
+      setIsClient(true);
 
-    generateSnowflakes();
+}
   }, []);
 
+  const generateSnowflakes = () => {
+    const newSnowflakes = Array.from({ length: 50 }, (_, i) => ({
+      id: i,
+      left: Math.random() * 100,
+      size: Math.random() * 20 + 10,
+      duration: Math.random() * 5 + 5,
+      delay: Math.random() * 10,
+      character: ["❄", "•", "✽"][Math.floor(Math.random() * 3)],
+    }));
+    setSnowflakes(newSnowflakes);
+  };
+
+  // Не рендерить снежинки на сервере
+  if (!isClient) {
+    return null;
+  }
+
   return (
-    <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+    <div className="snowfall-container">
       {snowflakes.map((snowflake) => (
         <div
           key={snowflake.id}
-          className="absolute text-white opacity-70 animate-snowfall"
+          className="snowflake"
           style={{
-            left: `${snowflake.left}vw`,
-            top: `-5vh`,
+            left: `${snowflake.left}%`,
             fontSize: `${snowflake.size}px`,
             animationDuration: `${snowflake.duration}s`,
             animationDelay: `${snowflake.delay}s`,
@@ -39,28 +48,6 @@ const Snowfall = () => {
           {snowflake.character}
         </div>
       ))}
-      
-      <style jsx>{`
-        @keyframes snowfall {
-          0% {
-            transform: translateY(-100px) rotate(0deg);
-            opacity: 0;
-          }
-          10% {
-            opacity: 1;
-          }
-          90% {
-            opacity: 1;
-          }
-          100% {
-            transform: translateY(100vh) rotate(360deg);
-            opacity: 0;
-          }
-        }
-        .animate-snowfall {
-          animation: snowfall linear infinite;
-        }
-      `}</style>
     </div>
   );
 };
@@ -131,6 +118,8 @@ export default function Outside() {
             </li>
           </ul>
         </ol>
+
+
         <Snowfall />
         <h3 className="text-center m-auto justify-center mt-8 max-w-xl text-2xl font-extrabold p-2">
           <span className="text-orange-600">НОВОГОДНЯЯ КОМПОЗИЦИЯ </span>
@@ -288,7 +277,7 @@ export default function Outside() {
                   <div className="flex flex-row items-start mb-5 bg-gray-100 ">
                     <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                       <h4 className="text-md leading-6 font-medium text-gray-900">
-                        Все необходимые материалы, а также чай/кофе и вкусняшки
+                        Все необходимые материалы, а также чай, кофе и вкусняшки
                         включены в стоимость☺️ 
                       </h4>
                     </div>
