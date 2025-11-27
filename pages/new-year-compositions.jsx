@@ -2,55 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 
-const Snowfall = () => {
-  const [snowflakes, setSnowflakes] = useState([]);
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-if (typeof window !== "undefined") {
-  generateSnowflakes();
-      setIsClient(true);
-
-}
-  }, []);
-
-  const generateSnowflakes = () => {
-    const newSnowflakes = Array.from({ length: 50 }, (_, i) => ({
-      id: i,
-      left: Math.random() * 100,
-      size: Math.random() * 20 + 10,
-      duration: Math.random() * 5 + 5,
-      delay: Math.random() * 10,
-      character: ["❄", "•", "✽"][Math.floor(Math.random() * 3)],
-    }));
-    setSnowflakes(newSnowflakes);
-  };
-
-  // Не рендерить снежинки на сервере
-  if (!isClient) {
-    return null;
-  }
-
-  return (
-    <div className="snowfall-container">
-      {snowflakes.map((snowflake) => (
-        <div
-          key={snowflake.id}
-          className="snowflake"
-          style={{
-            left: `${snowflake.left}%`,
-            fontSize: `${snowflake.size}px`,
-            animationDuration: `${snowflake.duration}s`,
-            animationDelay: `${snowflake.delay}s`,
-          }}
-        >
-          {snowflake.character}
-        </div>
-      ))}
-    </div>
-  );
-};
+// Динамический импорт с отключением SSR
+const Snowfall = dynamic(() => import("./components/Snowfall"), {
+  ssr: false, //  Важно: не рендерить на сервере
+  loading: () => null, // Пока загружается - ничего не показываем
+});
 
 export default function Outside() {
     

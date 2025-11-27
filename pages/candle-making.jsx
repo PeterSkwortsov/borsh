@@ -134,22 +134,21 @@ export default function CandleMaking() {
           Индивидуальный мастер-класс для двух человек - 5000₽.
         </p>
       </div>
-      {/* <span className="indicator-item absolute badge bg-orange-600 text-white border-none">
+
+      <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
+        <span className="indicator-item absolute badge bg-orange-600 text-white border-none">
         Свечка в стеклянном бокале
-      </span> */}
-     <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
-           
-             <div className="carousel-item h-full ">
-               <Image
-                 src="/192.jpg"
-                 unoptimized
-                 width={338}
-                 height={100}
-                 alt="Picture of the author"
-               />
-             </div>
-             
-           </div>
+      </span>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/sv.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+      </div>
 
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
