@@ -30,17 +30,17 @@ const ContentPrice = () => {
             unoptimized
             width={500}
             height={500}
-            alt="Расписание на конец ноября"
+            alt="Расписание на декабрь"
           ></Image>
          
           <div className="px-6 py-4">
             <div className="card-actions justify-center items-center z-20">
               <p className="font-extrabold flex text-center justify-center">
-                Расписание на конец ноября
+                Расписание на декабрь
               </p>
               <a
                 className="btn btn-neutral bg-white text-black max-sm:text-sm m-auto"
-                href="https://vk.com/borsch_art?from=groups&w=wall-231519644_64"
+                href="https://vk.com/borsch_art"
               >
                 Подробнее
               </a>

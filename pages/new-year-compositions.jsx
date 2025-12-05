@@ -16,21 +16,21 @@ export default function Outside() {
     <>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 bg-green-800">
         <Head>
-          <title>Выездные мастер-классы по лепке для детей и взрослых</title>
+          <title>Новогодняя композиция из пихты Нобилиса</title>
 
           <meta
             name="description"
-            content="Проведем мастер-класс по лепке глиняных изделий в школе, на дому, учебном центре или на природе. Мастер-класс по лепке плоской тарелочки, миски, пиалы, подсвечника, кружки, чайной пары, вазочки. Живопись маслом и акрилом на холсте."
+            content="Bы научитесь сoздавaть cтильныe композиции, кoтоpыe стaнут украшением вашего дoмa или пpeкpacным пoдapкoм для близкиx к Нoвому гoду"
           />
 
           <meta
             property="og:title"
-            content="Выездные мастер-классы по лепке для детей и взрослых"
+            content="Мастер-класс по созданию красивых ёлочных композиций"
           />
 
           <meta
             property="og:description"
-            content="Проводим увлекательные мастер-классы на вашей территории до 20 человек."
+            content="Hобилис выгодно отличается от обычной ёлки: его ветки пышные, объёмные и ароматные, а иголочки устойчивы к сильному осыпанию."
           />
 
           <meta property="og:image" content="/3.jpg" />
@@ -67,16 +67,15 @@ export default function Outside() {
                 <Link
                   href={`https://borsch-art.ru/outside-master-class`}
                   itemProp="item"
-                  title="Выездной мастер-класс"
+                  title="Елочная композиция"
                 >
-                  <span itemProp="name">Выездной мастер-класс</span>
+                  <span itemProp="name">Новогодняя композиция</span>
                 </Link>
                 <meta itemProp="position" content="1"></meta>
               </button>
             </li>
           </ul>
         </ol>
-
 
         <Snowfall />
         <h3 className="text-center m-auto justify-center mt-8 max-w-xl text-2xl font-extrabold p-2">
@@ -166,6 +165,15 @@ export default function Outside() {
           </div>
           <div className="carousel-item h-full ">
             <Image
+              src="/201.jpg"
+              unoptimized
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="carousel-item h-full ">
+            <Image
               src="/177.jpg"
               unoptimized
               width={300}
@@ -176,6 +184,16 @@ export default function Outside() {
           <div className="carousel-item h-full ">
             <Image
               src="/180.jpg"
+              unoptimized
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+
+          <div className="carousel-item h-full ">
+            <Image
+              src="/200.jpg"
               unoptimized
               width={300}
               height={100}
@@ -236,11 +254,10 @@ export default function Outside() {
                     <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
                       <h4 className="text-md leading-6 font-medium text-gray-900">
                         Все необходимые материалы, а также чай, кофе и вкусняшки
-                        включены в стоимость☺️ 
+                        включены в стоимость☺️
                       </h4>
                     </div>
                   </div>
-
                 </li>
               </ul>
             </div>

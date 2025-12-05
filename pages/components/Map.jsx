@@ -4,21 +4,7 @@ import Link from 'next/link';
 const Map = () => {
   return (
     <>
-      <section className="center flex flex-col mt-5 mb-8 ">
-        <div className="flex flex-row items-start">
-          <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-            <p className="text-gray-700 text-md">
-              Если вы занимаетесь изготовлением глиняных изделий самостоятельно
-              и у вас нет своей печки, можете воспользоваться{" "}
-              <span className="font-bold">возможностями нашей</span>{" "}
-              <Link className="link  font-bold" href={`./oven`}>
-                муфельной печи.
-              </Link>
-            </p>
-          </div>
-          <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-        </div>
-      </section>
+    
 
       <div className=" flex auto-0 justify-center p-5">
         <a

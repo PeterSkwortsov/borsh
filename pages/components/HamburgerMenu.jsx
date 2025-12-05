@@ -84,9 +84,7 @@ const HamburgerMenu = () => {
                 Подарочный сертификат
               </Link>
             </li>
-            <li className="font-bold" aria-label="Услуги муфельной печи">
-              <Link href="oven">Услуги муфельной печи</Link>
-            </li>
+          
           </ul>
         </div>
       </div>
