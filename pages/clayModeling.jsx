@@ -380,6 +380,20 @@ export default function ClayModeling() {
             className="rounded-lg"
           />
         </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/212.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
       </div>
       <div className="text-center">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">

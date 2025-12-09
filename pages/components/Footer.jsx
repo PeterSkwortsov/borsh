@@ -69,9 +69,7 @@ const Footer = () => {
           <li className="text-center text-md ">
             <Link href="certificate">Подарочный сертификат</Link>
           </li>
-          <li className="text-center  text-md">
-            <Link href="oven">Аренда муфельной печи</Link>
-          </li>
+        
         </ul>
 
         <p className="text-center text-xs p-1 mt-4 mb-3">

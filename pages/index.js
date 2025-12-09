@@ -7,7 +7,6 @@ import Grid from "./components/Grid";
 import Quetions from "./components/Quetions";
 import Utp from './components/Utp';
 import About from "./components/About";
-import Phone from "./components/Phone";
 import Map from "./components/Map";
 import HamburgerMenu from "./components/HamburgerMenu";
 import Mk from "./components/Mk";
@@ -26,7 +25,6 @@ export default function Home() {
             <ContentPrice />
             <Grid />
             <Quetions />
-            <Phone />
             <Map />
        
      

@@ -84,6 +84,15 @@ export default function loveMeeting() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
         <div className="carousel-item h-full ">
           <Image
+            src="/207.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
             src="/161.jpg"
             unoptimized
             width={338}
@@ -327,7 +336,7 @@ export default function loveMeeting() {
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
         <div className=" max-w-sm flex justify-center m-auto" id="1">
           <Image
-            src="/106.webp"
+            src="/210.png"
             unoptimized
             width={100}
             height={100}
@@ -342,7 +351,7 @@ export default function loveMeeting() {
           aria-label="Мастер-класс по ручной лепке из глины"
         >
           <Image
-            src="/110.webp"
+            src="/211.png"
             unoptimized
             width={100}
             height={100}
@@ -375,7 +384,7 @@ export default function loveMeeting() {
             width={100}
             height={100}
             alt="Отзывы"
-            style={{ width: "90%", height: "100%" }}
+            style={{ width: "100%", height: "100%" }}
             className="rounded-lg"
           />
         </div>
@@ -441,6 +450,34 @@ export default function loveMeeting() {
         >
           <Image
             src="/191.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/208.png"
+            unoptimized
+            width={100}
+            height={100}
+            alt="Отзывы"
+            style={{ width: "90%", height: "100%" }}
+            className="rounded-lg"
+          />
+        </div>
+        <div
+          className="max-w-xs flex justify-center m-auto"
+          aria-label="Мастер-класс по ручной лепке из глины"
+        >
+          <Image
+            src="/209.png"
             unoptimized
             width={100}
             height={100}
