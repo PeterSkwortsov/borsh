@@ -84,7 +84,7 @@ export default function loveMeeting() {
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
         <div className="carousel-item h-full ">
           <Image
-            src="/207.jpg"
+            src="/207.webp"
             unoptimized
             width={338}
             height={100}
@@ -111,14 +111,14 @@ export default function loveMeeting() {
         </div>
         <div className="carousel-item h-full ">
           <Image
-            src="/193.jpg"
+            src="/193.webp"
             unoptimized
             width={338}
             height={100}
             alt="Picture of the author"
           />
         </div>
-        
+
         <div className="carousel-item h-full ">
           <Image
             src="/196.jpg"
@@ -261,7 +261,7 @@ export default function loveMeeting() {
                       Ароматный чай и кофе для вас на протяжении всего свидания
                     </li>
                     <strong className="flex text-center justify-center font-bold text-xl mt-3">
-                      Цена 5000₽ за двоих 💞
+                      Цена 6000₽ за двоих 💞
                     </strong>
                   </ul>
                 </div>
@@ -313,17 +313,15 @@ export default function loveMeeting() {
       <div className="mb-8 ">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
           <div>
-            <div className="flex flex-row items-center center m-auto cursor-pointer">
-              <div
-                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+            <div
+              className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
-              >
-                <a href="https://t.me/vika_borsch99">
-                  <p className="text-black font-bold text-lg flex text-center center justify-center">
-                    👉 Забронировать день и время 👈
-                  </p>
-                </a>
-              </div>
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                  Забронировать дату
+                </p>
+              </a>
             </div>
           </div>
         </div>

@@ -110,23 +110,23 @@ export default function Outside() {
               <tr>
                 <th>Композиция в крафтовом стакане</th>
                 <td>20*20см</td>
-                <td>1600₽ / человек</td>
+                <td>1800₽ / человек</td>
               </tr>
               {/* row 2 */}
               <tr>
                 <th>Композиция в новогодней кружке</th>
                 <td>20*20см</td>
-                <td>1900₽ / человек</td>
+                <td>2200₽ / человек</td>
               </tr>
               <tr>
                 <th>Композиция в шляпной коробке</th>
                 <td>35*35см</td>
-                <td>2200₽ / человек</td>
+                <td>2700₽ / человек</td>
               </tr>
               <tr>
                 <th>Композиция большая</th>
                 <td>60*40см</td>
-                <td>3000₽ / человек</td>
+                <td>3500₽ / человек</td>
               </tr>
 
               {/* row 3 */}
@@ -139,13 +139,12 @@ export default function Outside() {
             <div>
               <div className="flex flex-row items-center center m-auto">
                 <div
-                  className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl
-
+                  className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
                 >
                   <a href="https://t.me/vika_borsch99">
-                    <p className="text-gray-700 font-bold text-lg flex text-center center justify-center">
-                      👉 Забронировать день и время 👈
+                    <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                      Забронировать дату
                     </p>
                   </a>
                 </div>
@@ -174,7 +173,27 @@ export default function Outside() {
           </div>
           <div className="carousel-item h-full ">
             <Image
-              src="/205.jpg"
+              src="/222.jpg"
+              unoptimized
+              width={298}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+         
+          <div className="carousel-item h-full ">
+            <Image
+              src="/223.jpg"
+              unoptimized
+              width={298}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          
+          <div className="carousel-item h-full ">
+            <Image
+              src="/205.webp"
               unoptimized
               width={298}
               height={100}
@@ -192,7 +211,7 @@ export default function Outside() {
           </div>
           <div className="carousel-item h-full ">
             <Image
-              src="/204.jpg"
+              src="/204.webp"
               unoptimized
               width={298}
               height={100}
@@ -210,7 +229,7 @@ export default function Outside() {
           </div>
           <div className="carousel-item h-full ">
             <Image
-              src="/206.jpg"
+              src="/206.webp"
               unoptimized
               width={298}
               height={100}

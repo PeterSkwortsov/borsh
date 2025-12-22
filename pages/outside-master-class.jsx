@@ -163,22 +163,47 @@ export default function Outside() {
       <div className="mb-8">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
           <div>
-            <div className="flex flex-row items-center center m-auto cursor-pointer">
-              <div
-                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+            <div
+              className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
-              >
-                <a href="https://t.me/vika_borsch99">
-                  <p className="text-black font-bold text-lg flex text-center center justify-center">
-                    👉 Забронировать день и время 👈
-                  </p>
-                </a>
-              </div>
+            >
+              <a href="https://t.me/vika_borsch99">
+                <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                  Забронировать дату
+                </p>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
+        <div className="carousel-item h-full">
+          <Image
+            src="/179.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/220.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/224.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
         <div className="carousel-item h-full">
           <Image
             src="/179.jpg"

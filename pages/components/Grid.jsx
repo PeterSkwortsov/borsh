@@ -111,7 +111,7 @@ const Grid = () => {
             <p> Абонемент на 4 и 8 занятий.</p>
 
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1800 ₽</p>
+              <p className="text-base">от 600₽ занятие</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -247,7 +247,7 @@ const Grid = () => {
               unoptimized
               width={200}
               height={200}
-              alt="Гончарное свидание"
+              alt="Детский мастер-класс"
               style={{ width: "200%" }}
             />
           </figure>
@@ -263,7 +263,7 @@ const Grid = () => {
               Новый формат
             </span>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1450 ₽</p>
+              <p className="text-base">от 1900 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -276,11 +276,11 @@ const Grid = () => {
         </div>
         <div
           className="card bg-base-200 image-full w-auto shadow-sm"
-          aria-label="Гончарное свидание"
+          aria-label="Выездной мастер-класс"
         >
           <figure>
             <Image
-              src="/nobiles.png"
+              src="/nobiles.webp"
               unoptimized
               width={100}
               height={100}
@@ -301,7 +301,7 @@ const Grid = () => {
               Новый формат
             </span>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1600 ₽</p>
+              <p className="text-base">от 1800 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -318,7 +318,7 @@ const Grid = () => {
         >
           <figure>
             <Image
-              src="/79-2.jpg"
+              src="/79-3.webp"
               unoptimized
               width={200}
               height={200}
@@ -336,7 +336,7 @@ const Grid = () => {
               близкое свидание – за гончарным кругом!
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">5000 ₽</p>
+              <p className="text-base">6000 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"

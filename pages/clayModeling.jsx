@@ -112,19 +112,19 @@ export default function ClayModeling() {
           Индивидуальный мастер-класс для одного человека - 3300₽
         </p>
         <p className="text-md flex text-center justify-center m-5">
-          Индивидуальный мастер-класс для двух человек - 5000₽
+          Индивидуальный мастер-класс для двух человек - 6000₽
         </p>
       </div>
-      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+      <div className="max-w-screen-md mx-auto px-4  sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
-          <div className="flex flex-row items-center center m-auto cursor-pointer">
+          <div className="flex  flex-row items-center center m-auto cursor-pointer">
             <div
-              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+              className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
             >
               <a href="https://t.me/vika_borsch99">
-                <p className="text-black font-bold text-lg flex text-center center justify-center">
-                  👉 Забронировать день и время 👈
+                <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                  Забронировать дату
                 </p>
               </a>
             </div>
@@ -464,7 +464,7 @@ export default function ClayModeling() {
                 alt="Picture of the author"
               />
             </div>
-            
+
             <div className="carousel-item h-full ">
               <Image
                 src="/182.jpg"

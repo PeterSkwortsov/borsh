@@ -54,7 +54,7 @@ const ContentPrice = () => {
       <div itemScope className="carousel carousel-center mt-10 mb-10 w-fit">
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/202.jpg"
+            src="/202.webp"
             itemProp="image"
             unoptimized
             width={300}

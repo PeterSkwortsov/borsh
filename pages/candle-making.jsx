@@ -131,17 +131,17 @@ export default function CandleMaking() {
           Индивидуальный мастер-класс для одного человека - 3300₽.
         </p>
         <p className="text-md flex text-center justify-center m-5">
-          Индивидуальный мастер-класс для двух человек - 5000₽.
+          Индивидуальный мастер-класс для двух человек - 6000₽.
         </p>
       </div>
 
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
         <span className="indicator-item absolute badge bg-orange-600 text-white border-none">
-        Свечка в стеклянном бокале
-      </span>
+          Свечка в стеклянном бокале
+        </span>
         <div className="carousel-item h-full ">
           <Image
-            src="/sv.jpg"
+            src="/sv.webp"
             unoptimized
             width={338}
             height={100}
@@ -154,12 +154,12 @@ export default function CandleMaking() {
         <div>
           <div className="flex flex-row items-center center m-auto cursor-pointer">
             <div
-              className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+              className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
             >
               <a href="https://t.me/vika_borsch99">
-                <p className="text-black font-bold text-lg flex text-center center justify-center">
-                  👉 Забронировать день и время 👈
+                <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                  Забронировать дату
                 </p>
               </a>
             </div>

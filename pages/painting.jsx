@@ -127,25 +127,23 @@ export default function Painting() {
           Индивидуальный мастер-класс для одного человека от 3300₽.
         </p>
         <p className="text-md flex text-center justify-center m-5">
-          Индивидуальный мастер-класс для двух человек от 5000₽.
+          Индивидуальный мастер-класс для двух человек от 6000₽.
         </p>
       </div>
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
-          <div>
-            <div className="flex flex-row items-center center m-auto cursor-pointer">
-              <div
-                className="bg-orange-100 p-5 px-10 w-full flex items-center rounded-4xl text-white
+      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
+        <div>
+          <div
+            className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
-              >
-                <a href="https://t.me/vika_borsch99">
-                  <p className="text-black font-bold text-lg flex text-center center justify-center">
-                    👉 Забронировать день и время 👈
-                  </p>
-                </a>
-              </div>
-            </div>
+          >
+            <a href="https://t.me/vika_borsch99">
+              <p className="text-black font-bold text-lg   flex text-center center justify-center">
+                Забронировать дату
+              </p>
+            </a>
           </div>
         </div>
+      </div>
 
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex">
         <div className="carousel-item h-full ">
@@ -175,8 +173,6 @@ export default function Painting() {
             alt="Picture of the author"
           />
         </div>
-
-        
 
         <div className="carousel-item h-full ">
           <Image

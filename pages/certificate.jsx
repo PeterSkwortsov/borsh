@@ -80,7 +80,7 @@ const certificate = () => {
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      1000 ₽
+                      3000 ₽
                     </h3>
                   </div>
                   <p className="mt-1 mb-2 text-xs font-medium">
@@ -110,7 +110,7 @@ const certificate = () => {
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      2000 ₽
+                      4000 ₽
                     </h3>
                   </div>
                   <p className="mt-1 mb-2 text-xs font-medium">
@@ -142,7 +142,7 @@ const certificate = () => {
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      3000 ₽
+                      5000 ₽
                     </h3>
                   </div>
                   <p className="mt-1 mb-2 text-xs font-medium">
@@ -172,7 +172,7 @@ const certificate = () => {
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      4000 ₽
+                      6000 ₽
                     </h3>
                   </div>
                   <p className="mt-1 mb-2 text-xs font-medium">
@@ -202,7 +202,7 @@ const certificate = () => {
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      5000 ₽
+                      10000 ₽
                     </h3>
                   </div>
                   <p className="mt-1 mb-2 text-xs font-medium">
