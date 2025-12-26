@@ -68,9 +68,13 @@ const certificate = () => {
           Номинал сертификатов
         </h2>
         <p className=" text-gray-600 mt-5 mb-5">
-          Данные сертификаты позволяют участвовать в любом мастер-классе студии.
-          Используется только по предварительной записи. Действует 12 месяцев с
-          момента приобретения, не подлежит обмену и возврату.
+          Сертификат позволяет участвовать в любом мастер-классе студии.
+          <br />
+          Может быть оформлен в бумажном красивом конверте (курьером или
+          самовывоз) или электронном виде. <br />
+          Используется только по предварительной записи! <br />
+          Действует 12 месяцев с момента приобретения, не подлежит обмену и
+          возврату.
         </p>
         <div className="w-full">
           <div className="flex flex-col w-full mb-10 sm:flex-row">
@@ -79,134 +83,12 @@ const certificate = () => {
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                 <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                   <div className="flex items-center -mt-1">
-                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      3000 ₽
+                    <h3 className=" text-lg font-bold text-gray-800">
+                      от 1800 ₽
                     </h3>
                   </div>
-                  <p className="mt-1 mb-2 text-xs font-medium">
-                    Может быть оформлен в бумажном или электронном виде
-                  </p>
-                  <button className="">
-                    <Link
-                      href={`https://t.me/vika_borsch99`}
-                      className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                    >
-                      <Image
-                        src="/basket.svg"
-                        width={200}
-                        height={200}
-                        alt="Picture of the author"
-                        style={{ width: "50%" }}
-                      />
-                      Купить
-                    </Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2">
-              <div className="relative h-full ml-0 md:mr-10">
-                <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                  <div className="flex items-center -mt-1">
-                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      4000 ₽
-                    </h3>
-                  </div>
-                  <p className="mt-1 mb-2 text-xs font-medium">
-                    Может быть оформлен в бумажном или электронном виде
-                  </p>
-                  <button className="">
-                    <Link
-                      href={`https://t.me/vika_borsch99`}
-                      className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                    >
-                      <Image
-                        src="/basket.svg"
-                        width={200}
-                        height={200}
-                        alt="Picture of the author"
-                        style={{ width: "50%" }}
-                      />
-                      Купить
-                    </Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col w-full mb-5 sm:flex-row">
-            <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
-              <div className="relative h-full ml-0 mr-0 sm:mr-10">
-                <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                  <div className="flex items-center -mt-1">
-                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      5000 ₽
-                    </h3>
-                  </div>
-                  <p className="mt-1 mb-2 text-xs font-medium">
-                    Может быть оформлен в бумажном или электронном виде
-                  </p>
-                  <button className="">
-                    <Link
-                      href={`https://t.me/vika_borsch99`}
-                      className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                    >
-                      <Image
-                        src="/basket.svg"
-                        width={200}
-                        height={200}
-                        alt="Picture of the author"
-                        style={{ width: "50%" }}
-                      />
-                      Купить
-                    </Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
-              <div className="relative h-full ml-0 mr-0 sm:mr-10">
-                <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                  <div className="flex items-center -mt-1">
-                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      6000 ₽
-                    </h3>
-                  </div>
-                  <p className="mt-1 mb-2 text-xs font-medium">
-                    Может быть оформлен в бумажном или электронном виде
-                  </p>
-                  <button className="">
-                    <Link
-                      href={`https://t.me/vika_borsch99`}
-                      className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                    >
-                      <Image
-                        src="/basket.svg"
-                        width={200}
-                        height={200}
-                        alt="Picture of the author"
-                        style={{ width: "50%" }}
-                      />
-                      Купить
-                    </Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2">
-              <div className="relative h-full ml-0 md:mr-10">
-                <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                  <div className="flex items-center -mt-1">
-                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      10000 ₽
-                    </h3>
-                  </div>
-                  <p className="mt-1 mb-2 text-xs font-medium">
-                    Может быть оформлен в бумажном или электронном виде
+                  <p className="mt-1 mb-2 text-sm font-medium">
+                    Вы можете выбрать любую сумму
                   </p>
                   <button className="">
                     <Link

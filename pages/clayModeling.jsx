@@ -90,7 +90,7 @@ export default function ClayModeling() {
                 Мастер-класс по лепке плоской тарелочки, миски, пиалы,
                 подсвечника
               </td>
-              <td>1600₽ / человек</td>
+              <td>1800₽ / человек</td>
             </tr>
             {/* row 2 */}
             <tr>
@@ -98,18 +98,27 @@ export default function ClayModeling() {
               <td>
                 Мастер-класс по лепке кружки, чайной пары, вазочки до 15 см
               </td>
-              <td>2000₽ / человек</td>
+              <td>2200₽ / человек</td>
             </tr>
             {/* row 3 */}
             <tr>
               <th>3</th>
               <td>Мастер-класс по лепке чайной пары или менажницы</td>
-              <td>2500₽ / человек</td>
+              <td>2700₽ / человек</td>
             </tr>
           </tbody>
         </table>
+         <div className="block md:hidden">
+                  <Image
+                    src="/left.png"
+                    alt="Мобильная картинка"
+                    width={500}
+                    height={300}
+                    className="w-10 m-auto"
+                  />
+                </div>
         <p className="text-md flex text-center justify-center m-5 mt-8">
-          Индивидуальный мастер-класс для одного человека - 3300₽
+          Индивидуальный мастер-класс для одного человека - 3500₽
         </p>
         <p className="text-md flex text-center justify-center m-5">
           Индивидуальный мастер-класс для двух человек - 6000₽

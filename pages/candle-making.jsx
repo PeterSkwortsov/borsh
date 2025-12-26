@@ -127,6 +127,15 @@ export default function CandleMaking() {
             </tr>
           </tbody>
         </table>
+         <div className="block mt-2 md:hidden">
+                  <Image
+                    src="/left.png"
+                    alt="Мобильная картинка"
+                    width={500}
+                    height={300}
+                    className="w-10 m-auto"
+                  />
+                </div>
         <p className="text-md flex text-center justify-center m-5 mt-8">
           Индивидуальный мастер-класс для одного человека - 3300₽.
         </p>

@@ -80,7 +80,7 @@ export default function PotterWheel() {
             <tr>
               <th></th>
               <th className="fb">Групповые занятия от 3-х человек</th>
-              <th className="fb">Размер изделия</th>
+              <th className="fb max-w-xl">Размер изделия</th>
               <th className="fb">Цена</th>
             </tr>
           </thead>
@@ -88,21 +88,27 @@ export default function PotterWheel() {
             <tr>
               <th>1</th>
               <td>Мастер-класс на гончарном круге</td>
-              <td>Диаметр до 20 см или в высоту 15 см</td>
-              <td>2.000₽</td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td>Мастер-класс на гончарном круге</td>
-              <td>Диаметр до 25 см или в высоту 20 см</td>
-              <td>2.500₽</td>
+              <td className="min-w-[300px] md:min-w-[400px]">
+                Можно создать любое изделие не больше 12 см в диаметре и в
+                высоте.
+              </td>
+              <td>2.200₽</td>
             </tr>
           </tbody>
         </table>
+        <div className="block mt-3 md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
       </div>
 
       <p className="text-md flex text-center justify-center m-5 mt-8">
-        Индивидуальные занятия: для одного человека - 3.300₽<br></br>
+        Индивидуальные занятия: для одного человека - 3.500₽<br></br>
         Для двоих - 6000₽<br></br>
       </p>
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">

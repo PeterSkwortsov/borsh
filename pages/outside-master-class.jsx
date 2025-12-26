@@ -118,6 +118,15 @@ export default function Outside() {
             </tr>
           </tbody>
         </table>
+         <div className="block mt-2 md:hidden">
+                          <Image
+                            src="/left.png"
+                            alt="Мобильная картинка"
+                            width={500}
+                            height={300}
+                            className="w-10 m-auto"
+                          />
+                        </div>
       </div>
 
       <div
@@ -153,7 +162,7 @@ export default function Outside() {
             <tr>
               <th>3</th>
               <td>Размер 60х40</td>
-              <td>3300₽ / человек</td>
+              <td>3500₽ / человек</td>
             </tr>
             {/* row 3 */}
           </tbody>

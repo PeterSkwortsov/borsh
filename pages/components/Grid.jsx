@@ -76,7 +76,7 @@ const Grid = () => {
               обжига.<br></br> Изделие готово через 4-5 недель.
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1600 ₽</p>
+              <p className="text-base">от 1800 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -153,7 +153,7 @@ const Grid = () => {
             </p>
 
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 2000 ₽</p>
+              <p className="text-base">от 2200 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
@@ -341,6 +341,42 @@ const Grid = () => {
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href="/loveMeeting"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/225.jpg"
+              unoptimized
+              width={200}
+              height={200}
+              alt="Гончарное свидание"
+              style={{ width: "200%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="8">
+              Подарочный СЕРТИФИКАТ
+            </h2>
+            <p>
+              Готовое решение — не ломай голову над подарком.
+              <br /> Вы дарите возможность создать, а не просто получить.
+              <br /> Я очень довольна тем, что в моей студии удается создать
+              атмосферу, где люди отдыхают телом и душой через творчество.
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 1800 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="certificate"
               >
                 Подробнее
               </Link>

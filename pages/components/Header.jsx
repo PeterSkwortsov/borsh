@@ -60,7 +60,7 @@ const Header = () => {
                 </div>
               </div>
             </h1>
-            <address className="font-bold">
+            <address className="font-extrabold">
               ул. Ломоносова 9, 4 этаж, офис 408
             </address>
             <a

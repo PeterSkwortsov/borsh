@@ -105,7 +105,15 @@ export default function Group() {
             </tr>
           </tbody>
         </table>
-
+ <div className="block mt-3 md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
         <h6 className="text-md flex text-center justify-center m-5 mt-8 font-bold">
           Расписание групповых занятий для детей по лепке из глины:
         </h6>
@@ -134,6 +142,7 @@ export default function Group() {
           4 занятия в месяц - 5.500₽, в рамках абонемента можно посещать любые
           двухчасовые групповые занятия по расписанию.
         </p>
+        
       </div>
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>

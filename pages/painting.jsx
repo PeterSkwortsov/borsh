@@ -123,6 +123,15 @@ export default function Painting() {
             </tr>
           </tbody>
         </table>
+         <div className="block md:hidden">
+                  <Image
+                    src="/left.png"
+                    alt="Мобильная картинка"
+                    width={500}
+                    height={300}
+                    className="w-10 m-auto"
+                  />
+                </div>
         <p className="text-md flex text-center justify-center m-5 mt-8">
           Индивидуальный мастер-класс для одного человека от 3300₽.
         </p>
@@ -130,6 +139,7 @@ export default function Painting() {
           Индивидуальный мастер-класс для двух человек от 6000₽.
         </p>
       </div>
+      
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
           <div

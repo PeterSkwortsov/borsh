@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image';
 
 const Mk = () => {
   return (
@@ -18,6 +19,15 @@ const Mk = () => {
         <h6 className="text-md flex text-center justify-center m-5 font-bold">
           Расписание групповых занятий по рисунку и живописи:
         </h6>
+        <div className="block md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -74,9 +84,6 @@ const Mk = () => {
           двухчасовые групповые занятия по расписанию.
         </p>
       </div>
-
-
-   
     </>
   );
 }

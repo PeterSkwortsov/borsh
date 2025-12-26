@@ -11,10 +11,15 @@ const Footer = () => {
         </address>
         <a
           href="tel:+79049017926"
-          className="p-3 mb-2 flex gap-2 justify-center font-extrabold text-withe"
+          className="mb-2 flex gap-2 justify-center font-extrabold text-withe"
         >
           +7-904-901-79-26
         </a>
+        <p className="text-md m-auto flex justify-center mb-3">
+          {" "}
+          Только по предварительной записи!
+        </p>
+
         <div className="flex gap-2 justify-center">
           <div className="avatar">
             <div className="w-10 rounded-full">
@@ -69,7 +74,6 @@ const Footer = () => {
           <li className="text-center text-md ">
             <Link href="certificate">Подарочный сертификат</Link>
           </li>
-        
         </ul>
 
         <p className="text-center text-xs p-1 mt-4 mb-3">
