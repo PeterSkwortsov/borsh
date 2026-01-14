@@ -20,34 +20,7 @@ const ContentPrice = () => {
         Занятия проходят в светлой мастерской
       </h5>
 
-      <div className="container mx-auto px-8 lg:px-0 mb-10">
-        <div className="mx-auto mt-8 max-w-md rounded overflow-hidden shadow-lg">
-          <span className="indicator-item badge bg-orange-600 text-white border-none">
-            Новый мастер-класс!
-          </span>
-          <Image
-            src="179.jpg"
-            unoptimized
-            width={500}
-            height={500}
-            alt="Расписание на декабрь"
-          ></Image>
-
-          <div className="px-6 py-4">
-            <div className="card-actions justify-center items-center z-20">
-              <p className="font-extrabold flex text-center justify-center">
-                Расписание на декабрь
-              </p>
-              <a
-                className="btn btn-neutral bg-white text-black max-sm:text-sm m-auto"
-                href="https://vk.com/borsch_art"
-              >
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <Utp />
 

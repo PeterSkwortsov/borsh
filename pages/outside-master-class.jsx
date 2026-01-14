@@ -118,55 +118,15 @@ export default function Outside() {
             </tr>
           </tbody>
         </table>
-         <div className="block mt-2 md:hidden">
-                          <Image
-                            src="/left.png"
-                            alt="Мобильная картинка"
-                            width={500}
-                            height={300}
-                            className="w-10 m-auto"
-                          />
-                        </div>
-      </div>
-
-      <div
-        className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5"
-        role="sectionhead"
-      >
-        <table className="table table-zebra">
-          {/* head */}
-          <thead>
-            <tr>
-              <th></th>
-              <th className="fb">
-                Стоимость выездного мк по новогодней<br></br> композиции из
-                пихты нобилиса
-              </th>
-              <th className="fb">Цена</th>
-              {/* <th className="fb">Изображение</th> */}
-            </tr>
-          </thead>
-          <tbody>
-            {/* row 1 */}
-            <tr>
-              <th>1</th>
-              <td>Размер 20х20 см в крафтовом стакане</td>
-              <td>1900₽ / человек</td>
-            </tr>
-            {/* row 2 */}
-            <tr>
-              <th>2</th>
-              <td>Размер 35х35 см в шляпной коробке</td>
-              <td>2600₽ / человек</td>
-            </tr>
-            <tr>
-              <th>3</th>
-              <td>Размер 60х40</td>
-              <td>3500₽ / человек</td>
-            </tr>
-            {/* row 3 */}
-          </tbody>
-        </table>
+        <div className="block mt-2 md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
       </div>
 
       <div className="mb-8">
@@ -186,7 +146,7 @@ export default function Outside() {
         </div>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
-        <div className="carousel-item h-full">
+        {/* <div className="carousel-item h-full">
           <Image
             src="/179.jpg"
             unoptimized
@@ -221,7 +181,7 @@ export default function Outside() {
             height={100}
             alt="Picture of the author"
           />
-        </div>
+        </div> */}
 
         <div className="carousel-item h-full ">
           <Image
@@ -244,7 +204,7 @@ export default function Outside() {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/184.jpg"
+            src="/220.jpg"
             unoptimized
             width={300}
             height={100}
