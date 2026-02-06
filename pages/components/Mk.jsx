@@ -13,8 +13,8 @@ const Mk = () => {
           className="text-black text-2xl font-extrabold p-3 m-auto text-center mb-4"
           itemProp="name"
         >
-          Групповые занятия для детей и взрослых
-          <span className="text-orange-600"> по средам</span>
+          Групповые занятия для
+          <span className="text-orange-600"> детей по средам</span>
         </h3>
         <h6 className="text-md flex text-center justify-center m-5 font-bold">
           Расписание групповых занятий по рисунку и живописи:

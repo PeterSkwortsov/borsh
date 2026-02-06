@@ -146,42 +146,7 @@ export default function Outside() {
         </div>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
-        {/* <div className="carousel-item h-full">
-          <Image
-            src="/179.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/220.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/224.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/179.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Picture of the author"
-          />
-        </div> */}
+      
 
         <div className="carousel-item h-full ">
           <Image
@@ -205,6 +170,15 @@ export default function Outside() {
         <div className="carousel-item h-full">
           <Image
             src="/220.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/175.jpg"
             unoptimized
             width={300}
             height={100}

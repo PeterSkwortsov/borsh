@@ -247,7 +247,7 @@ const Grid = () => {
               unoptimized
               width={200}
               height={200}
-              alt="Детский мастер-класс"
+              alt="Выездной мастер-класс"
               style={{ width: "200%" }}
             />
           </figure>
@@ -274,44 +274,7 @@ const Grid = () => {
             </div>
           </div>
         </div>
-        {/* <div
-          className="card bg-base-200 image-full w-auto shadow-sm"
-          aria-label="Выездной мастер-класс"
-        >
-          <figure>
-            <Image
-              src="/nobiles.webp"
-              unoptimized
-              width={100}
-              height={100}
-              alt="Новогодняя композиция из пихты нобилиса"
-              style={{ width: "100%" }}
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-orange-200 font-extrabold" id="8">
-              НОВОГОДНЯЯ КОМПОЗИЦИЯ из пихты нобилиса
-            </h2>
-            <p>
-              Вы освоите искусство создания новогодних композиций, которые
-              станут украшением вашего интерьера или прекрасным подарком для
-              близких.
-            </p>{" "}
-            <span className="indicator-item badge bg-orange-600 text-white border-none">
-              Новый формат
-            </span>
-            <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 1800 ₽</p>
 
-              <Link
-                className="btn btn-neutral bg-white text-black max-sm:text-sm"
-                href="/new-year-compositions"
-              >
-                Подробнее
-              </Link>
-            </div>
-          </div>
-        </div> */}
         <div
           className="card bg-base-200 image-full w-auto shadow-sm"
           aria-label="Гончарное свидание"
@@ -357,7 +320,7 @@ const Grid = () => {
               unoptimized
               width={200}
               height={200}
-              alt="Гончарное свидание"
+              alt="Подарочный сертификат"
               style={{ width: "200%" }}
             />
           </figure>
@@ -377,6 +340,45 @@ const Grid = () => {
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href="certificate"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card bg-base-200 image-full w-auto shadow-sm"
+          aria-label="Гончарное свидание"
+        >
+          <figure>
+            <Image
+              src="/63.webp"
+              unoptimized
+              width={100}
+              height={100}
+              alt="Занятия по рисованию"
+              style={{ width: "100%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold" id="8">
+              Занятия по РИСОВАНИЮ и ЛЕПКЕ для ДЕТЕЙ
+            </h2>
+            <p>
+              Нескучные уроки для вашего ребенка от 4-х лет.<br></br>
+
+              <br></br>Получение конкретных навыков. <br></br>Ребенок научиться работать
+              с разными материалами (акварель, гуашь, пастель, карандаш),
+              освоит основы композиции, перспективы, колористики.
+              <br></br>
+              Создаст свою первую глиняную посуду.
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 600 ₽</p>
+
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="children"
               >
                 Подробнее
               </Link>

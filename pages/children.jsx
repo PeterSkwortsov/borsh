@@ -1,31 +1,37 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
 
-export default function Group() {
+
+
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
+
+export default function Children() {
   return (
     <>
       <Head>
-        <title>Групповые занятия для детей и взрослых</title>
+        <title>
+          Рисование и лепка из глины для детей от 4 лет | Творческая студия Вики
+          Борщ в Нижнем Новгороде
+        </title>
 
         <meta
           name="description"
-          content="Для тех, кто хочет общения с единомышленниками в веселой компании с близкими людьми по духу, мы организовали групповые занятия."
+          content="Ищем полезный и увлекательный досуг для ребенка? Наши занятия по рисованию и лепке из глины для детей от 4 лет — это развитие моторики, фантазии и радость творчества в атмосфере вдохновения. Ждем вас!"
         />
 
         <meta
           property="og:title"
-          content="Абонементы на занятия по гончарному мастерству и рисованию."
+          content="Рисование и лепка из глины для детей от 4 лет | Творческая студия Вики Борщ в Нижнем Новгороде"
         />
 
         <meta
           property="og:description"
-          content="На выбор программы из 4 или 8 занятий, от 1 до 2 часов в нашей уютной студии."
+          content="Ищем полезный и увлекательный досуг для ребенка? Наши занятия по рисованию и лепке из глины для детей от 4 лет — это развитие моторики, фантазии и радость творчества в атмосфере вдохновения. Ждем вас!"
         />
 
-        <meta property="og:image" content="/4.jpg" />
+        <meta property="og:image" content="/6.jpg" />
 
-        <meta property="og:url" content="https://borsch-art.ru/clayModeling/" />
+        <meta property="og:url" content="https://borsch-art.ru/children/" />
       </Head>
 
       <ol
@@ -40,7 +46,7 @@ export default function Group() {
             itemType="https://schema.org/ListItem"
           >
             <button className="indicator-item badge bg-orange-600 text-white border-none">
-              <Link href={`./#3`} itemProp="item" title="Главная">
+              <Link href={`./#5`} itemProp="item" title="Главная">
                 <span itemProp="name">Главная</span>
               </Link>
               <meta itemProp="position" content="0"></meta>
@@ -53,11 +59,13 @@ export default function Group() {
           >
             <button>
               <Link
-                href={`https://borsch-art.ru/group/`}
+                href={`https://borsch-art.ru/children/`}
                 itemProp="item"
-                title="Абонементы"
+                title="Занятия по рисованию и лепке для детей"
               >
-                <span itemProp="name">Абонементы</span>
+                <span itemProp="name">
+                  Занятия по рисованию и лепке для детей
+                </span>
               </Link>
               <meta itemProp="position" content="1"></meta>
             </button>
@@ -65,12 +73,20 @@ export default function Group() {
         </ul>
       </ol>
 
+      <h1 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
+        <span className="text-orange-600">
+          Развиваем моторику и креативное мышление
+        </span>{" "}
+        <br></br>
+        занятия для детей в Нижнем Новгороде
+      </h1>
+
       <div
-        className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
+        className="overflow-x-auto md:max-w-2/3 m-auto mt-10 mb-1"
         role="sectionhead"
       >
         <h3
-          className="text-black text-2xl font-extrabold p-3 m-auto text-center mb-4"
+          className="text-black text-lg font-extrabold p-3 m-auto text-center mb-4"
           itemProp="name"
         >
           Групповые занятия для детей
@@ -79,6 +95,15 @@ export default function Group() {
         <h6 className="text-md flex text-center justify-center m-5 font-bold">
           Расписание групповых занятий по рисунку и живописи:
         </h6>
+        <div className="block md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
         <table className="table table-zebra">
           {/* head */}
           <thead>
@@ -105,15 +130,7 @@ export default function Group() {
             </tr>
           </tbody>
         </table>
- <div className="block mt-3 md:hidden">
-          <Image
-            src="/left.png"
-            alt="Мобильная картинка"
-            width={500}
-            height={300}
-            className="w-10 m-auto"
-          />
-        </div>
+
         <h6 className="text-md flex text-center justify-center m-5 mt-8 font-bold">
           Расписание групповых занятий для детей по лепке из глины:
         </h6>
@@ -142,13 +159,12 @@ export default function Group() {
           4 занятия в месяц - 5.500₽, в рамках абонемента можно посещать любые
           двухчасовые групповые занятия по расписанию.
         </p>
-        
       </div>
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
           <div
             className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
-"
+       "
           >
             <a href="https://t.me/vika_borsch99">
               <p className="text-black font-bold text-lg   flex text-center center justify-center">
@@ -235,7 +251,7 @@ export default function Group() {
         <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg">
           <div className="carousel-item h-full ">
             <Image
-              src="/155.jpg"
+              src="/185.jpg"
               unoptimized
               width={338}
               height={100}
@@ -253,31 +269,31 @@ export default function Group() {
           </div>
           <div className="carousel-item h-full ">
             <Image
-              src="/156.jpg"
+              src="/63.webp"
               unoptimized
               width={338}
               height={100}
               alt="Picture of the author"
             />
           </div>
-          <div className="carousel-item h-full ">
-            <Image
-              src="/157.jpg"
-              unoptimized
-              width={338}
-              height={100}
-              alt="Picture of the author"
-            />
-          </div>
-          <div className="carousel-item h-full ">
-            <Image
-              src="/162.jpg"
-              unoptimized
-              width={338}
-              height={100}
-              alt="Picture of the author"
-            />
-          </div>
+          {/* <div className="carousel-item h-full ">
+                   <Image
+                     src="/157.jpg"
+                     unoptimized
+                     width={338}
+                     height={100}
+                     alt="Picture of the author"
+                   />
+                 </div>
+                 <div className="carousel-item h-full ">
+                   <Image
+                     src="/162.jpg"
+                     unoptimized
+                     width={338}
+                     height={100}
+                     alt="Picture of the author"
+                   />
+                 </div> */}
         </div>
       </div>
     </>
