@@ -160,6 +160,29 @@ export default function Children() {
           двухчасовые групповые занятия по расписанию.
         </p>
       </div>
+      <div className="px-4 md:py-20 lg:py-24 mb-6">
+        <div className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 gap-8 ">
+            <div className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group">
+              {/* Декоративный элемент */}
+
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                    РОСТ ОТ ЗАНЯТИЯ К ЗАНЯТИЮ
+                  </h3>
+                  <p className="text-gray-700">
+                    Не разовые впечатления, а путь. Ваш ребенок освоит материалы
+                    и техники шаг за шагом и создаст свою серию работ, которая
+                    покажет его творческое развитие.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
           <div

@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Quetions = () => {
+
+
+
+
+
+
   return (
     <>
       <div className="max-w-3xl mx-auto mt-20 mb-20" id="quetion">
@@ -43,7 +49,8 @@ const Quetions = () => {
             мероприятие?
           </div>
           <div className="collapse-content text-md">
-            Записаться можно по телефону 89049017926 через телеграм или ватсап. Удобный переход в лс по ссылке внизу и вверху сайта.
+            Записаться можно по телефону 89049017926 через телеграм или ватсап.
+            Удобный переход в лс по ссылке внизу и вверху сайта.
           </div>
         </div>
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
@@ -101,16 +108,37 @@ const Quetions = () => {
             процесса, остальное прикладывается!
           </div>
         </div>
-        {/* <div className="collapse collapse-plus bg-base-100 border border-base-300">
-          <input type="radio" name="my-accordion-3" />
-          <div className="collapse-title font-semibold ">
-            Есть ли занятия{" "}
-            <span className="text-orange-600">только для взрослых?</span> 18+
+      </div>
+
+      <div className="px-4 md:py-20 lg:py-24 ">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            Почему у нас хорошо?
+          </h2>
+
+          <div className="grid grid-cols-1 gap-8 ">
+              <div
+                className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group"
+              >
+                {/* Декоративный элемент */}
+
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0"></div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                      Атмосфера
+                    </h3>
+                    <p className="text-gray-700">
+                      Для нас это осознанная работа: от света и музыки до
+                      подбора материалов. Мы создаём среду, где вы чувствуете
+                      себя на своей волне и можете творить свободно. Убедитесь
+                      сами, прочтите отзывы
+                    </p>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div className="collapse-content text-md">
-            Да. Уточните подробности по указанным контактам на сайте.
-          </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

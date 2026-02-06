@@ -123,15 +123,15 @@ export default function Painting() {
             </tr>
           </tbody>
         </table>
-         <div className="block md:hidden">
-                  <Image
-                    src="/left.png"
-                    alt="Мобильная картинка"
-                    width={500}
-                    height={300}
-                    className="w-10 m-auto"
-                  />
-                </div>
+        <div className="block md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
         <p className="text-md flex text-center justify-center m-5 mt-8">
           Индивидуальный мастер-класс для одного человека от 3300₽.
         </p>
@@ -139,7 +139,31 @@ export default function Painting() {
           Индивидуальный мастер-класс для двух человек от 6000₽.
         </p>
       </div>
-      
+
+      <div className="px-4 md:py-20 lg:py-24 mb-7">
+        <div className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 gap-8 ">
+            <div className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group">
+              {/* Декоративный элемент */}
+
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                    ВОПЛОТИТЕ ЛЮБУЮ ИДЕЮ В КРАСКАХ
+                  </h3>
+                  <p className="text-gray-700">
+                    Принесите свою задумку или выберите из нашей подборки. Мы
+                    поможем адаптировать её под ваш уровень и создать
+                    по-настоящему индивидуальную работу.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
           <div
