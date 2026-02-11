@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="/vika.png" />
         <meta property="og:url" content="https://borsch-art.ru/" />
         <meta property="og:type" content="website" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="yandex-verification" content="4677ee3f6a2214af" />
       </Head>
      

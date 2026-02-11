@@ -1,10 +1,21 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation'
+
+
 
 const Footer = () => {
+
+ 
+  const handleClick = () => {
+    window.open('https://www.avito.ru/brands/8d76be9c000dcf00585b1f13c92d5e09/all/predlozheniya_uslug?gdlkerfdnwq=101&page_from=from_item_card&iid=7426197176&sellerId=1a482f59c268883c8e1f7b9276118a13', '_blank', 'noopener,noreferrer')
+  }
+
+
+
   return (
-    <footer className="bg-black text-white py-4">
+    <footer className="bg-black text-white py-4 ">
       <div className="container mx-auto">
         <address className="font-bold flex gap-2 justify-center mt-2">
           ул. Ломоносова 9, этаж 4, офис 408
@@ -47,19 +58,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="avatar">
-            <div className="w-10 rounded-full">
-              <a href="https://wa.me/+79049017926">
-                <Image
-                  src="/whatsapp.svg"
-                  width={200}
-                  height={100}
-                  alt="Picture of the author"
-                  style={{ width: "100%" }}
-                />
-              </a>
-            </div>
-          </div>
+          
         </div>
 
         <iframe
@@ -70,27 +69,39 @@ const Footer = () => {
           className="m-auto mt-5"
         ></iframe>
 
-        <ul className="mt-4">
-          <li className="text-center text-md ">
-            <Link href="certificate">Подарочный сертификат</Link>
-          </li>
-        </ul>
+        <section
+          onClick={handleClick}
+          className="bg-white rounded-xl shadow-sm p-3 max-w-40 m-auto mt-4 border border-gray-100 cursor-pointer"
+        >
+          <div className="flex items-center justify-between gap-3">
+            {/* Левая часть с рейтингом */}
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <div className="text-xl font-bold text-[#A169F7]">5.0</div>
+                <div className="flex">
+                  {[...Array(5)].map((_, i) => (
+                    <svg
+                      key={i}
+                      className="w-4 h-4 text-[#A169F7]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+              </div>
+              <p className="text-xs text-gray-800 font-medium leading-tight">
+                Рейтинг на{" "}
+                <span className="text-md font-bold text-[#833bf0]">Avito</span>
+              </p>
+            </div>
+          </div>
+        </section>
 
-        <p className="text-center text-xs p-1 mt-4 mb-3">
-          Информация на данном сайте не является публичной офертой.<br></br>
-          На сайте используется cookies. Продолжая им пользоваться вы
-          соглашаетесь на обработку персональных данных в соответствии с{" "}
-          <Link href="./confidentiality" className="link">
-            Политикой конфиденциальности.
-          </Link>
-          <br></br>
-          <span>
-            Сайт разработан{" "}
-            <a href="https://vk.com/skwortsow.petia" className="font-bold">
-              СКВОРЦОМ
-            </a>
-          </span>
-        </p>
+       
+
+    
       </div>
     </footer>
   );

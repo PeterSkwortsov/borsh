@@ -78,13 +78,20 @@ const HamburgerMenu = () => {
                 Ответы на вопросы
               </Link>
             </li>
-       
+
+            <li>
+              <Link
+                href="./confidentiality"
+                aria-label="Политика конфиденциальности"
+              >
+                Политика конфиденциальности
+              </Link>
+            </li>
             <li className="font-bold">
               <Link href="certificate" aria-label="Подарочный сертификат">
                 Подарочный сертификат
               </Link>
             </li>
-          
           </ul>
         </div>
       </div>

@@ -116,9 +116,10 @@ const Quetions = () => {
             Почему у нас хорошо?
           </h2>
 
-          <div className="grid grid-cols-1 gap-8 ">
+          <div className="grid grid-cols-1 gap-8 mb-4">
               <div
-                className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group"
+                className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-1
+                py-3 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group"
               >
                 {/* Декоративный элемент */}
 
