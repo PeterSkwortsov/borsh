@@ -24,7 +24,7 @@ const Header = () => {
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default  font-bold"
             >
-              Рисование и гончарное мастерство<br></br>для взрослых и детей в
+              Рисование и лепка из глины<br></br>для взрослых и детей в
               Нижнем Новгороде
               <div className="dropdown dropdown-end text-center">
                 <div
@@ -96,19 +96,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <div className="avatar">
-                <div className="w-10 rounded-full">
-                  <a href="https://wa.me/+79049017926">
-                    <Image
-                      src="/whatsapp.svg"
-                      width={200}
-                      height={100}
-                      alt="Мессенджер WhatsApp"
-                      style={{ width: "100%" }}
-                    />
-                  </a>
-                </div>
-              </div>
+            
             </div>
           </div>
         </div>

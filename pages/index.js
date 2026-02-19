@@ -20,7 +20,7 @@ export default function Home() {
             <HamburgerMenu />
             <Header />
             <Table />
-            <Mk />
+            {/* <Mk /> */}
             <About />
             <ContentPrice />
             <Grid />

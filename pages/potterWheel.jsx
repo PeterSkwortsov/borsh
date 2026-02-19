@@ -54,9 +54,9 @@ export default function PotterWheel() {
               <Link
                 href={`https://borsch-art.ru/potterWheel/`}
                 itemProp="item"
-                title="МК на гончарном круге"
+                title="Мастер-класс на гончарном круге"
               >
-                <span itemProp="name">МК на гончарном круге</span>
+                <span itemProp="name">Мастер-класс на гончарном круге</span>
               </Link>
               <meta itemProp="position" content="1"></meta>
             </button>
@@ -64,11 +64,9 @@ export default function PotterWheel() {
         </ul>
       </ol>
 
-      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
-        <span className="text-orange-600">Мастер-класс</span> на гончарном круге
-        для <span className="text-orange-600">взрослых и детей</span>
-        <br></br>в Нижнем Новгороде
-      </h2>
+      <h1 className="text-center justify-center text-orange-600 m-5 mt-8 text-2xl font-extrabold">
+        Мастер-класс на гончарном круге в Нижнем Новгороде
+      </h1>
 
       <div
         className="overflow-x-auto md:max-w-2/3 mt-5 m-auto"
@@ -87,7 +85,7 @@ export default function PotterWheel() {
           <tbody>
             <tr>
               <th>1</th>
-              <td>Мастер-класс на гончарном круге</td>
+              <td>Лепка из глины на гончарном круге</td>
               <td className="min-w-[300px] md:min-w-[400px]">
                 Можно создать любое изделие не больше 12 см в диаметре и в
                 высоте.
@@ -118,10 +116,64 @@ export default function PotterWheel() {
             unoptimized
             width={338}
             height={100}
-            alt="Picture of the author"
+            alt="Ученик за гончарным кругом"
           />
         </div>
       </div>
+
+      {/* <div className="px-4 md:py-20 lg:py-24 mb-7">
+        <div className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 gap-8 ">
+            <div
+              className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-1 
+            py-3 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group"
+            >
+
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                    Что вас ждет на мастер-классе?
+                  </h3>
+                  <p>
+                    Под руководством опытного мастера вы пройдете путь от
+                    бесформенного куска глины до готового керамического изделия.
+                    <br></br>
+                    <br></br>
+                    На занятии вы:
+                  </p>
+
+                  <ul>
+                    <li className="list-disc pl-5 space-y-2">
+                      Познакомитесь со свойствами натуральной глины и
+                      подготовите ее к работе;
+                    </li>
+
+                    <li className="list-disc pl-5 space-y-2">
+                      Освоите базовые приемы центровки и работы за гончарным
+                      кругом;
+                    </li>
+                    <li className="list-disc pl-5 space-y-2">
+                      Создадите собственное изделие;
+                    </li>
+                    <li className="list-disc pl-5 space-y-2">
+                      Узнаете о технологических этапах — от сушки до
+                      глазурования и обжига.
+                    </li>
+                  </ul>
+
+                  <p className="mt-1">
+                    Занятие подходит даже тем, кто никогда не держал глину в
+                    руках. Мастер всегда рядом, чтобы помочь, подсказать и
+                    направить.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center  justify-center">
         <div>
           <div
@@ -136,7 +188,7 @@ export default function PotterWheel() {
           </div>
         </div>
       </div>
-      <div className="text-center mb-5 mt-5">
+      {/* <div className="text-center mb-5 mt-5">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
           Отзывы <span className="text-orange-600">начинающих мастеров</span>
         </h3>
@@ -156,9 +208,9 @@ export default function PotterWheel() {
             className="rounded-lg"
           />
         </div>
-      </div>
+      </div> */}
 
-      <div className="py-4 ">
+      <div className="py-4 mt-10">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div>
             <ul>

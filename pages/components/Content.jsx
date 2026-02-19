@@ -20,8 +20,6 @@ const ContentPrice = () => {
         Занятия проходят в светлой мастерской
       </h5>
 
-      
-
       <Utp />
 
       <div itemScope className="carousel carousel-center mt-10 mb-10 w-fit">
@@ -47,7 +45,27 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
+            src="/228.jpg"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Интерьер студии"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
             src="/63.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиент создает изделие из глины"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/156.jpg"
             itemProp="image"
             unoptimized
             width={300}
@@ -68,6 +86,16 @@ const ContentPrice = () => {
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/142.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиент создает изделие из глины"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/157.jpg"
             itemProp="image"
             unoptimized
             width={300}
@@ -157,7 +185,7 @@ const ContentPrice = () => {
             alt="Клиент создает изделие из глины"
           />
         </div>
-     
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/45.webp"
@@ -210,7 +238,6 @@ const ContentPrice = () => {
           />
         </div>
       </div>
-   
     </>
   );
 };

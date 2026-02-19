@@ -126,9 +126,9 @@ const Quetions = () => {
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0"></div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                    <h6 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
                       Атмосфера
-                    </h3>
+                    </h6>
                     <p className="text-gray-700">
                       Для нас это осознанная работа: от света и музыки до
                       подбора материалов. Мы создаём среду, где вы чувствуете

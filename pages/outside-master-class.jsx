@@ -64,17 +64,14 @@ export default function Outside() {
         </ul>
       </ol>
 
-      <h3 className="text-center m-auto justify-center mt-8 max-w-1xl text-2xl font-extrabold p-2">
-        Проведем мастер-класс по лепке глиняных изделий в{" "}
-        <span className="text-orange-600">
-          {" "}
-          школе, на дому, учебном центре или на природе
-        </span>
-      </h3>
-      <p className="flex text-center justify-center p-5 m-auto font-bold">
-        Я и моя команда с удовольствием проведет выездной мастер-класс на вашем
-        мероприятии!
-      </p>
+      <h1 className="text-center m-auto text-orange-600 justify-center mt-8 max-w-1xl text-2xl font-extrabold p-2">
+        Выездной мастер-класс в Нижнем Новгороде
+      </h1>
+      <h2 className="flex text-center justify-center  m-auto text-xl m-aut">
+        Наша команда проведет выездной мастер-класс в школе, на дому, учебном
+        центре или на природе
+      </h2>
+      
       <p className="flex text-center justify-center p-5 m-auto ">
         Вы можете выбрать формат мастер-класса: ручная лепка из глины с росписью
         специальными красками (изделия забираем после на сушку и двойной обжиг)
@@ -146,15 +143,13 @@ export default function Outside() {
         </div>
       </div>
       <div className="carousel carousel-center mt-10 mb-10 w-fit">
-      
-
         <div className="carousel-item h-full ">
           <Image
             src="/173.jpg"
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
 
@@ -164,7 +159,7 @@ export default function Outside() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
         <div className="carousel-item h-full">
@@ -173,7 +168,7 @@ export default function Outside() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
         <div className="carousel-item h-full">
@@ -182,7 +177,7 @@ export default function Outside() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
 
@@ -192,7 +187,7 @@ export default function Outside() {
             unoptimized
             width={535}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
 
@@ -202,7 +197,7 @@ export default function Outside() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Выездной мастер-класс"
           />
         </div>
       </div>
@@ -210,64 +205,21 @@ export default function Outside() {
       <div className="py-4 bg-white">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div className="text-center">
-            <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+            <p className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
               Ответы на <span className="text-orange-600">вопросы</span>
-            </h3>
+            </p>
           </div>
 
-          {/* <div className="mt-20">
-            <ul className="">
-              <li className="text-left mb-10">
-                <div className="flex flex-row items-start mb-5 bg-gray-100 ">
-                  <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
-                      Когда мы сможем забрать изделия из глины? Почему так
-                      долго?
-                    </h4>
-                  </div>
-                </div>
-
-                <div className="flex flex-row items-start">
-                  <div className="bg-orange-100 p-5 px-10 w-full flex items-center">
-                    <p className="text-gray-700 text-md">
-                      Изделие нельзя сразу обжигать, оно должно высохнуть
-                      минимум от 3 до 7 дней.<br></br>
-                      <br></br>
-                      Первый обжиг происходит в муфельной печи при температуре
-                      900-1200 градусов.
-                      <br></br>
-                      <br></br>
-                      Обжиг занимает 8-10 часов, после чего печь медленно
-                      остывает на протяжении 10 часов. Затем на изделие
-                      наносится глазурь и обжигается снова. Глазуровка также
-                      требует времени.<br></br>
-                      <br></br>
-                      Второй обжиг происходит при температуре 1050-1250 градусов
-                      и занимает 8-10 часов.
-                      <br></br>
-                      <br></br>
-                      <span className="font-bold text-orange-600">
-                        Керамика требует терпения и не терпит спешки!
-                      </span>
-                      <br></br>
-                      Поэтому свое изделие ребята получат через 3–5 недель, мы
-                      привезем их обратно в школу.
-                    </p>
-                  </div>
-                  <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
-                </div>
-              </li>
-            </ul>
-          </div> */}
+         
           <div className="mt-2">
             <ul className="">
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5 bg-gray-100 ">
                   <div className="bg-gray-70 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
+                    <h3 className="text-md leading-6 font-medium text-gray-900">
                       Мы хотим провести мастер-класс для своих детей в школе.
                       Как происходит подготовка к мероприятию?
-                    </h4>
+                    </h3>
                   </div>
                 </div>
 

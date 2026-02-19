@@ -15,7 +15,7 @@ export default function Painting() {
 
         <meta
           property="og:title"
-          content="Живопись акриловыми и масляными красками на холсте"
+          content="Занятия по живописи акриловыми и масляными красками на холсте"
         />
 
         <meta
@@ -66,11 +66,9 @@ export default function Painting() {
         </ul>
       </ol>
 
-      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
-        <span className="text-orange-600">Мастер-класс</span> по живописи для
-        взрослых и детей<br></br>
-        <span className="text-orange-600">в Нижнем Новгороде</span>
-      </h2>
+      <h1 className="text-center text-orange-600 justify-center m-5 mt-8 text-2xl font-extrabold">
+        Мастер-класс по рисованию в Нижнем Новгороде
+      </h1>
 
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5 mb-10"
@@ -126,7 +124,7 @@ export default function Painting() {
         <div className="block md:hidden">
           <Image
             src="/left.png"
-            alt="Мобильная картинка"
+            alt="Свайп в право"
             width={500}
             height={300}
             className="w-10 m-auto"
@@ -143,20 +141,25 @@ export default function Painting() {
       <div className="px-4 md:py-20 lg:py-24 mb-7">
         <div className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 gap-8 ">
-            <div className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-1 
-            py-3 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group">
+            <div
+              className="relative bg-white/90 border-l-4 border-orange-400 rounded-r-2xl p-1 
+            py-3 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:border-orange-600 group"
+            >
               {/* Декоративный элемент */}
 
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
-                    ВОПЛОТИТЕ ЛЮБУЮ ИДЕЮ В КРАСКАХ
-                  </h3>
+                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
+                    Уроки рисования для детей
+                  </h2>
                   <p className="text-gray-700">
-                    Принесите свою задумку или выберите из нашей подборки. Мы
-                    поможем адаптировать её под ваш уровень и создать
-                    по-настоящему индивидуальную работу.
+                    Также в нашей творческой студии проходят увлекательные уроки
+                    рисования для детей от 4 лет. Мы знакомим ребят с разными
+                    техниками и материалами: от нежной акварели и яркого акрила
+                    до классического масла и привычных фломастеров с
+                    карандашами. Занятия проходят по средам один раз в неделю с
+                    14:30 до 16:00. Стоимость — 2800 ₽ (700 ₽ занятие).
                   </p>
                 </div>
               </div>
@@ -187,7 +190,7 @@ export default function Painting() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Мастер класс маслом на холсте"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -196,7 +199,7 @@ export default function Painting() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Мастер класс маслом"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -205,7 +208,7 @@ export default function Painting() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Мастер класс акрилом на холсте"
           />
         </div>
 
@@ -215,7 +218,7 @@ export default function Painting() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Мастер класс акрилом на холсте"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -224,7 +227,7 @@ export default function Painting() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Мастер класс маслом на холсте"
           />
         </div>
       </div>
@@ -232,9 +235,9 @@ export default function Painting() {
       <div className="py-4 bg-white">
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
           <div className="text-center">
-            <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+            <p className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
               Ответы на <span className="text-orange-600">вопросы</span>
-            </h3>
+            </p>
           </div>
 
           <div className="mt-20">
@@ -242,9 +245,9 @@ export default function Painting() {
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5 bg-gray-100">
                   <div className=" p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900 bg-gray-100">
+                    <h3 className="text-md leading-6 font-medium text-gray-900 bg-gray-100">
                       Как проходит мастер-класс по живописи?
-                    </h4>
+                    </h3>
                   </div>
                 </div>
 

@@ -76,7 +76,7 @@ const Footer = () => {
           <div className="flex items-center justify-between gap-3">
             {/* Левая часть с рейтингом */}
             <div className="flex-1">
-              <div className="flex items-center gap-2 mb-1">
+              <div className="flex items-center justify-center gap-2">
                 <div className="text-xl font-bold text-[#A169F7]">5.0</div>
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
@@ -91,7 +91,7 @@ const Footer = () => {
                   ))}
                 </div>
               </div>
-              <p className="text-xs text-gray-800 font-medium leading-tight">
+              <p className="text-xs text-gray-800 text-center font-medium leading-tight">
                 Рейтинг на{" "}
                 <span className="text-md font-bold text-[#833bf0]">Avito</span>
               </p>

@@ -32,7 +32,7 @@ const Grid = () => {
             aria-label="Мастер-класс по живописи"
           >
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс ПО ЖИВОПИСИ
+              Мастер-класс по рисованию
             </h2>
             <p>
               Не просто рисуете по инструкции, а воплощаете свою идею в жизнь.
@@ -68,7 +68,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="2">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по РУЧНОЙ ЛЕПКЕ из глины
+              Мастер-класс по лепке из глины
             </h2>
             <p>
               Лепим изделия, расписываем ангобами или подглазурными красками.
@@ -153,7 +153,7 @@ const Grid = () => {
             aria-label="Мастер-класс на гончарном круге"
           >
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс НА ГОНЧАРНОМ КРУГЕ
+              Мастер-класс на гончарном круге
             </h2>
             <p>
               Забудьте о времени. Погрузитесь в вращающийся мир, где ваши руки
@@ -189,7 +189,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="5">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по ВЫЖИГАНИЮ по дереву.
+              Мастер-класс по выжиганию по дереву.
             </h2>
             <p>
               Выжигание - один из древнейших видов творчества! Процесс приносит
@@ -225,7 +225,7 @@ const Grid = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-orange-200 font-extrabold" id="6">
-              Мастер-класс по СВЕЧЕВАРЕНИЮ
+              Мастер-класс по свечеварению
             </h2>
             <p>
               Выберите аромат, который ассоциируется у вас с конкретным
@@ -262,7 +262,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="6">
             <h2 className="card-title text-orange-200 font-extrabold" id="7">
-              ВЫЕЗДНОЙ мастер-класс<br></br>на ваш праздник
+              Выездной мастер-класс<br></br>на ваш праздник
             </h2>
             <p>
               Неважно, где вы: дома, в школе или на лужайке в парке. Мы
@@ -302,7 +302,7 @@ const Grid = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-orange-200 font-extrabold" id="8">
-              Гончарное СВИДАНИЕ
+              Гончарное свидание
             </h2>
             <p>
               Это свидание, которое останется с вами в материальном виде. Вы
@@ -338,12 +338,13 @@ const Grid = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-orange-200 font-extrabold" id="8">
-              Подарочный СЕРТИФИКАТ
+              Подарочный сертификат
             </h2>
             <p>
-              Готовое решение — не ломай голову над подарком.<br></br> Получатель сам выберет дату, время и формат
-              мастер-класса. Это подарок, который подстраивается под его текущее
-              настроение и желания, а не пылится на полке.
+              Готовое решение — не ломай голову над подарком.<br></br>{" "}
+              Получатель сам выберет дату, время и формат мастер-класса. Это
+              подарок, который подстраивается под его текущее настроение и
+              желания, а не пылится на полке.
             </p>
             <div className="card-actions justify-end items-center z-20">
               <p className="text-base">от 1800 ₽</p>
@@ -373,7 +374,7 @@ const Grid = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-orange-200 font-extrabold" id="8">
-              Занятия по РИСОВАНИЮ и ЛЕПКЕ для ДЕТЕЙ
+              Уроки рисования и лепки из глины для детей
             </h2>
             <p>
               Нескучные уроки для вашего ребенка от 4-х лет.<br></br>
@@ -384,7 +385,7 @@ const Grid = () => {
               Создаст свою первую глиняную посуду.
             </p>
             <div className="card-actions justify-end items-center z-20">
-              <p className="text-base">от 600 ₽</p>
+              <p className="text-base">от 700 ₽</p>
 
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"

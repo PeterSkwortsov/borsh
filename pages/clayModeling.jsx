@@ -1,7 +1,88 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import { useState } from "react";
+import { useEffect } from "react";
 export default function ClayModeling() {
+
+const [currentSlide, setCurrentSlide] = useState(0);
+const slides = [
+  {
+    id: 1,
+    image: "/107.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 2,
+    image: "/105.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 3,
+    image: "/108.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 4,
+    image: "/137.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 5,
+    image: "/138.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 6,
+    image: "/165.jpg",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 7,
+    image: "/145.webp",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 8,
+    image: "/188.png",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 9,
+    image: "/189.png",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  },
+  {
+    id: 10,
+    image: "/212.png",
+    title: "Хорошие отзывы клиентов мастер-класса по лепке из глины",
+  }
+];
+
+const nextSlide = () => {
+  setCurrentSlide((prev) => (prev + 1) % slides.length);
+};
+
+const prevSlide = () => {
+  setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+};
+
+const goToSlide = (index) => {
+  setCurrentSlide(index);
+};
+
+// Автопрокрутка (опционально)
+useEffect(() => {
+  const interval = setInterval(() => {
+    nextSlide();
+  }, 5000);
+
+  return () => clearInterval(interval);
+}, [currentSlide]);
+
+
+
+
   return (
     <>
       <Head>
@@ -54,9 +135,9 @@ export default function ClayModeling() {
               <Link
                 href={`https://borsch-art.ru/clayModeling/`}
                 itemProp="item"
-                title="Ручная лепка из глины"
+                title="Лепка из глины"
               >
-                <span itemProp="name">Ручная лепка из глины</span>
+                <span itemProp="name">Лепка из глины</span>
               </Link>
               <meta itemProp="position" content="1"></meta>
             </button>
@@ -64,10 +145,9 @@ export default function ClayModeling() {
         </ul>
       </ol>
 
-      <h3 className="text-center justify-center m-5 mt-8 text-3xl font-extrabold">
-        <span className="text-orange-600">Мастер-класс </span>
-        по ручной лепке из глины
-      </h3>
+      <h1 className="text-center text-orange-600 justify-center m-5 mt-8 text-3xl font-extrabold">
+        Мастер-класс по лепке из глины в Нижнем Новгороде
+      </h1>
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mb-5 mt-5"
         role="sectionhead"
@@ -135,12 +215,19 @@ export default function ClayModeling() {
                 <div className="flex-shrink-0"></div>
                 <div>
                   <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-700 transition-colors">
-                    ВДОХНИТЕ ЖИЗНЬ В КОМОК ГЛИНЫ
+                    Попробуйте себя в роли керамиста — это увлекательно и
+                    доступно каждому
                   </h3>
-                  <p className="text-gray-700">
-                    Через ваши пальцы бесформенная масса обретает характер,
-                    историю, предназначение. Создайте не идеальную, а свою форму!
-                  </p>
+                  <h2 className="text-gray-700">
+                    Хотите посуду, которой нет в магазинах? Многие приходят в
+                    нашу гончарную мастерскую, чтобы слепить оригинальную
+                    тарелку или кружку, которой больше ни у кого не будет.
+                    <br></br>
+                    <br></br>
+                    Мы работаем с разными техниками. Поэтому мастер-класс по
+                    лепке может включать как работу на гончарном круге, так и
+                    создание фактурных изделий вручную.
+                  </h2>
                 </div>
               </div>
             </div>
@@ -171,7 +258,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -180,7 +267,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-max">
@@ -189,7 +276,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full">
@@ -198,7 +285,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full">
@@ -207,7 +294,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
 
@@ -217,7 +304,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full">
@@ -226,7 +313,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -235,7 +322,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -244,7 +331,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -253,7 +340,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -262,7 +349,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -271,7 +358,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -280,7 +367,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -289,7 +376,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
       </div>
@@ -298,134 +385,108 @@ export default function ClayModeling() {
           Отзывы <span className="text-orange-600">начинающих мастеров</span>
         </h3>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5 p-2 mb-10">
-        <div
-          className="max-w-sm flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/107.webp"
-            unoptimized
-            width={100}
-            height={100}
-            alt="Отзывы"
-            style={{ width: "80%" }}
-            className="rounded-lg"
-          />
+      <div className="max-w-xl mx-auto p-4">
+        <div className="relative overflow-hidden rounded-xl shadow-lg">
+          {/* Контейнер слайдов */}
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {slides.map((slide) => (
+              <div key={slide.id} className="w-full flex-shrink-0">
+                <div className="relative h-96 md:h-[500px]">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Кнопки навигации */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors duration-200"
+            aria-label="Предыдущий слайд"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors duration-200"
+            aria-label="Следующий слайд"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+
+          {/* Индикаторы */}
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3">
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index === currentSlide
+                    ? "bg-white w-8"
+                    : "bg-white/50 hover:bg-white/80"
+                }`}
+                aria-label={`Перейти к слайду ${index + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* Счетчик слайдов */}
+          <div className="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
+            {currentSlide + 1} / {slides.length}
+          </div>
         </div>
 
-        <div
-          className="max-w-sm flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/105.webp"
-            unoptimized
-            width={100}
-            height={100}
-            alt="Отзывы"
-            style={{ width: "80%" }}
-            className="rounded-lg"
-          />
-        </div>
-
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/108.webp"
-            unoptimized
-            width={100}
-            height={50}
-            alt="Отзывы"
-            style={{ width: "90%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/137.webp"
-            unoptimized
-            width={100}
-            height={50}
-            alt="Отзывы"
-            style={{ width: "95%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/138.webp"
-            unoptimized
-            width={100}
-            height={50}
-            alt="Отзывы"
-            style={{ width: "100%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/145.webp"
-            unoptimized
-            width={100}
-            height={50}
-            alt="Отзывы"
-            style={{ width: "100%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/188.png"
-            unoptimized
-            width={100}
-            height={100}
-            alt="Отзывы"
-            style={{ width: "100%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/189.png"
-            unoptimized
-            width={100}
-            height={100}
-            alt="Отзывы"
-            style={{ width: "100%" }}
-            className="rounded-lg"
-          />
-        </div>
-        <div
-          className="max-w-xs flex justify-center m-auto"
-          aria-label="Мастер-класс по ручной лепке из глины"
-        >
-          <Image
-            src="/212.png"
-            unoptimized
-            width={100}
-            height={100}
-            alt="Отзывы"
-            style={{ width: "100%" }}
-            className="rounded-lg"
-          />
+        {/* Миниатюры (опционально) */}
+        <div className="flex justify-center mt-6 space-x-4">
+          {slides.map((slide, index) => (
+            <button
+              key={slide.id}
+              onClick={() => goToSlide(index)}
+              className={`relative overflow-hidden rounded-lg transition-all duration-300 ${
+                index === currentSlide
+                  ? "ring-2 ring-blue-500 ring-offset-2 transform scale-105"
+                  : "opacity-70 hover:opacity-100"
+              }`}
+            >
+              <img
+                src={slide.image}
+                alt={`Миниатюра ${slide.title}`}
+                className="w-24 h-16 object-cover"
+              />
+            </button>
+          ))}
         </div>
       </div>
       <div className="text-center">
@@ -440,7 +501,34 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/231.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиенты творческой мастерской Вика Борщ"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/232.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиенты творческой мастерской Вика Борщ"
+          />
+        </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/233.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -449,7 +537,7 @@ export default function ClayModeling() {
             unoptimized
             width={300}
             height={100}
-            alt="Picture of the author"
+            alt="Клиенты творческой мастерской Вика Борщ"
           />
 
           <div className="carousel-item h-full ">
@@ -458,7 +546,7 @@ export default function ClayModeling() {
               unoptimized
               width={300}
               height={100}
-              alt="Picture of the author"
+              alt="Клиенты творческой мастерской Вика Борщ"
             />
           </div>
 
@@ -468,7 +556,7 @@ export default function ClayModeling() {
               unoptimized
               width={300}
               height={100}
-              alt="Picture of the author"
+              alt="Клиенты творческой мастерской Вика Борщ"
             />
             <div className="carousel-item h-full ">
               <Image
@@ -476,7 +564,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -485,7 +573,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -494,7 +582,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
 
@@ -504,7 +592,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -513,7 +601,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -522,7 +610,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -531,7 +619,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
             <div className="carousel-item h-full ">
@@ -540,7 +628,7 @@ export default function ClayModeling() {
                 unoptimized
                 width={300}
                 height={100}
-                alt="Picture of the author"
+                alt="Клиенты творческой мастерской Вика Борщ"
               />
             </div>
           </div>

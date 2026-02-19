@@ -73,12 +73,9 @@ export default function Children() {
         </ul>
       </ol>
 
-      <h1 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
-        <span className="text-orange-600">
-          Развиваем моторику и креативное мышление
-        </span>{" "}
-        <br></br>
-        занятия для детей в Нижнем Новгороде
+      <h1 className="text-center text-orange-600 justify-center m-5 mt-8 text-2xl font-extrabold">
+        Изостудия для детей в Нижнем Новгороде.<br></br> Обучение рисованию и
+        лепке из глины
       </h1>
 
       <div
@@ -92,7 +89,7 @@ export default function Children() {
           Групповые занятия для детей
           <span className="text-orange-600"> по средам</span>
         </h3>
-        <h6 className="text-md flex text-center justify-center m-5 font-bold">
+        <h6 className="text-lg flex text-center justify-center m-5 font-bold">
           Расписание групповых занятий по рисунку и живописи:
         </h6>
         <div className="block md:hidden">
@@ -108,9 +105,8 @@ export default function Children() {
           {/* head */}
           <thead>
             <tr>
-              <th className="fb w-1/6">Возраст</th>
-              <th className="fb w-1/6">Среда</th>
-              <th className="fb w-1/6">
+              <th className="fb w-1/2">Среда</th>
+              <th className="fb w-1/2">
                 Стоимость 4-х занятий (1 раз в неделю){" "}
               </th>
             </tr>
@@ -118,29 +114,27 @@ export default function Children() {
           {/* row 1 */}
           <tbody bgcolor="Lavender">
             <tr>
-              <td>7-10 лет</td>
-              <td>14.15-15.30</td>
-              <td>2.400₽ (600р занятие)</td>
-            </tr>
-
-            <tr>
-              <td>11-16 лет</td>
-              <td>15:30-17.00</td>
+              <td>14.30-16.00</td>
               <td>2.800₽ (700р занятие)</td>
             </tr>
           </tbody>
         </table>
-
-        <h6 className="text-md flex text-center justify-center m-5 mt-8 font-bold">
+        <p className="font-bold flex text-center justify-center m-1 mt-2">
+          Стоимость материалов включена! ✨
+        </p>
+        <p className="flex text-center justify-center mt-1 max-w-2xl m-auto">
+          Ребенок освоит основы рисунка и живописи, научится работать с разными
+          материалами (акрил, масло, графика)
+        </p>
+        <h6 className="text-lg flex text-center justify-center m-5 mt-13 font-bold">
           Расписание групповых занятий для детей по лепке из глины:
         </h6>
 
         <table className="table table-zebra">
           <thead>
             <tr>
-              <th className="fb w-1/6">Возраст</th>
-              <th className="fb w-1/6">Среда</th>
-              <th className="fb w-1/6">
+              <th className="fb w-1/2">Среда</th>
+              <th className="fb w-1/2">
                 Стоимость 4-х занятий (1 раз в неделю)
               </th>
               {/* min-w-sm */}
@@ -148,13 +142,21 @@ export default function Children() {
           </thead>
           <tbody bgcolor="PapayaWhip	">
             <tr>
-              <td>7-11 лет</td>
-              <td>17.00-18.30</td>
-              <td>4.000₽ (1000р занятие)</td>
+              <td>16.30-18.00</td>
+              <td>4.400₽ (1100р занятие)</td>
             </tr>
           </tbody>
         </table>
-        <p className="text-md flex text-center justify-center m-5">
+
+        <p className="font-bold flex text-center justify-center m-1 mt-2">
+          Стоимость материалов включена! ✨
+        </p>
+        <p className="flex text-center justify-center mt-1 max-w-2xl m-auto">
+          Он создаст свою первую глиняную кружку или тарелку, распишет ее
+          красками и будет использовать в быту.<br></br> Мы предоставим
+          референсы и поможем на каждом этапе.
+        </p>
+        <p className="text-md flex text-center justify-center mt-8 max-w-2xl m-auto">
           Абонемент для более старших детей и взрослых по гончарному мастерству,
           4 занятия в месяц - 5.500₽, в рамках абонемента можно посещать любые
           двухчасовые групповые занятия по расписанию.
@@ -226,7 +228,7 @@ export default function Children() {
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
               </li>
-              <li className="text-left mb-10">
+              {/* <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <h4 className="text-md leading-6 font-medium text-gray-900">
@@ -247,7 +249,7 @@ export default function Children() {
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-orange-600 text-white border-4 border-white text-xl font-semibold"></div>
                 </div>
-              </li>
+              </li> */}
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
@@ -278,16 +280,26 @@ export default function Children() {
               unoptimized
               width={338}
               height={100}
-              alt="Picture of the author"
+              alt="Занятие по рисунку для детей"
             />
           </div>
           <div className="carousel-item h-full ">
             <Image
-              src="/159.jpg"
+              src="/234.jpg"
               unoptimized
               width={338}
               height={100}
-              alt="Picture of the author"
+              alt="Занятие по рисунку для детей"
+            />
+          </div>
+
+          <div className="carousel-item h-full ">
+            <Image
+              src="/160.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Занятие по рисунку для детей"
             />
           </div>
           <div className="carousel-item h-full ">
@@ -296,27 +308,9 @@ export default function Children() {
               unoptimized
               width={338}
               height={100}
-              alt="Picture of the author"
+              alt="Занятие по рисунку для детей"
             />
           </div>
-          {/* <div className="carousel-item h-full ">
-                   <Image
-                     src="/157.jpg"
-                     unoptimized
-                     width={338}
-                     height={100}
-                     alt="Picture of the author"
-                   />
-                 </div>
-                 <div className="carousel-item h-full ">
-                   <Image
-                     src="/162.jpg"
-                     unoptimized
-                     width={338}
-                     height={100}
-                     alt="Picture of the author"
-                   />
-                 </div> */}
         </div>
       </div>
     </>

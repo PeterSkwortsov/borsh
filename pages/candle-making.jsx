@@ -66,10 +66,9 @@ export default function CandleMaking() {
         </ul>
       </ol>
 
-      <h2 className="text-center justify-center m-5 mt-8 text-2xl font-extrabold">
-        <span className="text-orange-600">Мастер-класс</span> по свечеварению{" "}
-        <span className="text-orange-600">в Нижнем Новгороде</span>
-      </h2>
+      <h1 className="text-center text-orange-600 justify-center m-5 mt-8 text-2xl font-extrabold">
+        Свечеварение в Нижнем Новгороде
+      </h1>
 
       <div
         className="overflow-x-auto md:max-w-2/3 m-auto mt-5  mb-10"
@@ -80,7 +79,9 @@ export default function CandleMaking() {
           <thead>
             <tr>
               <th></th>
-              <th className="fb">Создание и декор свечей от 3-х человек</th>
+              <th className="fb">
+                Мастер-класс по свечеварению от 3-х человек
+              </th>
               <th className="fb">Цена</th>
               {/* <th className="fb">Изображение</th> */}
             </tr>
@@ -92,16 +93,7 @@ export default function CandleMaking() {
               <td>Свечи в гипсовом кашпо</td>
               <td>1800₽ / человек</td>
 
-              {/* <td>
-                {" "}
-                <Image
-                  src="/4.jpeg"
-                  unoptimized
-                  width={140}
-                  height={140}
-                  alt="Picture of the author"
-                />
-              </td> */}
+              
             </tr>
             {/* row 2 */}
             <tr>
@@ -114,28 +106,19 @@ export default function CandleMaking() {
               <th>3</th>
               <td>Свечи в скорлупе кокоса</td>
               <td>2200₽ / человек</td>
-              {/* <td>
-                {" "}
-                <Image
-                  src="/3.jpeg"
-                  unoptimized
-                  width={200}
-                  height={200}
-                  alt="Picture of the author"
-                />
-              </td> */}
+            
             </tr>
           </tbody>
         </table>
-         <div className="block mt-2 md:hidden">
-                  <Image
-                    src="/left.png"
-                    alt="Мобильная картинка"
-                    width={500}
-                    height={300}
-                    className="w-10 m-auto"
-                  />
-                </div>
+        <div className="block mt-2 md:hidden">
+          <Image
+            src="/left.png"
+            alt="Мобильная картинка"
+            width={500}
+            height={300}
+            className="w-10 m-auto"
+          />
+        </div>
         <p className="text-md flex text-center justify-center m-5 mt-8">
           Индивидуальный мастер-класс для одного человека - 3300₽.
         </p>
@@ -154,7 +137,7 @@ export default function CandleMaking() {
             unoptimized
             width={338}
             height={100}
-            alt="Picture of the author"
+            alt="Свеча из воска"
           />
         </div>
       </div>
@@ -188,9 +171,9 @@ export default function CandleMaking() {
               <li className="text-left mb-10">
                 <div className="flex flex-row items-start mb-5">
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
-                    <h4 className="text-md leading-6 font-medium text-gray-900">
+                    <h3 className="text-md leading-6 font-medium text-gray-900">
                       Как мы будем создавать свечи?
-                    </h4>
+                    </h3>
                   </div>
                 </div>
 
