@@ -175,9 +175,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            priority
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -186,8 +184,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -196,8 +193,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -206,8 +202,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -216,10 +211,19 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
+        <div className="carousel-item h-full ">
+          <Image
+            src="/230.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Picture of the author"
+          />
+        </div>
+        
 
         <div className="carousel-item h-full ">
           <Image
@@ -227,7 +231,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -236,8 +240,7 @@ useEffect(() => {
             unoptimized
             width={441}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -246,8 +249,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -256,8 +258,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -266,8 +267,7 @@ useEffect(() => {
             unoptimized
             width={300}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -276,8 +276,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -286,8 +285,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -296,8 +294,7 @@ useEffect(() => {
             unoptimized
             width={301}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
 
@@ -307,8 +304,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
 
@@ -318,8 +314,7 @@ useEffect(() => {
             unoptimized
             width={300}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
         <div className="carousel-item h-full ">
@@ -328,8 +323,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
 
@@ -339,18 +333,7 @@ useEffect(() => {
             unoptimized
             width={338}
             height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
-          />
-        </div>
-        <div className="carousel-item h-full ">
-          <Image
-            src="/230.jpg"
-            unoptimized
-            width={338}
-            height={100}
-            alt="Клиенты парного свидания"
-            className="min-w-72 h-auto"
+            alt="Picture of the author"
           />
         </div>
       </div>
@@ -437,7 +420,7 @@ useEffect(() => {
               className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
 "
             >
-              <a href="https://t.me/vika_borsch99">
+              <a href="https://t.me/vika_borsch99" onclick="ym(102283077,'reachGoal','click_messege_viki'); return true;" >
                 <p className="text-black font-bold text-lg   flex text-center center justify-center">
                   Забронировать дату
                 </p>

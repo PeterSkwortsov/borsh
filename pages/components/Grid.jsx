@@ -189,7 +189,7 @@ const Grid = () => {
           </figure>
           <div className="card-body" id="5">
             <h2 className="card-title text-orange-200 font-extrabold">
-              Мастер-класс по выжиганию по дереву.
+              Мастер-класс по выжиганию по дереву
             </h2>
             <p>
               Выжигание - один из древнейших видов творчества! Процесс приносит

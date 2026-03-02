@@ -1,69 +1,578 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Generated with https://sitemap-xml.ru-->
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
   <url>
     <loc>https://borsch-art.ru/</loc>
-    <lastmod>2026-02-01T14:16:21+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/logo1.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/vk.svg</image:loc>
+      <image:caption>Социальная сеть ВКонтакте</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/tg2.svg</image:loc>
+      <image:caption>Мессенджер Telegram</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/62.webp</image:loc>
+      <image:caption>Фотография Виктории Скворцовой</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/location.svg</image:loc>
+      <image:caption>Гео-локация</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/coffee.svg</image:loc>
+      <image:caption>изобраение кофе</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/family.svg</image:loc>
+      <image:caption>изображение группы людей</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/bake.svg</image:loc>
+      <image:caption>Изображение муфельной печи</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/202.webp</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/140.webp</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/228.jpg</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/63.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/156.jpg</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/195.jpg</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/142.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/157.jpg</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/160.jpg</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/89.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/119.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/36.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/141.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/139.webp</image:loc>
+      <image:caption>Участники мастер-класса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/76.webp</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/31.webp</image:loc>
+      <image:caption>Клиент создает изделие из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/45.webp</image:loc>
+      <image:caption>Участники мастер-класса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/80.webp</image:loc>
+      <image:caption>Участники мастер-класса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/47.webp</image:loc>
+      <image:caption>Участники мастер-класса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/102.webp</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/143.webp</image:loc>
+      <image:caption>Интерьер студии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/4.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/3.webp</image:loc>
+      <image:caption>Мастер-класс по ручной лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/1.webp</image:loc>
+      <image:caption>Мастер-класс на гончарном круге</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/5.webp</image:loc>
+      <image:caption>Мастер-класс по выжиганию по дереву</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/6.webp</image:loc>
+      <image:caption>Мастер-класс по свечеварению</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/170.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/79-3.webp</image:loc>
+      <image:caption>Гончарное свидание</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/225.jpg</image:loc>
+      <image:caption>Подарочный сертификат</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://borsch-art.ru/confidentiality/</loc>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://borsch-art.ru/certificate/</loc>
-    <lastmod>2026-01-14T09:05:55+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:28+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/basket.svg</image:loc>
+      <image:caption>Кнопка купить сертификат</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/164.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/214.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/213.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/painting</loc>
-    <lastmod>2026-01-14T09:04:49+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/174.jpg</image:loc>
+      <image:caption>Мастер класс маслом на холсте</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/65.webp</image:loc>
+      <image:caption>Мастер класс маслом</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/194.jpg</image:loc>
+      <image:caption>Мастер класс акрилом на холсте</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/103.webp</image:loc>
+      <image:caption>Мастер класс акрилом на холсте</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/118.webp</image:loc>
+      <image:caption>Мастер класс маслом на холсте</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/109.webp</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/132.webp</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/116.webp</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/192.png</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/clayModeling/</loc>
-    <lastmod>2026-01-14T09:05:39+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:28+03:00</lastmod>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://borsch-art.ru/group/</loc>
-    <lastmod>2026-01-14T09:05:25+03:00</lastmod>
-    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/59.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/60.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/61.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/64.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/86.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/87.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/144.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/77.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/186.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/72.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/78.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/181.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/107.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/105.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/108.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/137.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/138.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/145.webp</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/188.png</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/189.png</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/212.png</image:loc>
+      <image:caption>Хорошие отзывы клиентов мастер-класса по лепке из глины</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/112.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/231.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/232.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/233.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/113.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/114.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/115.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/133.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/123.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/134.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/182.jpg</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/124.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/135.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/125.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/136.webp</image:loc>
+      <image:caption>Клиенты творческой мастерской Вика Борщ</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/potterWheel/</loc>
-    <lastmod>2026-01-14T09:04:37+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/154.jpg</image:loc>
+      <image:caption>Ученик за гончарным кругом</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/wood-burning/</loc>
-    <lastmod>2026-01-14T09:04:24+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://borsch-art.ru/candle-making/</loc>
-    <lastmod>2026-01-14T09:06:10+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:28+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/left.png</image:loc>
+      <image:caption>Мобильная картинка</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/sv.webp</image:loc>
+      <image:caption>Свеча из воска</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/146.webp</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/167.jpg</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/147.webp</image:loc>
+      <image:caption>Отзывы</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/outside-master-class/</loc>
-    <lastmod>2026-01-14T09:05:01+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/173.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/171.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/220.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/175.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/172.jpg</image:loc>
+      <image:caption>Выездной мастер-класс</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/loveMeeting/</loc>
-    <lastmod>2026-01-14T09:05:12+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/207.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/161.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/153.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/193.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/229.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/230.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/196.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/183.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/95.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/151.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/82.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/149.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/98.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/83.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/96.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/84.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/187.jpg</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/97.webp</image:loc>
+      <image:caption>Picture of the author</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/210.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/211.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/168.jpg</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/152.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/163.jpg</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/165.jpg</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/166.jpg</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/190.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/191.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/208.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/209.png</image:loc>
+      <image:caption>Отзывы клиентов гончарного свидания</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://borsch-art.ru/confidentiality/</loc>
-    <lastmod>2026-01-14T08:33:18+03:00</lastmod>
+    <loc>https://borsch-art.ru/children/</loc>
+    <lastmod>2026-02-19T13:35:28+03:00</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://borsch-art.ru/185.jpg</image:loc>
+      <image:caption>Занятие по рисунку для детей</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://borsch-art.ru/234.jpg</image:loc>
+      <image:caption>Занятие по рисунку для детей</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://borsch-art.ru/outside-master-class</loc>
-    <lastmod>2026-01-14T09:05:01+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://borsch-art.ru/painting/</loc>
-    <lastmod>2026-01-14T09:04:49+03:00</lastmod>
+    <lastmod>2026-02-19T13:35:27+03:00</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
