@@ -343,7 +343,7 @@ export default function Painting() {
           property="og:description"
           content="Записывайтесь на мастер-класс по живописи акриловыми и масляными красками на холсте. Для взрослых и детей. Вы получите картину, которую не стыдно повесить на стену."
         />
-        <meta property="og:image" content="https://borsch-art.ru/4.jpg" />
+        <meta property="og:image" content="https://borsch-art.ru/4.webp" />
         <meta property="og:url" content="https://borsch-art.ru/painting/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Творческая студия Вика Борщ" />
