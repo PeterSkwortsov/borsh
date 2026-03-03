@@ -88,6 +88,11 @@ const HamburgerMenu = () => {
               </Link>
             </li>
             <li className="font-bold">
+              <Link href="./blog" aria-label="Блог">
+                Блог
+              </Link>
+            </li>
+            <li className="font-bold">
               <Link href="certificate" aria-label="Подарочный сертификат">
                 Подарочный сертификат
               </Link>
