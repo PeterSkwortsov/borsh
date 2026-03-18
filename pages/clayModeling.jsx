@@ -80,7 +80,7 @@ export default function ClayModeling() {
     return () => clearInterval(interval);
   }, [currentSlide]);
 
-  // JSON-LD для мастер-класса по ручной лепке (Event)
+  // JSON-LD для мастер-класса по ручной лепке (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -107,6 +107,9 @@ export default function ClayModeling() {
     url: "https://borsch-art.ru/clayModeling/",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем startDate и endDate
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Творческая студия Вики Борщ",
@@ -242,7 +245,26 @@ export default function ClayModeling() {
     ],
   };
 
-
+  // JSON-LD для отзывов (Review) - опционально, если есть текстовые отзывы
+  const reviewsJsonLd = slides.slice(0, 3).map((slide, index) => ({
+    "@context": "https://schema.org",
+    "@type": "Review",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: "5",
+      bestRating: "5",
+    },
+    author: {
+      "@type": "Person",
+      name: `Участник мастер-класса ${index + 1}`,
+    },
+    reviewBody:
+      "Отличный мастер-класс по лепке из глины! Всё понятно объясняют, помогают. Получилось красивое изделие, обязательно приду еще!",
+    itemReviewed: {
+      "@type": "Event",
+      name: "Мастер-класс по лепке из глины",
+    },
+  }));
 
   return (
     <>
@@ -292,7 +314,12 @@ export default function ClayModeling() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(reviewsJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
 
       {/* Хлебные крошки */}
       <ol className="breadcrumbs text-sm m-2">

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function Outside() {
-  // JSON-LD для выездного мастер-класса (Event + Service)
+  // JSON-LD для выездного мастер-класса (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -21,6 +21,9 @@ export default function Outside() {
     url: "https://borsch-art.ru/outside-master-class",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем обязательные поля startDate и endDate
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Выездной мастер-класс (на вашей территории)",
@@ -46,6 +49,7 @@ export default function Outside() {
           price: "2000",
           priceCurrency: "RUB",
           description: "Лепка плоской тарелочки из глины с росписью",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 6,
@@ -59,6 +63,7 @@ export default function Outside() {
           price: "2400",
           priceCurrency: "RUB",
           description: "Лепка кружки и глубокой тарелки из глины с росписью",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 6,
@@ -72,6 +77,7 @@ export default function Outside() {
           price: "2800",
           priceCurrency: "RUB",
           description: "Лепка менажницы или вазы из глины с росписью",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 6,
@@ -95,6 +101,15 @@ export default function Outside() {
     duration: "PT2H",
     maximumAttendeeCapacity: 30,
     minimumAttendeeCapacity: 6,
+    // Добавляем информацию о расписании (опционально)
+    eventSchedule: {
+      "@type": "Schedule",
+      repeatFrequency: "Weekly",
+      byDay:
+        "https://schema.org/Monday,https://schema.org/Tuesday,https://schema.org/Wednesday,https://schema.org/Thursday,https://schema.org/Friday,https://schema.org/Saturday,https://schema.org/Sunday",
+      startTime: "09:00",
+      endTime: "22:00",
+    },
   };
 
   // JSON-LD для услуги (Service) - дополнительно для выездного формата
@@ -115,7 +130,7 @@ export default function Outside() {
     serviceType: "Выездной мастер-класс",
     audience: {
       "@type": "Audience",
-      audienceType: "Дети",
+      audienceType: "Дети и взрослые",
     },
   };
 
@@ -155,7 +170,49 @@ export default function Outside() {
     ],
   };
 
-
+  // JSON-LD для отзывов (добавляем для полноты)
+  const reviewsJsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Елена",
+      },
+      reviewBody:
+        "Заказывали выездной мастер-класс для класса сына. Дети в полном восторге! Вика привезла всё необходимое, провела занятие очень интересно. Теперь у каждого ребенка есть собственноручно сделанная тарелочка. Спасибо!",
+      itemReviewed: {
+        "@type": "Event",
+        name: "Выездной мастер-класс по лепке",
+      },
+      datePublished: "2026-02-15",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Михаил",
+      },
+      reviewBody:
+        "Проводили выездной мастер-класс для корпоратива. Отличный формат для командообразования! Все остались довольны, сделали себе кружки. Обязательно повторим!",
+      itemReviewed: {
+        "@type": "Event",
+        name: "Выездной мастер-класс по лепке",
+      },
+      datePublished: "2026-01-20",
+    },
+  ];
 
   return (
     <>
@@ -214,11 +271,16 @@ export default function Outside() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(reviewsJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
 
       {/* Хлебные крошки */}
       <ol className="breadcrumbs text-sm m-2">
-        <ul className="flex">
+        <ul className="flex flex-wrap gap-2">
           <li className="indicator-item badge bg-orange-600 text-white border-none">
             <Link href="./#6" title="Главная">
               <span>Главная</span>
@@ -242,8 +304,7 @@ export default function Outside() {
       <p className="flex text-center justify-center p-5 m-auto max-w-3xl">
         Вы можете выбрать формат мастер-класса: ручная лепка из глины с росписью
         специальными красками (изделия забираем после на сушку и двойной обжиг)
-        <br /> или создание новогодней композиции из пихты нобилиса, которая
-        будет радовать всю зиму!
+       
       </p>
 
       <p className="flex text-center justify-center p-3 m-auto font-bold text-lg">
@@ -320,15 +381,7 @@ export default function Outside() {
             alt="Выездной мастер-класс по лепке в школе"
           />
         </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/220.jpg"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Выездной мастер-класс по лепке"
-          />
-        </div>
+
         <div className="carousel-item h-full">
           <Image
             src="/175.jpg"

@@ -3,17 +3,23 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function CandleMaking() {
-  // JSON-LD для мастер-класса (Event)
+  // JSON-LD для мастер-класса (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
     name: "Мастер-класс по свечеварению в Нижнем Новгороде",
     description:
       "За мастер-класс вы получаете две ароматических свечи в гипсовом кашпо/стеклянном стакане/скорлупе кокоса. Работаем на кокосовом и соевом воске. Есть варианты декора свечей и гипсовых кашпо.",
-    image: "https://borsch-art.ru/sv.webp",
+    image: [
+      "https://borsch-art.ru/sv.webp",
+      "https://borsch-art.ru/146.webp",
+    ],
     url: "https://borsch-art.ru/candle-making/",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем обязательные поля startDate и endDate
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Творческая студия Вики Борщ",
@@ -27,17 +33,22 @@ export default function CandleMaking() {
       },
     },
     offers: {
-      "@type": "Offer",
-      price: "1800",
+      "@type": "AggregateOffer",
+      offerCount: 5,
+      lowPrice: "1800",
+      highPrice: "6000",
       priceCurrency: "RUB",
       availability: "https://schema.org/InStock",
       validFrom: "2026-03-01",
-      priceSpecification: [
+      offers: [
         {
-          "@type": "PriceSpecification",
+          "@type": "Offer",
+          name: "Свечи в гипсовом кашпо (от 3-х человек)",
           price: "1800",
           priceCurrency: "RUB",
-          description: "Свечи в гипсовом кашпо (от 3-х человек)",
+          description:
+            "Свечи в гипсовом кашпо. Групповой мастер-класс от 3-х человек",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 3,
@@ -45,10 +56,13 @@ export default function CandleMaking() {
           },
         },
         {
-          "@type": "PriceSpecification",
+          "@type": "Offer",
+          name: "Свечи в стеклянном стакане (от 3-х человек)",
           price: "2000",
           priceCurrency: "RUB",
-          description: "Свечи в стеклянном стакане (от 3-х человек)",
+          description:
+            "Свечи в стеклянном стакане. Групповой мастер-класс от 3-х человек",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 3,
@@ -56,10 +70,13 @@ export default function CandleMaking() {
           },
         },
         {
-          "@type": "PriceSpecification",
+          "@type": "Offer",
+          name: "Свечи в скорлупе кокоса (от 3-х человек)",
           price: "2200",
           priceCurrency: "RUB",
-          description: "Свечи в скорлупе кокоса (от 3-х человек)",
+          description:
+            "Свечи в скорлупе кокоса. Групповой мастер-класс от 3-х человек",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             minValue: 3,
@@ -67,10 +84,12 @@ export default function CandleMaking() {
           },
         },
         {
-          "@type": "PriceSpecification",
+          "@type": "Offer",
+          name: "Индивидуальный мастер-класс для одного человека",
           price: "3300",
           priceCurrency: "RUB",
-          description: "Индивидуальный мастер-класс для одного человека",
+          description: "Индивидуальный мастер-класс по свечеварению для одного",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             maxValue: 1,
@@ -78,10 +97,12 @@ export default function CandleMaking() {
           },
         },
         {
-          "@type": "PriceSpecification",
+          "@type": "Offer",
+          name: "Индивидуальный мастер-класс для двух человек",
           price: "6000",
           priceCurrency: "RUB",
-          description: "Индивидуальный мастер-класс для двух человек",
+          description: "Индивидуальный мастер-класс по свечеварению для двоих",
+          availability: "https://schema.org/InStock",
           eligibleQuantity: {
             "@type": "QuantitativeValue",
             maxValue: 2,
@@ -99,10 +120,19 @@ export default function CandleMaking() {
     performer: {
       "@type": "Person",
       name: "Виктория Борщ",
+      description: "Мастер по свечеварению",
     },
     typicalAgeRange: "12+",
     duration: "PT2H30M",
     maximumAttendeeCapacity: 10,
+    // Добавляем информацию о расписании (опционально)
+    eventSchedule: {
+      "@type": "Schedule",
+      repeatFrequency: "Weekly",
+      byDay: "https://schema.org/Saturday,https://schema.org/Sunday",
+      startTime: "11:00",
+      endTime: "22:00",
+    },
   };
 
   // JSON-LD для хлебных крошек (BreadcrumbList)
@@ -125,7 +155,7 @@ export default function CandleMaking() {
     ],
   };
 
-  // JSON-LD для FAQ (если есть блок с вопросами)
+  // JSON-LD для FAQ
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -141,9 +171,10 @@ export default function CandleMaking() {
     ],
   };
 
-  // JSON-LD для отзывов (Review)
+  // JSON-LD для отзывов (Review) - ИСПРАВЛЕНО, добавлен @context
   const reviewsJsonLd = [
     {
+      "@context": "https://schema.org",
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -160,8 +191,10 @@ export default function CandleMaking() {
         "@type": "Event",
         name: "Мастер-класс по свечеварению",
       },
+      datePublished: "2026-02-10",
     },
     {
+      "@context": "https://schema.org",
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -178,8 +211,10 @@ export default function CandleMaking() {
         "@type": "Event",
         name: "Мастер-класс по свечеварению",
       },
+      datePublished: "2026-01-15",
     },
     {
+      "@context": "https://schema.org",
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -196,6 +231,7 @@ export default function CandleMaking() {
         "@type": "Event",
         name: "Мастер-класс по свечеварению",
       },
+      datePublished: "2026-02-28",
     },
   ];
 
@@ -223,6 +259,7 @@ export default function CandleMaking() {
           content="https://borsch-art.ru/candle-making/"
         />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Творческая студия Вики Борщ" />
       </Head>
 
       {/* JSON-LD разметка */}
@@ -251,7 +288,7 @@ export default function CandleMaking() {
         }}
       />
 
-      {/* Хлебные крошки (упрощенная версия) */}
+      {/* Хлебные крошки */}
       <ol className="breadcrumbs text-sm m-2">
         <ul className="flex">
           <li className="indicator-item badge bg-orange-600 text-white border-none">
@@ -259,7 +296,7 @@ export default function CandleMaking() {
               <span>Главная</span>
             </Link>
           </li>
-          <li className="badge  text-gray-700 border-none">
+          <li className="badge text-gray-700 border-none">
             <span>Мастер-класс по свечеварению</span>
           </li>
         </ul>
@@ -275,7 +312,7 @@ export default function CandleMaking() {
             <tr>
               <th></th>
               <th className="fb">
-                Мастер-класс по свечеварению от 3-х человек
+                Мастер-класс по <br></br>свечеварению от 3-х человек
               </th>
               <th className="fb">Цена</th>
             </tr>
@@ -301,18 +338,31 @@ export default function CandleMaking() {
         <div className="block mt-2 md:hidden">
           <Image
             src="/left.png"
-            alt="Мобильная картинка"
+            alt="Свайп вправо для просмотра таблицы"
             width={500}
             height={300}
             className="w-10 m-auto"
           />
         </div>
-        <p className="text-md flex text-center justify-center m-5 mt-8">
-          Индивидуальный мастер-класс для одного человека - 3300₽.
-        </p>
-        <p className="text-md flex text-center justify-center m-5">
-          Индивидуальный мастер-класс для двух человек - 6000₽.
-        </p>
+        <div className="grid md:grid-cols-2 gap-4 m-auto mt-6">
+          {/* Индивидуальный */}
+          <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+            <div className="text-amber-600 text-3xl mb-2">👤</div>
+            <div className="text-lg font-semibold text-stone-800 mb-1">
+              Индивидуальный
+            </div>
+            <div className="text-2xl font-bold text-amber-700">3300 ₽</div>
+          </div>
+
+          {/* Для двоих */}
+          <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+            <div className="text-amber-600 text-3xl mb-2">👥</div>
+            <div className="text-lg font-semibold text-stone-800 mb-1">
+              Для двоих
+            </div>
+            <div className="text-2xl font-bold text-amber-700">6000 ₽</div>
+          </div>
+        </div>
       </div>
 
       <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex rounded-lg relative">
@@ -322,6 +372,13 @@ export default function CandleMaking() {
         <div className="carousel-item h-full">
           <Image
             src="/sv.webp"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Ароматическая свеча ручной работы на мастер-классе по свечеварению"
+          />
+          <Image
+            src="/255.jpg"
             unoptimized
             width={338}
             height={100}

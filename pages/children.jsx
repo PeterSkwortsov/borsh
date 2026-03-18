@@ -326,8 +326,8 @@ export default function Children() {
         <table className="table table-zebra">
           <thead>
             <tr>
-              <th className="fb w-1/2">Среда</th>
-              <th className="fb w-1/2">
+              <th className="fb m-auto">Среда</th>
+              <th className="fb m-auto">
                 Стоимость 4-х занятий (1 раз в неделю)
               </th>
             </tr>
@@ -356,8 +356,8 @@ export default function Children() {
         <table className="table table-zebra">
           <thead>
             <tr>
-              <th className="fb w-1/2">Среда</th>
-              <th className="fb w-1/2">
+              <th className="fb">Среда</th>
+              <th className="fb">
                 Стоимость 4-х занятий (1 раз в неделю)
               </th>
             </tr>
@@ -480,7 +480,43 @@ export default function Children() {
           </div>
           <div className="carousel-item h-full">
             <Image
+              src="/252.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Ребенок лепит из глины"
+            />
+          </div>
+          <div className="carousel-item h-full">
+            <Image
+              src="/90.webp"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Ребенок лепит из глины"
+            />
+          </div>
+          <div className="carousel-item h-full">
+            <Image
               src="/234.jpg"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Ребенок рисует на мастер-классе"
+            />
+          </div>
+          <div className="carousel-item h-full">
+            <Image
+              src="/91.webp"
+              unoptimized
+              width={338}
+              height={100}
+              alt="Ребенок рисует на мастер-классе"
+            />
+          </div>
+          <div className="carousel-item h-full">
+            <Image
+              src="/92.webp"
               unoptimized
               width={338}
               height={100}
@@ -496,6 +532,7 @@ export default function Children() {
               alt="Детский мастер-класс по рисованию"
             />
           </div>
+
           <div className="carousel-item h-full">
             <Image
               src="/63.webp"

@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/inline-script-id */
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Table from "./components/Table";
 import ContentPrice from "./components/Content";
 import Grid from "./components/Grid";
 import Quetions from "./components/Quetions";
@@ -19,7 +18,6 @@ export default function Home() {
             <Cooke/>
             <HamburgerMenu />
             <Header />
-            <Table />
             {/* <Mk /> */}
             <About />
             <ContentPrice />

@@ -11,7 +11,7 @@ export const About = () => {
     name: "Виктория Борщ",
     description:
       "Основательница творческой студии, художник и мастер-керамист. Проводит мастер-классы по живописи и лепке для детей и взрослых.",
-    image: "https://borsch-art.ru/62.webp",
+    image: "https://borsch-art.ru/62.jpg",
     jobTitle: "Художник-преподаватель",
     worksFor: {
       "@type": "Organization",
@@ -47,7 +47,7 @@ export const About = () => {
     "@type": "Organization",
     name: "Творческая студия Вика Борщ",
     url: "https://borsch-art.ru",
-    logo: "https://borsch-art.ru/62.webp",
+    logo: "https://borsch-art.ru/62.jpg",
     founder: {
       "@type": "Person",
       name: "Виктория Борщ",
@@ -67,8 +67,6 @@ export const About = () => {
 
   return (
     <>
-   
-
       {/* JSON-LD разметка для главной страницы */}
       <script
         type="application/ld+json"
@@ -82,6 +80,8 @@ export const About = () => {
           __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c"),
         }}
       />
+
+     
 
       <section
         className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16"
@@ -117,7 +117,7 @@ export const About = () => {
               <Image
                 className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 
                 mask-t-from-75% mask-t-to-100% mask-b-from-65% mask-b-to-100% mask-l-from-75% mask-l-to-100% mask-r-from-75% mask-r-to-100% mt-10"
-                src="./62.webp"
+                src="./62.jpg"
                 alt="Виктория Борщ — основательница творческой студии, художник и мастер-керамист"
                 width={500}
                 height={500}

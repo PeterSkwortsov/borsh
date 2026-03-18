@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Painting() {
-  // JSON-LD для мастер-класса по живописи (Event)
+  // JSON-LD для мастер-класса по живописи (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -15,11 +15,13 @@ export default function Painting() {
       "https://borsch-art.ru/65.webp",
       "https://borsch-art.ru/194.jpg",
       "https://borsch-art.ru/103.webp",
-      "https://borsch-art.ru/118.webp",
     ],
     url: "https://borsch-art.ru/painting/",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем startDate - для регулярных событий можно указать текущую дату или период
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Творческая студия Вики Борщ",
@@ -517,10 +519,28 @@ export default function Painting() {
         </div>
         <div className="carousel-item h-full">
           <Image
+            src="/259.jpg"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Мастер-класс по живописи маслом на холсте"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
             src="/65.webp"
             unoptimized
             width={300}
             height={100}
+            alt="Мастер-класс по живописи маслом"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
+            src="/260.jpg"
+            unoptimized
+            width={533}
+            height={300}
             alt="Мастер-класс по живописи маслом"
           />
         </div>
@@ -542,15 +562,7 @@ export default function Painting() {
             alt="Мастер-класс по живописи акрилом на холсте"
           />
         </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/118.webp"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Мастер-класс по живописи маслом на холсте"
-          />
-        </div>
+    
       </div>
 
       <div className="py-4 bg-white">

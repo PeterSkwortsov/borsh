@@ -16,6 +16,9 @@ const ContentPrice = () => {
 
   return (
     <>
+
+
+    
       <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16">
         Занятия проходят в светлой мастерской
       </h5>
@@ -45,7 +48,17 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
-            src="/228.jpg"
+            src="/263.jpg"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Интерьер студии"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/270.jpg"
             itemProp="image"
             unoptimized
             width={300}
@@ -134,16 +147,7 @@ const ContentPrice = () => {
           />
         </div>
 
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/36.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Клиент создает изделие из глины"
-          />
-        </div>
+   
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/141.webp"
@@ -227,16 +231,7 @@ const ContentPrice = () => {
             alt="Интерьер студии"
           />
         </div>
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/143.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Интерьер студии"
-          />
-        </div>
+     
       </div>
     </>
   );

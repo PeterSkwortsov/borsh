@@ -257,7 +257,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/4.webp"
+              src="/259-2.jpg"
               unoptimized
               width={200}
               height={200}
@@ -290,7 +290,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/3.webp"
+              src="/228-2.jpg"
               unoptimized
               width={200}
               height={200}
@@ -324,7 +324,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/1.webp"
+              src="/261-2.jpg"
               unoptimized
               width={200}
               height={200}
@@ -466,7 +466,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/79-3.webp"
+              src="/207-2.jpg"
               unoptimized
               width={200}
               height={200}
@@ -534,7 +534,7 @@ const Grid = () => {
         <div className="card bg-base-200 image-full w-auto shadow-sm">
           <figure>
             <Image
-              src="/63.webp"
+              src="/63-3.webp"
               unoptimized
               width={100}
               height={100}
@@ -562,6 +562,69 @@ const Grid = () => {
               <Link
                 className="btn btn-neutral bg-white text-black max-sm:text-sm"
                 href="/children"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Подвесы */}
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
+          <figure>
+            <Image
+              src="/254.jpg"
+              unoptimized
+              width={100}
+              height={100}
+              alt="Создание авторских значков и подвесов"
+              style={{ width: "100%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold">
+              Создание авторских значков и подвесов
+            </h2>
+            <p>
+              Хотите создать брелок с вашим любимым питомцем? Красивый кулон на
+              память или бусины для ожерелья? Легко!
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 1800 ₽</p>
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/creating-badges"
+              >
+                Подробнее
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Девичник */}
+        <div className="card bg-base-200 image-full w-auto shadow-sm">
+          <figure>
+            <Image
+              src="/264.jpg"
+              unoptimized
+              width={100}
+              height={100}
+              alt="Создание авторских значков и подвесов"
+              style={{ width: "100%" }}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-orange-200 font-extrabold">
+              Проведем арт-вечеринку, девичник или День рождение
+            </h2>
+            <p>
+              Все уйдут с веселым настроением и готовой картиной! Всего за 3
+              часа вы напишете красивую картину на холсте, даже если никогда не
+              держали кисть!<br></br> Без посторонних, только ваши люди.
+            </p>
+            <div className="card-actions justify-end items-center z-20">
+              <p className="text-base">от 1800 ₽</p>
+              <Link
+                className="btn btn-neutral bg-white text-black max-sm:text-sm"
+                href="/party"
               >
                 Подробнее
               </Link>

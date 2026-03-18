@@ -8,15 +8,15 @@ const PaintingClass = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Пример данных для статьи
+  // Данные для статьи
   const postData = {
     title:
       "Мастер-класс по рисованию в Нижнем Новгороде. Рисование для взрослых и детей",
     date: "8 марта 2026",
     readTime: "2 мин",
-    // coverImage: "/245.jpg",
-    // coverImage2: "/246.jpg",
-
+    coverImage: "/174.jpg",
+    description:
+      "Мастер-классы по рисованию для взрослых и детей в Нижнем Новгороде. Живопись акрилом и маслом на холсте. Уроки рисования для детей от 4 лет. Творческое развитие и вдохновение в студии Вика Борщ.",
     content: [
       {
         type: "h1",
@@ -58,7 +58,6 @@ const PaintingClass = () => {
         type: "p",
         text: "Творческое развитие — важная часть формирования личности. В нашей студии проходят не просто занятия, а настоящие увлекательные уроки рисования для детей, где каждый ребенок чувствует себя художником. Мы знаем, как удержать внимание юных творцов, и знакомим ребят с богатством мира изобразительного искусства. Учимся заливать фон и рисовать прозрачных сказочных персонажей. Создаем сочные, фактурные работы и открытки. Графика: рисование фломастерами, цветными и простыми карандашами, пастелью.",
       },
-
       {
         type: "h3",
         text: "Как проходят занятия?",
@@ -81,68 +80,69 @@ const PaintingClass = () => {
       },
     ],
   };
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = [
-    {
-      id: 1,
-      image: "/235.jpg",
-      title: "Этапы ремонта помещения студии",
-    },
-    {
-      id: 2,
-      image: "/236.jpg",
-      title: "Этапы ремонта помещения студии",
-    },
-    {
-      id: 3,
-      image: "/237.jpg",
-      title: "Этапы ремонта помещения студии",
-    },
 
-    {
-      id: 9,
-      image: "/238.jpg",
-      title: "Этапы ремонта помещения студии",
+  // JSON-LD для статьи (BlogPosting)
+  const blogPostingJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: postData.title,
+    description: postData.description,
+    image: `https://borsch-art.ru${postData.coverImage}`,
+    url: "https://borsch-art.ru/blog-pages/painting-classes/",
+    datePublished: "2026-03-08",
+    dateModified: "2026-03-08",
+    author: {
+      "@type": "Person",
+      name: "Виктория Борщ",
     },
-    {
-      id: 10,
-      image: "/239.jpg",
-      title: "Этапы ремонта помещения студии",
+    publisher: {
+      "@type": "Organization",
+      name: "Творческая студия Вика Борщ",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://borsch-art.ru/62.jpg",
+      },
     },
-    {
-      id: 11,
-      image: "/240.jpg",
-      title: "Этапы ремонта помещения студии",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://borsch-art.ru/blog-pages/painting-classes/",
     },
-
-    {
-      id: 11,
-      image: "/243.jpg",
-      title: "Этапы ремонта помещения студии",
-    },
-    {
-      id: 11,
-      image: "/244.jpg",
-      title: "Этапы ремонта помещения студии",
-    },
-  ];
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
+    keywords:
+      "рисование, мастер-класс по рисованию, живопись акрилом, живопись маслом, уроки рисования для детей, Нижний Новгород",
+    articleBody: postData.content
+      .map((item) => (item.type === "p" ? item.text : ""))
+      .join(" "),
   };
 
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
+  // JSON-LD для хлебных крошек
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Главная",
+        item: "https://borsch-art.ru/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Статьи",
+        item: "https://borsch-art.ru/blog/",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Рисование для взрослых и детей",
+        item: "https://borsch-art.ru/blog-pages/painting-classes/",
+      },
+    ],
   };
 
-  // Автопрокрутка (опционально)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 5000);
 
-    return () => clearInterval(interval);
-  }, [currentSlide]);
+
+
 
   // Рендер контента
   const renderContent = (item, index) => {
@@ -176,114 +176,76 @@ const PaintingClass = () => {
         );
       case "p":
         return (
-          <>
-            <p
-              key={index}
-              className="text-gray-600 leading-relaxed mb-4 text-base md:text-lg"
-            >
-              {item.text}
-            </p>
-          </>
+          <p
+            key={index}
+            className="text-gray-600 leading-relaxed mb-4 text-base md:text-lg"
+          >
+            {item.text}
+          </p>
         );
-    //   case "img":
-    //     return (
-    //       <>
-    //         <div className="mb-8 rounded-xl overflow-hidden">
-    //           <img
-    //             src={postData.coverImage2}
-    //             alt={postData.title}
-    //             className="md:w-96 m-auto object-contain rounded-2xl"
-    //           />
-    //         </div>
-    //       </>
-    //     );
-    //   default:
+      default:
         return null;
     }
-  };
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
   return (
     <>
       <Head>
-        <title>Рисование для взрослых и детей</title>
-
+        <title>{postData.title} | Блог студии Вика Борщ</title>
+        <meta name="description" content={postData.description} />
         <meta
-          name="description"
-          content="Для тех, кто мечтает о классической живописи и глубине цвета, мы проводим мастер-классы маслом. Это более медитативный процесс, требующий внимания к деталям."
+          name="keywords"
+          content="рисование, мастер-класс по рисованию, живопись акрилом, живопись маслом, уроки рисования для детей, Нижний Новгород, творческая студия"
         />
-
+        <meta property="og:title" content={postData.title} />
+        <meta property="og:description" content={postData.description} />
         <meta
-          property="og:title"
-          content="Уроки рисования для взрослых и детей от 4 лет"
+          property="og:image"
+          content={`https://borsch-art.ru${postData.coverImage}`}
         />
-
-        <meta
-          property="og:description"
-          content="Творческое развитие — важная часть формирования личности. В нашей студии проходят не просто занятия, а настоящие увлекательные уроки рисования для детей, где каждый ребенок чувствует себя художником."
-        />
-
-        <meta property="og:image" content="/174.jpg" />
-
         <meta
           property="og:url"
-          content="https://borsch-art.ru/blog-pages/history-name/"
+          content="https://borsch-art.ru/blog-pages/painting-classes/"
         />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Творческая студия Вика Борщ" />
+        <meta property="article:published_time" content="2026-03-08" />
+        <meta property="article:author" content="Виктория Борщ" />
       </Head>
-      <ol
-        itemScope
-        itemType="https://schema.org/BreadcrumbList"
-        className="breadcrumbs text-sm m-2"
-      >
-        <ul>
-          <li
-            itemProp="itemListElement"
-            itemScope
-            itemType="https://schema.org/ListItem"
-          >
-            <button className="indicator-item badge bg-orange-600 text-white border-none">
-              <Link href={`/`} itemProp="item" title="Главная">
-                <span itemProp="name">Главная</span>
-              </Link>
-              <meta itemProp="position" content="0"></meta>
-            </button>
+
+      {/* JSON-LD разметка */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(blogPostingJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+
+      {/* Хлебные крошки */}
+      <ol className="breadcrumbs text-sm m-2">
+        <ul className="flex">
+          <li className="indicator-item badge bg-orange-600 text-white border-none">
+            <Link href="/" title="Главная">
+              <span>Главная</span>
+            </Link>
           </li>
-          <li
-            itemProp="itemListElement"
-            itemScope
-            itemType="https://schema.org/ListItem"
-          >
-            <button>
-              <Link
-                href={`https://borsch-art.ru/blog-pages/`}
-                itemProp="item"
-                title="Статьи"
-              >
-                <span itemProp="name">Статьи</span>
-              </Link>
-              <meta itemProp="position" content="1"></meta>
-            </button>
+          <li className="badge  text-gray-700 border-none">
+            <Link href="/blog" title="Статьи">
+              <span>Статьи</span>
+            </Link>
           </li>
-          <li
-            itemProp="itemListElement"
-            itemScope
-            itemType="https://schema.org/ListItem"
-          >
-            <button>
-              <Link
-                href={`https://borsch-art.ru/blog-pages/painting-classes/`}
-                itemProp="item"
-                title="Рисование для взрослых и детей"
-              >
-                <span itemProp="name">Рисование для взрослых и детей</span>
-              </Link>
-              <meta itemProp="position" content="2"></meta>
-            </button>
+          <li className="badge text-gray-700 border-none">
+            <span>Рисование для взрослых и детей</span>
           </li>
         </ul>
       </ol>
+
       {/* Основной контент */}
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Мета информация */}
@@ -292,55 +254,37 @@ const PaintingClass = () => {
           <span>⏱ {postData.readTime}</span>
         </div>
 
-        {/* Обложка */}
-        {/* <div className="mb-8 rounded-xl overflow-hidden">
-          <img
-            src={postData.coverImage}
-            alt={postData.title}
-            className="md:w-96 m-auto object-contain rounded-2xl"
-          />
-        </div> */}
-
         {/* Контент статьи */}
         <article className="prose prose-lg max-w-none">
           {postData.content.map((item, index) => renderContent(item, index))}
         </article>
 
-        {/* Галерея изображений */}
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 mt-4 flex flex-center  justify-center">
-          <div>
-            <div className="flex flex-row items-center center m-auto cursor-pointer">
-              <div
-                className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
-"
+        {/* Кнопки для перехода к занятиям */}
+        <div className="mt-12 space-y-4">
+          <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+            <div className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200 p-5 px-10 rounded-4xl text-black font-bold text-lg transition-all duration-300">
+              <Link
+                href="/children"
+                className="text-black font-bold text-lg flex text-center justify-center"
               >
-                <Link
-                  href="/children"
-                  className="text-black font-bold text-lg flex text-center center justify-center"
-                >
-                  Занятия для детей
-                </Link>
-              </div>
+                Занятия для детей
+              </Link>
+            </div>
+          </div>
+
+          <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+            <div className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200 p-5 px-10 rounded-4xl text-black font-bold text-lg transition-all duration-300">
+              <Link
+                href="/painting"
+                className="text-black font-bold text-lg flex text-center justify-center"
+              >
+                Занятия для взрослых
+              </Link>
             </div>
           </div>
         </div>
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-center mt-8 justify-center">
-          <div>
-            <div className="flex flex-row items-center center m-auto cursor-pointer">
-              <div
-                className="bg-orange-100 shadow-xl shadow-orange-300 hover:bg-orange-200  p-5 px-10 w-full flex items-center rounded-4xl text-white
-"
-              >
-                <Link
-                  href="/painting"
-                  className="text-black font-bold text-lg flex text-center center justify-center"
-                >
-                  Занятия для взрослых
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+
+     
       </main>
     </>
   );

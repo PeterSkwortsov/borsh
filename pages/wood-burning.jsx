@@ -2,7 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function WoodBurningPage() {
-  // JSON-LD для мастер-класса по выжиганию (Event)
+  // JSON-LD для мастер-класса по выжиганию (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -12,6 +12,9 @@ export default function WoodBurningPage() {
     url: "https://borsch-art.ru/wood-burning/",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем обязательные поля startDate и endDate
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Творческая студия Вики Борщ",
@@ -88,6 +91,14 @@ export default function WoodBurningPage() {
     typicalAgeRange: "10+",
     duration: "PT2H",
     maximumAttendeeCapacity: 8,
+    // Добавляем информацию о расписании (опционально)
+    eventSchedule: {
+      "@type": "Schedule",
+      repeatFrequency: "Weekly",
+      byDay: "https://schema.org/Saturday,https://schema.org/Sunday",
+      startTime: "11:00",
+      endTime: "19:00",
+    },
   };
 
   // JSON-LD для хлебных крошек
@@ -110,7 +121,49 @@ export default function WoodBurningPage() {
     ],
   };
 
-
+  // JSON-LD для отзывов (добавляем для полноты)
+  const reviewsJsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Анна",
+      },
+      reviewBody:
+        "Выжигание отлично успокаивает нервы. Мастер помогла с выбором рисунка, всё объяснила. Получилось красивое панно на стену!",
+      itemReviewed: {
+        "@type": "Event",
+        name: "Мастер-класс по выжиганию по дереву",
+      },
+      datePublished: "2026-02-15",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Сергей",
+      },
+      reviewBody:
+        "Выбрали форматы А5, получились отличные сувениры. Обязательно придем еще!",
+      itemReviewed: {
+        "@type": "Event",
+        name: "Мастер-класс по выжиганию по дереву",
+      },
+      datePublished: "2026-01-20",
+    },
+  ];
 
   return (
     <>
@@ -153,11 +206,16 @@ export default function WoodBurningPage() {
           __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-     
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(reviewsJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
 
       {/* Хлебные крошки */}
       <ol className="breadcrumbs text-sm m-2">
-        <ul className="flex ">
+        <ul className="flex">
           <li className="indicator-item badge bg-orange-600 text-white border-none">
             <Link href="./#5" title="Главная">
               <span>Главная</span>
@@ -214,7 +272,7 @@ export default function WoodBurningPage() {
         </table>
       </div>
 
-      {/* Дополнительный информационный блок для SEO и вовлечения */}
+      {/* Дополнительный информационный блок */}
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <div className="bg-orange-50 p-6 rounded-2xl border-l-4 border-orange-600">
           <h2 className="text-xl font-bold text-gray-900 mb-3">

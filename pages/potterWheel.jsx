@@ -3,17 +3,20 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function PotterWheel() {
-  // JSON-LD для мастер-класса на гончарном круге (Event)
+  // JSON-LD для мастер-класса на гончарном круге (Event) - ИСПРАВЛЕНО
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
     name: "Мастер-класс на гончарном круге в Нижнем Новгороде",
     description:
       "Почувствуйте себя настоящим мастером гончарного искусства на нашем мастер-классе! Изделия после изготовления расписываем ангобами или подглазурными красками. Есть возможность расписать глазурями после первого обжига. Создайте своими руками керамическое изделие до 12 см в диаметре.",
-    image: ["https://borsch-art.ru/154.jpg"],
+    image: ["https://borsch-art.ru/154.jpg", "https://borsch-art.ru/3.jpg"],
     url: "https://borsch-art.ru/potterWheel/",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    // Добавляем обязательные поля startDate и endDate
+    startDate: "2026-03-01",
+    endDate: "2026-12-31",
     location: {
       "@type": "Place",
       name: "Творческая студия Вики Борщ",
@@ -88,7 +91,15 @@ export default function PotterWheel() {
     },
     typicalAgeRange: "12+",
     duration: "PT2H30M",
-    maximumAttendeeCapacity: 3,
+    maximumAttendeeCapacity: 6,
+    // Добавляем информацию о расписании (опционально)
+    eventSchedule: {
+      "@type": "Schedule",
+      repeatFrequency: "Weekly",
+      byDay: "https://schema.org/Saturday,https://schema.org/Sunday",
+      startTime: "10:00",
+      endTime: "20:00",
+    },
   };
 
   // JSON-LD для хлебных крошек
@@ -114,6 +125,7 @@ export default function PotterWheel() {
   // JSON-LD для отзывов
   const reviewsJsonLd = [
     {
+      "@context": "https://schema.org",
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -130,8 +142,10 @@ export default function PotterWheel() {
         "@type": "Event",
         name: "Мастер-класс на гончарном круге",
       },
+      datePublished: "2025-12-15",
     },
     {
+      "@context": "https://schema.org",
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -148,6 +162,7 @@ export default function PotterWheel() {
         "@type": "Event",
         name: "Индивидуальное занятие на гончарном круге для двоих",
       },
+      datePublished: "2026-01-20",
     },
   ];
 
@@ -170,7 +185,7 @@ export default function PotterWheel() {
           property="og:description"
           content="Стань настоящим мастером гончарного искусства на нашем мастер-классе! Создайте изделие своими руками."
         />
-        <meta property="og:image" content="https://borsch-art.ru/3.jpg" />
+        <meta property="og:image" content="https://borsch-art.ru/154.jpg" />
         <meta property="og:url" content="https://borsch-art.ru/potterWheel/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Творческая студия Вики Борщ" />
@@ -257,6 +272,13 @@ export default function PotterWheel() {
         <div className="carousel-item h-full">
           <Image
             src="/154.jpg"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Ученик за гончарным кругом в студии Вика Борщ"
+          />
+          <Image
+            src="/261.jpg"
             unoptimized
             width={338}
             height={100}

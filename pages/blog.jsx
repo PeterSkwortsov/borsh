@@ -11,6 +11,7 @@ const BlogTopics = () => {
       color: "from-blue-500 to-cyan-500",
       slug: "history-name",
       datePublished: "2025-01-15",
+      image: "/245.jpg", // Добавляем изображение для статьи
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ const BlogTopics = () => {
       color: "from-purple-500 to-pink-500",
       slug: "muffle-furnace",
       datePublished: "2025-02-10",
+      image: "/247.jpg", // Добавляем изображение для статьи
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ const BlogTopics = () => {
       color: "from-green-500 to-emerald-500",
       slug: "painting-classes",
       datePublished: "2025-03-05",
+      image: "/174.jpg", // Добавляем изображение для статьи
     },
     {
       id: 4,
@@ -36,6 +39,7 @@ const BlogTopics = () => {
       color: "from-orange-500 to-red-500",
       slug: "pottery-date-for-two",
       datePublished: "2025-03-20",
+      image: "/149.webp", // Добавляем изображение для статьи
     },
   ];
 
@@ -52,7 +56,7 @@ const BlogTopics = () => {
       name: "Творческая студия Вика Борщ",
       logo: {
         "@type": "ImageObject",
-        url: "https://borsch-art.ru/62.webp",
+        url: "https://borsch-art.ru/62.jpg",
       },
     },
     author: {
@@ -97,12 +101,13 @@ const BlogTopics = () => {
     ],
   };
 
-  // JSON-LD для каждой статьи (BlogPosting)
+  // JSON-LD для каждой статьи (BlogPosting) - ИСПРАВЛЕНО с добавлением изображений
   const blogPostingsJsonLd = topics.map((topic) => ({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: topic.title,
     description: topic.description,
+    image: `https://borsch-art.ru${topic.image}`,
     url: `https://borsch-art.ru/blog-pages/${topic.slug}`,
     datePublished: topic.datePublished,
     dateModified: topic.datePublished,
@@ -115,7 +120,7 @@ const BlogTopics = () => {
       name: "Творческая студия Вика Борщ",
       logo: {
         "@type": "ImageObject",
-        url: "https://borsch-art.ru/62.webp",
+        url: "https://borsch-art.ru/62.jpg",
       },
     },
     mainEntityOfPage: {
@@ -134,13 +139,19 @@ const BlogTopics = () => {
           name="description"
           content="Интересные статьи о творчестве, мастер-классах, керамике и живописи. Истории из жизни студии, полезные советы и вдохновение для творческих людей."
         />
+        <meta
+          name="keywords"
+          content="блог о творчестве, статьи о рисовании, керамика, гончарное дело, мастер-классы"
+        />
         <meta property="og:title" content="Блог творческой студии Вика Борщ" />
         <meta
           property="og:description"
           content="Статьи о рисовании, лепке из глины, гончарном деле и творчестве в Нижнем Новгороде"
         />
+        <meta property="og:image" content="https://borsch-art.ru/62.jpg" />
         <meta property="og:url" content="https://borsch-art.ru/blog-pages/" />
-        <meta property="og:type" content="blog" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Творческая студия Вика Борщ" />
       </Head>
 
       {/* JSON-LD разметка */}
@@ -171,7 +182,7 @@ const BlogTopics = () => {
 
       {/* Хлебные крошки (упрощенная версия) */}
       <ol className="breadcrumbs text-sm m-2">
-        <ul className="flex">
+        <ul className="flex flex-wrap gap-2">
           <li className="indicator-item badge bg-orange-600 text-white border-none">
             <Link href="/" title="Главная">
               <span>Главная</span>
@@ -207,6 +218,10 @@ const BlogTopics = () => {
                 <meta itemProp="description" content={topic.description} />
                 <meta itemProp="datePublished" content={topic.datePublished} />
                 <meta itemProp="author" content="Виктория Борщ" />
+                <meta
+                  itemProp="image"
+                  content={`https://borsch-art.ru${topic.image}`}
+                />
 
                 <div
                   className={`absolute inset-0 bg-gradient-to-br ${topic.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
