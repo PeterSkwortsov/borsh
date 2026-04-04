@@ -45,7 +45,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="avatar avatar-online">
+          <div className="avatar">
             <div className="w-10 rounded-full">
               <a href="https://t.me/vika_borsch99">
                 <Image
@@ -58,7 +58,19 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+          <div className="avatar avatar-online">
+            <div className="w-10 rounded-full">
+              <a href="https://max.ru/u/f9LHodD0cOKmO2Vsxr8ykXBd_v3KLqqmrcZGbqLY6d-CjsvH6adkUxL7w1c">
+                <Image
+                  src="/max.svg"
+                  width={200}
+                  height={100}
+                  alt="Picture of the author"
+                  style={{ width: "100%" }}
+                />
+              </a>
+            </div>
+          </div>
         </div>
 
         <iframe
@@ -98,10 +110,6 @@ const Footer = () => {
             </div>
           </div>
         </section>
-
-       
-
-    
       </div>
     </footer>
   );

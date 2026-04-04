@@ -16,9 +16,6 @@ const ContentPrice = () => {
 
   return (
     <>
-
-
-    
       <h5 className="text-2xl font-bold flex text-center justify-center m-5 mt-16">
         Занятия проходят в светлой мастерской
       </h5>
@@ -26,6 +23,17 @@ const ContentPrice = () => {
       <Utp />
 
       <div itemScope className="carousel carousel-center mt-10 mb-10 w-fit">
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
+            src="/283.webp"
+            itemProp="image"
+            unoptimized
+            width={300}
+            height={100}
+            alt="Интерьер студии"
+          />
+        </div>
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/202.webp"
@@ -68,6 +76,16 @@ const ContentPrice = () => {
         </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
+            src="/285.webp"
+            itemProp="image"
+            unoptimized
+            width={599}
+            height={100}
+            alt="Интерьер студии"
+          />
+        </div>
+        <div className="carousel-item h-full" itemProp="contentUrl">
+          <Image
             src="/63.webp"
             itemProp="image"
             unoptimized
@@ -96,16 +114,7 @@ const ContentPrice = () => {
             alt="Клиент создает изделие из глины"
           />
         </div>
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/142.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Клиент создает изделие из глины"
-          />
-        </div>
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/157.jpg"
@@ -116,16 +125,7 @@ const ContentPrice = () => {
             alt="Клиент создает изделие из глины"
           />
         </div>
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/160.jpg"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Клиент создает изделие из глины"
-          />
-        </div>
+
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/89.webp"
@@ -147,17 +147,6 @@ const ContentPrice = () => {
           />
         </div>
 
-   
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/141.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Клиент создает изделие из глины"
-          />
-        </div>
         <div className="carousel-item h-full" itemProp="contentUrl">
           <Image
             src="/139.webp"
@@ -166,27 +155,6 @@ const ContentPrice = () => {
             width={300}
             height={100}
             alt="Участники мастер-класса"
-          />
-        </div>
-
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/76.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Интерьер студии"
-          />
-        </div>
-        <div className="carousel-item h-full" itemProp="contentUrl">
-          <Image
-            src="/31.webp"
-            itemProp="image"
-            unoptimized
-            width={300}
-            height={100}
-            alt="Клиент создает изделие из глины"
           />
         </div>
 
@@ -231,8 +199,16 @@ const ContentPrice = () => {
             alt="Интерьер студии"
           />
         </div>
-     
       </div>
+        <div className="block md:hidden mb-4">
+                <Image
+                  src="/left.png"
+                  alt="Свайп вправо для просмотра таблицы"
+                  width={500}
+                  height={300}
+                  className="w-10 m-auto"
+                />
+              </div>
     </>
   );
 };

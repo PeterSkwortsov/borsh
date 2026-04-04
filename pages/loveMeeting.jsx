@@ -89,6 +89,7 @@ export default function LoveMeeting() {
       "Уникальный опыт и общее воспоминание для двоих. Вы не просто проведете время вместе – вы создадите что-то своими руками! Пусть это будет милая чашка, тарелочка или загадочный абстрактный сосуд – это будет ВАШ шедевр. Работа с глиной раскрепощает, сближает и дарит море позитивных эмоций.",
     image: [
       "https://borsch-art.ru/97.webp",
+      "https://borsch-art.ru/280.jpg",
       "https://borsch-art.ru/207.webp",
       "https://borsch-art.ru/161.jpg",
       "https://borsch-art.ru/153.jpg",
@@ -327,6 +328,15 @@ export default function LoveMeeting() {
         </div>
         <div className="carousel-item h-full">
           <Image
+            src="/281.webp"
+            unoptimized
+            width={338}
+            height={100}
+            alt="Гончарное свидание за кругом"
+          />
+        </div>
+        <div className="carousel-item h-full">
+          <Image
             src="/161.jpg"
             unoptimized
             width={338}
@@ -433,15 +443,7 @@ export default function LoveMeeting() {
             alt="Гончарное свидание"
           />
         </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/83.webp"
-            unoptimized
-            width={301}
-            height={100}
-            alt="Романтический вечер в студии"
-          />
-        </div>
+   
         <div className="carousel-item h-full">
           <Image
             src="/96.webp"
@@ -453,10 +455,10 @@ export default function LoveMeeting() {
         </div>
         <div className="carousel-item h-full">
           <Image
-            src="/84.webp"
+            src="/272.jpg"
             unoptimized
-            width={300}
-            height={100}
+            width={602}
+            height={200}
             alt="Свидание в гончарной мастерской"
           />
         </div>

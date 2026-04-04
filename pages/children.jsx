@@ -304,12 +304,12 @@ export default function Children() {
       </h1>
 
       <div className="overflow-x-auto md:max-w-2/3 m-auto mt-10 mb-1">
-        <h2 className="text-black text-lg font-extrabold p-3 m-auto text-center mb-4">
+        <h2 className="text-black text-lg font-extrabold p-3 m-auto text-center mb-4 ">
           Групповые занятия для детей
           <span className="text-orange-600"> по средам</span>
         </h2>
 
-        <h3 className="text-lg flex text-center justify-center m-5 font-bold">
+        <h3 className="text-lg flex text-center justify-center m-5 font-bold bg-orange-100 rounded-3xl">
           Расписание групповых занятий по рисунку и живописи:
         </h3>
 
@@ -340,7 +340,7 @@ export default function Children() {
           </tbody>
         </table>
 
-        <p className="font-bold flex text-center justify-center m-1 mt-2">
+        <p className="font-bold flex text-center justify-center m-1 mt-2 bg-gray-100 rounded-3xl">
           Стоимость материалов включена! ✨
         </p>
 
@@ -349,7 +349,7 @@ export default function Children() {
           материалами (акрил, масло, графика)
         </p>
 
-        <h3 className="text-lg flex text-center justify-center m-5 mt-13 font-bold">
+        <h3 className="text-lg flex text-center justify-center m-5 mt-13 font-bold bg-orange-100 rounded-3xl">
           Расписание групповых занятий для детей по лепке из глины:
         </h3>
 
@@ -357,9 +357,7 @@ export default function Children() {
           <thead>
             <tr>
               <th className="fb">Среда</th>
-              <th className="fb">
-                Стоимость 4-х занятий (1 раз в неделю)
-              </th>
+              <th className="fb">Стоимость 4-х занятий (1 раз в неделю)</th>
             </tr>
           </thead>
           <tbody>
@@ -370,7 +368,7 @@ export default function Children() {
           </tbody>
         </table>
 
-        <p className="font-bold flex text-center justify-center m-1 mt-2">
+        <p className="font-bold flex text-center justify-center m-1 mt-2 bg-gray-100 rounded-3xl">
           Стоимость материалов включена! ✨
         </p>
 
@@ -380,7 +378,7 @@ export default function Children() {
           <br /> Мы предоставим референсы и поможем на каждом этапе.
         </p>
 
-        <p className="text-md flex text-center justify-center mt-8 max-w-2xl m-auto">
+        <p className="text-md flex text-center justify-center mt-8 max-w-2xl m-auto bg-orange-100 rounded-xl p-3">
           Абонемент для более старших детей и взрослых по гончарному мастерству,
           4 занятия в месяц - 5.500₽, в рамках абонемента можно посещать любые
           двухчасовые групповые занятия по расписанию.
@@ -487,15 +485,7 @@ export default function Children() {
               alt="Ребенок лепит из глины"
             />
           </div>
-          <div className="carousel-item h-full">
-            <Image
-              src="/90.webp"
-              unoptimized
-              width={338}
-              height={100}
-              alt="Ребенок лепит из глины"
-            />
-          </div>
+
           <div className="carousel-item h-full">
             <Image
               src="/234.jpg"
@@ -505,24 +495,7 @@ export default function Children() {
               alt="Ребенок рисует на мастер-классе"
             />
           </div>
-          <div className="carousel-item h-full">
-            <Image
-              src="/91.webp"
-              unoptimized
-              width={338}
-              height={100}
-              alt="Ребенок рисует на мастер-классе"
-            />
-          </div>
-          <div className="carousel-item h-full">
-            <Image
-              src="/92.webp"
-              unoptimized
-              width={338}
-              height={100}
-              alt="Ребенок рисует на мастер-классе"
-            />
-          </div>
+
           <div className="carousel-item h-full">
             <Image
               src="/160.jpg"

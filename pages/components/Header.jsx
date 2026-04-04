@@ -24,8 +24,8 @@ const Header = () => {
               className="mb-5 pt-3 pb-0 text-lg
  cursor-default  font-bold"
             >
-              Рисование и лепка из глины<br></br>для взрослых и детей в
-              Нижнем Новгороде
+              Рисование и лепка из глины<br></br>для взрослых и детей в Нижнем
+              Новгороде
               <div className="dropdown dropdown-end text-center">
                 <div
                   tabIndex={0}
@@ -83,7 +83,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <div className="avatar avatar-online">
+              <div className="avatar">
                 <div className="w-10 rounded-full">
                   <a href="https://t.me/vika_borsch99">
                     <Image
@@ -96,7 +96,19 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-            
+              <div className="avatar avatar-online">
+                <div className="w-10 rounded-full">
+                  <a href="https://max.ru/u/f9LHodD0cOKmO2Vsxr8ykXBd_v3KLqqmrcZGbqLY6d-CjsvH6adkUxL7w1c">
+                    <Image
+                      src="/max.svg"
+                      width={200}
+                      height={100}
+                      alt="Мессенджер Telegram"
+                      style={{ width: "100%" }}
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

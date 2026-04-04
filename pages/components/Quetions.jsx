@@ -1,6 +1,69 @@
 import React from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
+
 const Questions = () => {
+
+const [currentSlide, setCurrentSlide] = useState(0);
+
+  const slides = [
+    {
+      id: 1,
+      image: "/262.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+    {
+      id: 2,
+      image: "/271.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+    {
+      id: 3,
+      image: "/269.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+    {
+      id: 4,
+      image: "/268.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+    {
+      id: 5,
+      image: "/253.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+    {
+      id: 6,
+      image: "/280.jpg",
+      title: "День рождения, корпоратив, тимбилдинг",
+    },
+   
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  // Автопрокрутка
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [currentSlide]);
+
+
+
   // JSON-LD для FAQPage (единственный и правильный способ)
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -123,7 +186,6 @@ const Questions = () => {
           Часто задаваемые <span className="text-orange-600">вопросы</span>
         </h2>
 
-        {/* Вопрос 1 - УБРАНЫ все itemScope атрибуты */}
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title font-semibold">
@@ -276,44 +338,88 @@ const Questions = () => {
             </div>
           </div>
         </div>
-           <div className="carousel carousel-center mt-10 mb-10 w-fit m-auto flex gap-2">
-                     <div className="carousel-item h-full">
-                       <Image
-                         src="/262.jpg"
-                         unoptimized
-                         width={525}
-                         height={100}
-                         alt="Участники мастер-класса по лепке из глины"
-                       />
-                     </div>
-                     <div className="carousel-item h-max">
-                       <Image
-                         src="/269.jpg"
-                         unoptimized
-                         width={300}
-                         height={100}
-                         alt="Готовые изделия из глины"
-                       />
-                     </div>
-                     <div className="carousel-item h-full">
-                       <Image
-                         src="/268.jpg"
-                         unoptimized
-                         width={300}
-                         height={100}
-                         alt="Процесс лепки из глины"
-                       />
-                     </div>
-                     <div className="carousel-item h-max">
-                       <Image
-                         src="/253.jpg"
-                         unoptimized
-                         width={532}
-                         height={100}
-                         alt="Готовые изделия из глины"
-                       />
-                     </div>
-                   </div>
+        <div className="relative overflow-hidden">
+          {/* Контейнер слайдов */}
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {slides.map((slide) => (
+              <div key={slide.id} className="w-full flex-shrink-0">
+                <div className="relative h-96 md:h-[500px]">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Кнопки навигации */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors duration-200 z-10"
+            aria-label="Предыдущий слайд"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors duration-200 z-10"
+            aria-label="Следующий слайд"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+
+          {/* Индикаторы */}
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3 z-10">
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index === currentSlide
+                    ? "bg-white w-8"
+                    : "bg-white/50 hover:bg-white/80"
+                }`}
+                aria-label={`Перейти к слайду ${index + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* Счетчик слайдов */}
+          <div className="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 
+          rounded-full text-sm z-10">
+            {currentSlide + 1} / {slides.length}
+          </div>
+        </div>
       </div>
     </>
   );
